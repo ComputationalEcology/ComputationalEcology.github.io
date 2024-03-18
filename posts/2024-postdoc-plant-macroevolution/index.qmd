@@ -6,7 +6,7 @@ categories: [jobs]
 #image: 
 ---
 
-We are looking to recruit a **postdoctoral researcher** with experience in **plant macroevolution and phylogenetic comparative analyses** to carry out a study on the **evolution of plant dispersal modes** across seed plants, using dated phylogenies and a novel database of plant dispersal traits. The researcher will join the Computational Ecology and Global Change group ([MAYBE_lab](https://ComputationalEcology.github.io/web)) at University of Sevilla (Spain), and will work in close collaboration with [Francisco Rodriguez-Sanchez](https://frodriguezsanchez.net), [Elena Quintero](https://ComputationalEcology.github.io/web/team/current/Elena_Quintero.html), [Pedro Jordano](http://ebd10.ebd.csic.es/), and other collaborators in Spain and worldwide. The project is funded by the Spanish Research Agency under grant CNS2022-135839 ("Evolution of plant biotic dispersal").
+We are looking to recruit a **postdoctoral researcher** with experience in **plant macroevolution and phylogenetic comparative analyses** to carry out a study on the **evolution of plant dispersal modes** across seed plants, using dated phylogenies and a novel database of plant dispersal traits. The researcher will join the Computational Ecology and Global Change group ([MAYBE_lab](https://ComputationalEcology.github.io)) at University of Sevilla (Spain), and will work in close collaboration with [Francisco Rodriguez-Sanchez](https://frodriguezsanchez.net), [Elena Quintero](https://ComputationalEcology.github.io/team/current/Elena_Quintero.html), [Pedro Jordano](http://ebd10.ebd.csic.es/), and other collaborators in Spain and worldwide. The project is funded by the Spanish Research Agency under grant CNS2022-135839 ("Evolution of plant biotic dispersal").
 
 
 ## Main responsibilities
@@ -26,9 +26,9 @@ The researcher will use a novel comprehensive database on the dispersal mode of 
 
 ## Where
 
-The postdoctoral researcher will join the Computational Ecology and Global Change group ([MAYBE_lab](https://ComputationalEcology.github.io/web)) at the [Department of Plant Biology and Ecology](https://area.us.es/bioeco/), Faculty of Biology, [University of Sevilla](https://www.us.es/), Spain. 
+The postdoctoral researcher will join the Computational Ecology and Global Change group ([MAYBE_lab](https://ComputationalEcology.github.io)) at the [Department of Plant Biology and Ecology](https://area.us.es/bioeco/), Faculty of Biology, [University of Sevilla](https://www.us.es/), Spain. 
 
-The [MAYBE_lab](https://ComputationalEcology.github.io/web) is a young, dynamic and friendly research group broadly interested on the ecology and biogeography of plants and their animal mutualists in a global change context, with a strong interest on ecoinformatics and statistical modelling. Please browse [our website](https://ComputationalEcology.github.io/web) to learn more about us, including our [lab philosophy](https://ComputationalEcology.github.io/web/philosophy.html).
+The [MAYBE_lab](https://ComputationalEcology.github.io) is a young, dynamic and friendly research group broadly interested on the ecology and biogeography of plants and their animal mutualists in a global change context, with a strong interest on ecoinformatics and statistical modelling. Please browse [our website](https://ComputationalEcology.github.io) to learn more about us, including our [lab philosophy](https://ComputationalEcology.github.io/philosophy.html).
 
 Sevilla is a nice, lively Mediterranean city with strong cultural and street life, outstanding research institutes, and incredible natural surroundings (beaches, mountains, natural parks). People often love living here!
 

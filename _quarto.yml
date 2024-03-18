@@ -7,7 +7,7 @@ website:
   # logo: images/MAYBE_lab_logo.png
   # favicon: logo.png
   # twitter-card: true
-  site-url: https://ComputationalEcology.github.io/web
+  site-url: https://ComputationalEcology.github.io
   description: "Computational Ecology & Global Change group"
   navbar:
     left:

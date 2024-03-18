@@ -1,1 +1,1 @@
-Sitemap: https://ComputationalEcology.github.io/web/sitemap.xml
+Sitemap: https://ComputationalEcology.github.io/sitemap.xml
