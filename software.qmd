@@ -1,0 +1,48 @@
+---
+title: "Software"
+---
+
+- [CityShadeMapper: Create high resolution maps of shading/insolation in cities](https://pakillo.github.io/CityShadeMapper/)
+
+- [DHARMa.helpers: helper functions to check Bayesian brms models with DHARMa](https://pakillo.github.io/DHARMa.helpers/)
+
+- [easyclimate: easy access to high-resolution daily climate data](https://verughub.github.io/easyclimate/)
+
+- [grateful: facilitate citation of R packages](https://pakillo.github.io/grateful/)
+
+- [FloraIberica: Taxonomic and distribution data for the vascular plants of the Iberian Peninsula and Balearic Islands](https://pakillo.github.io/FloraIberica/)
+
+- [ANECAtools: Facilitando el proceso de acreditación en la ANECA](https://pakillo.github.io/ANECAtools/)
+
+- [labeleR: Automatic generation of labels, certificates and much more with R](https://github.com/EcologyR/labeleR)
+
+- [Lumping, splitting, or pooling taxa for niche estimation? An evaluation through computer simulations](https://github.com/Pakillo/lump.split.pool.ENM)
+
+- [Rgis: streamlining GIS operations in R](https://pakillo.github.io/rgis/)
+
+- [rSDM: Species Distribution Modelling in R](https://pakillo.github.io/rSDM/)
+
+- [safeinstall: safe install of R packages from online repositories](https://github.com/Pakillo/safeinstall)
+
+- [vegetools: tools for reproducible vegetation analyses](https://github.com/Pakillo/vegetools)
+
+- [biblioformat: Revise and Reformat Plain Text Bibliographies with R](https://github.com/Pakillo/biblioformat)
+
+- [Effectiveness landscapes: plotting the effectiveness landscape of plant-animal mutualisms](https://github.com/pedroj/effectiveness_pckg)
+
+- [rmdTemplates: a collection of Rmarkdown templates](https://github.com/Pakillo/rmdTemplates)
+
+- [template: generic template for research projects structured as R packages](https://pakillo.github.io/template/)
+
+- [aire: calidad del aire en Andalucía](https://github.com/SevillaR/aire)
+
+- [CVtools: tools for academic CV preparation in R & Rmarkdown](https://github.com/Pakillo/CVtools)
+
+- [RmdTools: helper functions for Rmarkdown](https://github.com/Pakillo/RmdTools)
+
+- [pacotools: Miscellaneous tools I often need and forget about](https://github.com/Pakillo/pacotools)
+
+
+
+
+

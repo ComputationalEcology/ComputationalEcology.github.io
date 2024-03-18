@@ -1,0 +1,37 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "MAYBE_lab"
+  # logo: images/MAYBE_lab_logo.png
+  # favicon: logo.png
+  # twitter-card: true
+  site-url: https://ComputationalEcology.github.io/web
+  description: "Computational Ecology & Global Change group"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: team.qmd
+        text: Team
+      - href: publications.qmd
+      # - href: data.qmd
+      - href: software.qmd
+      - href: news.qmd
+      - href: philosophy.qmd
+    right:
+      - icon: rss
+        href: index.xml
+  page-footer: "CC-BY-NC 4.0, Francisco Rodríguez-Sánchez"
+
+
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    toc: true
+    linkcolor: rebeccapurple
+
+
+

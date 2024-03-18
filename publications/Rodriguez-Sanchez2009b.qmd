@@ -1,0 +1,25 @@
+---
+title: 'Matorrales ombrófilos arborescentes con Laurus nobilis'
+type: 'article'
+author: 'Rodríguez-Sánchez, Arroyo'
+year: '2009'
+publication: 'Bases ecológicas preliminares para la conservación de los tipos de hábitat de interés comunitario en España'
+# preprint: 'https://doi.org/10.1017/CBO9780511974540.014'
+# doi: 'https://doi.org/10.1017/CBO9780511974540.014'
+pdf: 'https://frodriguezsanchez.net/pdf/Rodriguez-Sanchez_Bases_2009.pdf'
+# data: 'https://doi.org/10.1017/CBO9780511974540.014'
+# code: 'https://doi.org/10.1017/CBO9780511974540.014'
+toc: false
+categories: 
+  - book chapter
+  - laurel forests
+---
+
+## Citation
+
+> Rodríguez-Sánchez, F. & Arroyo, J. (2009) Matorrales ombrófilos arborescentes con *Laurus nobilis*. En: Bases ecológicas preliminares para la conservación de los tipos de hábitat de interés comunitario en España. Madrid: Ministerio de Medio Ambiente, y Medio Rural y Marino. 59 p.
+
+
+
+
+

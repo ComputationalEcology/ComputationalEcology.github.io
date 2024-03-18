@@ -1,0 +1,48 @@
+---
+title: "Latitudinal gradients as natural laboratories to infer species' responses to temperature"
+type: 'article'
+author: 'De Frenne, Graae, Rodríguez‐Sánchez, Kolb, Chabrerie, Decocq, De Kort, De Schrijver, Diekmann, Eriksson, Gruwez, Hermy, Lenoir, Plue, Coomes, Verheyen'
+year: '2013'
+publication: 'Journal of Ecology'
+# preprint: 'https://doi.org/10.1111/1365-2745.12074'
+doi: 'https://doi.org/10.1111/1365-2745.12074'
+pdf: 'https://doi.org/10.1111/1365-2745.12074'
+# data: 'https://doi.org/10.1111/1365-2745.12074'
+# code: 'https://doi.org/10.1111/1365-2745.12074'
+toc: false
+categories: 
+  - biogeography
+  - climate change
+---
+
+## Citation
+
+> De Frenne, P., Graae, B.J., Rodríguez‐Sánchez, F., Kolb, A., Chabrerie, O., Decocq, G., et al. (2013) Latitudinal gradients as natural laboratories to infer species’ responses to temperature. Journal of Ecology, 101, 784–795.
+
+## Abstract
+
+<jats:title>Summary</jats:title><jats:p>
+<jats:list>
+
+<jats:list-item><jats:p>Macroclimatic variation along latitudinal gradients provides an excellent natural laboratory to investigate the role of temperature and the potential impacts of climate warming on terrestrial organisms.</jats:p></jats:list-item>
+
+<jats:list-item><jats:p>Here, we review the use of latitudinal gradients for ecological climate change research, in comparison with altitudinal gradients and experimental warming, and illustrate their use and caveats with a meta‐analysis of latitudinal intraspecific variation in important life‐history traits of vascular plants.</jats:p></jats:list-item>
+
+<jats:list-item><jats:p>We first provide an overview of latitudinal patterns in temperature and other abiotic and biotic environmental variables in terrestrial ecosystems. We then assess the latitudinal intraspecific variation present in five key life‐history traits [plant height, specific leaf area (<jats:styled-content style="fixed-case">SLA</jats:styled-content>), foliar nitrogen:phosphorus (<jats:styled-content style="fixed-case">N</jats:styled-content>:<jats:styled-content style="fixed-case">P</jats:styled-content>) stoichiometry, seed mass and root:shoot (<jats:styled-content style="fixed-case">R</jats:styled-content>:<jats:styled-content style="fixed-case">S</jats:styled-content>) ratio] in natural populations or common garden experiments across a total of 98 plant species.</jats:p></jats:list-item>
+
+<jats:list-item><jats:p>Intraspecific leaf <jats:styled-content style="fixed-case">N:P</jats:styled-content> ratio and seed mass significantly decreased with latitude in natural populations. Conversely, the plant height decreased and <jats:styled-content style="fixed-case">SLA</jats:styled-content> increased significantly with latitude of population origin in common garden experiments. However, less than a third of the investigated latitudinal transect studies also formally disentangled the effects of temperature from other environmental drivers which potentially hampers the translation from latitudinal effects into a temperature signal.</jats:p></jats:list-item>
+
+<jats:list-item><jats:p><jats:italic>Synthesis</jats:italic>. Latitudinal gradients provide a methodological set‐up to overcome the drawbacks of other observational and experimental warming methods. Our synthesis indicates that many life‐history traits of plants vary with latitude but the translation of latitudinal clines into responses to temperature is a crucial step. Therefore, especially adaptive differentiation of populations and confounding environmental factors other than temperature need to be considered. More generally, integrated approaches of observational studies along temperature gradients, experimental methods and common garden experiments increasingly emerge as the way forward to further our understanding of species and community responses to climate warming.</jats:p></jats:list-item>
+</jats:list>
+</jats:p>
+
+### Publication metrics
+
+<br>
+
+<span class="__dimensions_badge_embed__" data-doi="10.1111/1365-2745.12074" data-hide-zero-citations="true" data-legend="always"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script><div data-badge-details="right" data-badge-type="medium-donut" data-doi="10.1111/1365-2745.12074" data-hide-no-mentions="true" class="altmetric-embed"></div>
+
+<div class="scite-badge" data-doi="10.1111/1365-2745.12074" data-layout="horizontal" data-show-zero="false" data-show-labels="true"></div><link rel="stylesheet" type="text/css" href="https://cdn.scite.ai/badge/scite-badge-latest.min.css"><script async type="application/javascript" src="https://cdn.scite.ai/badge/scite-badge-latest.min.js"></script>
+

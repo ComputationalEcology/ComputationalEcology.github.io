@@ -1,0 +1,37 @@
+---
+title: 'Primary Coenzyme Q deficiencies: A literature review and online platform of clinical features to uncover genotype-phenotype correlations'
+type: 'article'
+author: 'Alcázar-Fabra, Rodríguez-Sánchez, Trevisson, Brea-Calvo'
+year: '2021'
+publication: 'Free Radical Biology and Medicine'
+preprint: 'https://digital.csic.es/bitstream/10261/260227/4/Primary_Coenzime_Q_Deficiencies_Preprint2021.pdf'
+doi: 'https://doi.org/10.1016/j.freeradbiomed.2021.02.046'
+pdf: 'https://doi.org/10.1016/j.freeradbiomed.2021.02.046'
+data: 'https://coenzymeqbiology.github.io/clinic-CoQ-deficiency'
+# code: 'https://doi.org/10.1016/j.freeradbiomed.2021.02.046'
+toc: false
+# categories: 
+#   - journal article
+---
+
+## Citation
+
+> Alcázar-Fabra, M., Rodríguez-Sánchez, F., Trevisson, E. & Brea-Calvo, G. (2021) Primary Coenzyme Q deficiencies: A literature review and online platform of clinical features to uncover genotype-phenotype correlations. Free Radical Biology and Medicine, 167, 141–180.
+
+## Abstract
+
+Primary Coenzyme Q (CoQ) deficiencies are clinically heterogeneous conditions and lack clear genotype-phenotype correlations, complicating diagnosis and prognostic assessment. Here we present a compilation of all the symptoms and patients with primary CoQ deficiency described in the literature so far and analyse the most common clinical manifestations associated with pathogenic variants identified in the different COQ genes. In addition, we identified new associations between the age of onset of symptoms and different pathogenic variants, which could help to a better diagnosis and guided treatment.
+
+To make these results useable for clinicians, we created an online platform (https://coenzymeQbiology.github.io/clinic-CoQ-deficiency
+) about clinical manifestations of primary CoQ deficiency that will be periodically updated to incorporate new information published in the literature. Since CoQ primary deficiency is a rare disease, the available data are still limited, but as new patients are added over time, this tool could become a key resource for a more efficient diagnosis of this pathology.
+
+### Publication metrics
+
+<br>
+
+<span class="__dimensions_badge_embed__" data-doi="10.1016/j.freeradbiomed.2021.02.046" data-hide-zero-citations="true" data-legend="always"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script><div data-badge-details="right" data-badge-type="medium-donut" data-doi="10.1016/j.freeradbiomed.2021.02.046" data-hide-no-mentions="true" class="altmetric-embed"></div>
+
+<div class="scite-badge" data-doi="10.1016/j.freeradbiomed.2021.02.046" data-layout="horizontal" data-show-zero="false" data-show-labels="true"></div><link rel="stylesheet" type="text/css" href="https://cdn.scite.ai/badge/scite-badge-latest.min.css"><script async type="application/javascript" src="https://cdn.scite.ai/badge/scite-badge-latest.min.js"></script>
+

@@ -1,0 +1,36 @@
+---
+title: 'Abundance of Northern Hemisphere tree species declines in the warm and arid regions of their climatic niches'
+type: 'article'
+author: 'Astigarraga, Esquivel-Muelbert, Ruiz-Benito, Rodríguez-Sánchez, Zavala, Vilà-Cabrera, Schelhaas, Kunstler, Woodall, Cienciala, Dahlgren, Govaere, König, Lehtonen, Talarczyk, Pugh'
+year: '2023'
+publication: 'bioRxiv'
+preprint: 'https://doi.org/10.1101/2023.09.04.556202'
+doi: 'https://doi.org/10.1101/2023.09.04.556202'
+pdf: 'https://www.biorxiv.org/content/10.1101/2023.09.04.556202v1.full.pdf'
+# data: 'https://doi.org/10.1101/2023.09.04.556202'
+# code: 'https://doi.org/10.1101/2023.09.04.556202'
+toc: false
+categories: 
+  - forest dynamics
+  - biogeography
+  - climate change
+---
+
+## Citation
+
+> Astigarraga, J., Esquivel-Muelbert, A., Ruiz-Benito, P., Rodríguez-Sánchez, F., Zavala, M.A., Vilà-Cabrera, A., et al. (2023) Abundance of Northern Hemisphere tree species declines in the warm and arid regions of their climatic niches.
+
+## Abstract
+
+Climate change is expected to drive species towards colder and wetter regions of their distribution with alternative processes such as forest management having the potential to alter species displacements. Here, using data from more than two million monitored trees from 73 widely-distributed species, we quantify changes in tree species abundance across Northern Hemisphere forests and find a widespread decline in abundance across the whole of species’ climatic niches. Yet, our analysis revealed that this decline is heavily influenced by alterations at the stand-level and consequent stand development. Remarkably, when accounting for stand development, our findings show a consistent trend of species abundance optimum shifting towards cold and wet regions within their climatic niches. We provide species-specific information on the direction and magnitude of climate-driven changes in abundance that should be taken into account when designing conservation, management and restoration plans in an era of unprecedented human-caused environmental change.
+
+### Publication metrics
+
+<br>
+
+<span class="__dimensions_badge_embed__" data-doi="10.1101/2023.09.04.556202" data-hide-zero-citations="true" data-legend="always"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script><div data-badge-details="right" data-badge-type="medium-donut" data-doi="10.1101/2023.09.04.556202" data-hide-no-mentions="true" class="altmetric-embed"></div>
+
+<div class="scite-badge" data-doi="10.1101/2023.09.04.556202" data-layout="horizontal" data-show-zero="false" data-show-labels="true"></div><link rel="stylesheet" type="text/css" href="https://cdn.scite.ai/badge/scite-badge-latest.min.css"><script async type="application/javascript" src="https://cdn.scite.ai/badge/scite-badge-latest.min.js"></script>
+

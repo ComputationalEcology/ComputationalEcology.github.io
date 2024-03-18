@@ -1,0 +1,32 @@
+---
+# title: "Team"
+listing:
+  - id : current
+    contents: "team/current/*.qmd"
+    type: grid
+    image-height: 225px
+    grid-columns: 3
+    sort: sortby
+    fields: [image, title, subtitle, categories]
+    grid-item-align: center
+    categories: true
+  - id : past
+    contents: "team/past/*.qmd"
+    type: grid
+    image-height: 225px
+    grid-columns: 3
+    sort: sortby
+    fields: [image, title, subtitle, categories]
+    grid-item-align: center
+    categories: true
+---
+
+## Current members
+
+:::{#current}
+:::
+
+## Past members
+
+:::{#past}
+:::

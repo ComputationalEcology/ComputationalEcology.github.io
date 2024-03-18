@@ -1,0 +1,39 @@
+---
+title: 'Climate refugia: joint inferences from fossils, genetics and models'
+type: 'article'
+author: 'Gavin, Dobrowski, Hampe, Hu, Rodríguez‐Sánchez'
+year: '2012'
+publication: 'PAGES News'
+# preprint: 'https://doi.org/10.1111/nph.12059'
+# doi: 'https://doi.org/10.1111/nph.12059'
+pdf: 'https://frodriguezsanchez.net/pdf/Gavin_PAGES_2012.pdf'
+# data: 'https://doi.org/10.1111/nph.12059'
+# code: 'https://doi.org/10.1111/nph.12059'
+toc: false
+categories: 
+  - refugia
+  - microclimate
+  - biogeography
+  - species distribution modelling
+  - phylogeography
+  - palaeoecology
+  - microclimate
+---
+
+## Citation
+
+> Gavin DG, Dobrowski S, Hampe A, Hu FS, Rodríguez‐Sánchez F (2012) Climate refugia: joint inferences from fossils, genetics and models. *PAGES News* 20, 2: 105.
+
+## Abstract
+
+
+### Publication metrics
+
+<br>
+
+<span class="__dimensions_badge_embed__" data-doi="10.1111/nph.12059" data-hide-zero-citations="true" data-legend="always"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script><div data-badge-details="right" data-badge-type="medium-donut" data-doi="10.1111/nph.12059" data-hide-no-mentions="true" class="altmetric-embed"></div>
+
+<div class="scite-badge" data-doi="10.1111/nph.12059" data-layout="horizontal" data-show-zero="false" data-show-labels="true"></div><link rel="stylesheet" type="text/css" href="https://cdn.scite.ai/badge/scite-badge-latest.min.css"><script async type="application/javascript" src="https://cdn.scite.ai/badge/scite-badge-latest.min.js"></script>
+

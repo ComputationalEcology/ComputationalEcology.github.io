@@ -1,0 +1,35 @@
+---
+title: 'Globally, tree fecundity exceeds productivity gradients'
+type: 'article'
+author: 'Journé, Andrus, Aravena, Ascoli, Berretti, Berveiller, Bogdziewicz, Boivin, Bonal, Caignard, Calama, Camarero, Chang‐Yang, Courbaud, Courbet, Curt, Das, Daskalakou, Davi, Delpierre, Delzon, Dietze, Donoso Calderon, Dormont, Maria Espelta, Fahey, Farfan‐Rios, Gehring, Gilbert, Gratzer, Greenberg, Guo, Hacket‐Pain, Hampe, Han, Lambers, Hoshizaki, Ibanez, Johnstone, Kabeya, Kays, Kitzberger, Knops, Kobe, Kunstler, Lageard, LaMontagne, Leininger, Limousin, Lutz, Macias, McIntire, Moore, Moran, Motta, Myers, Nagel, Noguchi, Ourcival, Parmenter, Pearse, Perez‐Ramos, Piechnik, Poulsen, Poulton‐Kamakura, Qiu, Redmond, Reid, Rodman, Rodriguez‐Sanchez, Sanguinetti, Scher, Marle, Seget, Sharma, Silman, Steele, Stephenson, Straub, Swenson, Swift, Thomas, Uriarte, Vacchiano, Veblen, Whipple, Whitham, Wright, Wright, Zhu, Zimmerman, Zlotin, Zywiec, Clark'
+year: '2022'
+publication: 'Ecology Letters'
+# preprint: 'https://doi.org/10.1111/ele.14012'
+doi: 'https://doi.org/10.1111/ele.14012'
+pdf: 'https://onlinelibrary.wiley.com/doi/am-pdf/10.1111/ele.14012'
+data: 'https://doi.org/10.5281/zenodo.6381799'
+code: 'https://doi.org/10.5281/zenodo.6381799'
+toc: false
+categories: 
+  - forest dynamics
+  - biogeography
+---
+
+## Citation
+
+> Journé, V., Andrus, R., Aravena, M., Ascoli, D., Berretti, R., Berveiller, D., et al. (2022) Globally, tree fecundity exceeds productivity gradients. Ecology Letters, 25, 1471–1482.
+
+## Abstract
+
+<jats:title>Abstract</jats:title><jats:p>Lack of tree fecundity data across climatic gradients precludes the analysis of how seed supply contributes to global variation in forest regeneration and biotic interactions responsible for biodiversity. A global synthesis of raw seedproduction data shows a 250‐fold increase in seed abundance from cold‐dry to warm‐wet climates, driven primarily by a 100‐fold increase in seed production for a given tree size. The modest (threefold) increase in forest productivity across the same climate gradient cannot explain the magnitudes of these trends. The increase in seeds per tree can arise from adaptive evolution driven by intense species interactions or from the direct effects of a warm, moist climate on tree fecundity. Either way, the massive differences in seed supply ramify through food webs potentially explaining a disproportionate role for species interactions in the wet tropics.</jats:p>
+
+### Publication metrics
+
+<br>
+
+<span class="__dimensions_badge_embed__" data-doi="10.1111/ele.14012" data-hide-zero-citations="true" data-legend="always"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script><div data-badge-details="right" data-badge-type="medium-donut" data-doi="10.1111/ele.14012" data-hide-no-mentions="true" class="altmetric-embed"></div>
+
+<div class="scite-badge" data-doi="10.1111/ele.14012" data-layout="horizontal" data-show-zero="false" data-show-labels="true"></div><link rel="stylesheet" type="text/css" href="https://cdn.scite.ai/badge/scite-badge-latest.min.css"><script async type="application/javascript" src="https://cdn.scite.ai/badge/scite-badge-latest.min.js"></script>
+

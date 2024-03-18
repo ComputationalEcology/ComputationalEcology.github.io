@@ -1,0 +1,38 @@
+---
+title: 'Pliocene–Pleistocene ecological niche evolution shapes the phylogeography of a Mediterranean plant group'
+type: 'article'
+author: 'Benítez‐Benítez, Escudero, Rodríguez‐Sánchez, Martín‐Bravo, Jiménez‐Mejías'
+year: '2018'
+publication: 'Molecular Ecology'
+# preprint: 'https://doi.org/10.1111/mec.14567'
+doi: 'https://doi.org/10.1111/mec.14567'
+# pdf: 'https://doi.org/10.1111/mec.14567'
+data: 'https://doi.org/10.5061/dryad.76tk7'
+# code: 'https://doi.org/10.1111/mec.14567'
+toc: false
+categories: 
+  - species distribution modelling
+  - biogeography
+  - palaeoecology
+  - climate change
+  - phylogeography
+---
+
+## Citation
+
+> Benítez‐Benítez, C., Escudero, M., Rodríguez‐Sánchez, F., Martín‐Bravo, S. & Jiménez‐Mejías, P. (2018) Pliocene–Pleistocene ecological niche evolution shapes the phylogeography of a Mediterranean plant group. Molecular Ecology, 27, 1696–1713.
+
+## Abstract
+
+<jats:title>Abstract</jats:title><jats:p>Estimating species ability to adapt to environmental changes is crucial to understand their past and future response to climate change. The Mediterranean Basin has experienced remarkable climatic changes since the Miocene, which have greatly influenced the evolution of the Mediterranean flora. Here, we examine the evolutionary history and biogeographic patterns of two sedge sister species (<jats:italic>Carex</jats:italic>, Cyperaceae) restricted to the western Mediterranean Basin, but with Pliocene fossil record in central Europe. In particular, we estimated the evolution of climatic niches through time and its influence in lineage differentiation. We carried out a dated phylogenetic–phylogeographic study based on seven DNA regions (nDNA and ptDNA) and fingerprinting data (AFLPs), and modelled ecological niches and species distributions for the Pliocene, Pleistocene and present. Phylogenetic and divergence time analyses revealed that both species form a monophyletic lineage originated in the late Pliocene–early Pleistocene. We detected clear genetic differentiation between both species with distinct genetic clusters in disjunct areas, indicating the predominant role of geographic barriers limiting gene flow. We found a remarkable shift in the climatic requirements between Pliocene and extant populations, although the niche seems to have been relatively conserved since the Pleistocene split of both species. This study highlights how an integrative approach combining different data sources and analyses, including fossils, allows solid and robust inferences about the evolutionary history of a plant group since the Pliocene.</jats:p>
+
+### Publication metrics
+
+<br>
+
+<span class="__dimensions_badge_embed__" data-doi="10.1111/mec.14567" data-hide-zero-citations="true" data-legend="always"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script><div data-badge-details="right" data-badge-type="medium-donut" data-doi="10.1111/mec.14567" data-hide-no-mentions="true" class="altmetric-embed"></div>
+
+<div class="scite-badge" data-doi="10.1111/mec.14567" data-layout="horizontal" data-show-zero="false" data-show-labels="true"></div><link rel="stylesheet" type="text/css" href="https://cdn.scite.ai/badge/scite-badge-latest.min.css"><script async type="application/javascript" src="https://cdn.scite.ai/badge/scite-badge-latest.min.js"></script>
+

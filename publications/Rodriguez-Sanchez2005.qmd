@@ -1,0 +1,26 @@
+---
+title: 'La necesidad de la experimentación en ecología y conservación: una aproximación para la restauración forestal en el Parque Natural Los Alcornocales'
+type: 'article'
+author: ' Rodríguez-Sánchez, Arroyo'
+year: '2005'
+publication: 'Almoraima'
+# preprint: 'https://zenodo.org/doi/10.5281/zenodo.1325106'
+# doi: 'https://doi.org/10.5281/zenodo.4529818'
+pdf: 'https://frodriguezsanchez.net/pdf/Rodriguez-Sanchez_Almoraima_2005.pdf'
+# data: 'https://zenodo.org/doi/10.5281/zenodo.1325106'
+# code: 'https://zenodo.org/doi/10.5281/zenodo.1325106'
+toc: false
+categories: 
+  - Parque Natural Los Alcornocales
+  - forest dynamics
+---
+
+## Citation
+
+> Rodríguez-Sánchez F, Arroyo (2005). La necesidad de la experimentación en ecología y conservación: una aproximación para la restauración forestal en el Parque Natural Los Alcornocales. Almoraima, 31, 137-144. 
+
+## Abstract
+
+La restauración ecológica constituye una novedosa disciplina científica que pretende la recuperación de la estructura, diversidad y funcionamiento original de ecosistemas degradados, con objeto de permitir el avance de la sucesión natural y la evolución a largo plazo en respuesta a un ambiente cambiante. En el presente trabajo se exponen las bases para la restauración de diversas comunidades vegetales y poblaciones de especies amenazadas del Parque Natural Los Alcornocales, y se discute la necesidad de una aproximación experimental para lograr el perfeccionamiento progresivo de los protocolos de actuación y la ampliación de nuestros conocimientos sobre la ecología de las especies implicadas.
+
+

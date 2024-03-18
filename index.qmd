@@ -1,0 +1,9 @@
+---
+#title: "MAYBE_lab"
+---
+
+![](images/MAYBE_lab_banner.png){fig-align="center"}
+
+![](images/MAYBE_lab_logo.png){fig-align="center"}
+
+![](images/Grazalema_panoramic.jpg){fig-align="center"}

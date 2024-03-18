@@ -1,0 +1,35 @@
+---
+title: 'Light accelerates plant responses to warming'
+type: 'article'
+author: 'De Frenne, Rodríguez-Sánchez, De Schrijver, Coomes, Hermy, Vangansbeke, Verheyen'
+year: '2015'
+publication: 'Nature Plants'
+# preprint: 'https://doi.org/10.1038/nplants.2015.110'
+doi: 'https://doi.org/10.1038/nplants.2015.110'
+pdf: 'https://frodriguezsanchez.net/pdf/De%20Frenneetal_NaturePlants_2015.pdf'
+data: 'https://doi.org/10.5061/dryad.672gn'
+# code: 'https://doi.org/10.1038/nplants.2015.110'
+toc: false
+categories: 
+  - forest dynamics
+  - microclimate
+---
+
+## Citation
+
+> De Frenne, P., Rodríguez-Sánchez, F., De Schrijver, A., Coomes, D.A., Hermy, M., Vangansbeke, P., et al. (2015) Light accelerates plant responses to warming. Nature Plants, 1.
+
+## Abstract
+
+Competition for light has profound effects on plant performance in virtually all terrestrial ecosystems. Nowhere is this more evident than in forests, where trees create environmental heterogeneity that shapes the dynamics of forest-floor communities1–3. Observational evidence suggests that biotic responses to both anthropogenic global warming and nitrogen pollution may be attenuated by the shading effects of trees and shrubs4–9. Here we show experimentally that tree shade is slowing down changes in below-canopy communities due to warming. We manipulated levels of photosynthetically active radiation, temperature and nitrogen, alone and in combination, in a temperate forest understorey over a 3-year period, and monitored the composition of the understorey community. Light addition, but not nitrogen enrichment, accelerated directional plant community responses to warming, increasing the dominance of warmth-preferring taxa over cold-tolerant plants (a process described as thermophilization6,10–12). Tall, competitive plants took greatest advantage of the combination of elevated temperature and light. Warming of the forest floor did not result in strong community thermophilization unless light was also increased. Our findings suggest that the maintenance of locally closed canopy conditions could reduce, at least temporarily, warming-induced changes in forest floor plant communities.
+
+### Publication metrics
+
+<br>
+
+<span class="__dimensions_badge_embed__" data-doi="10.1038/nplants.2015.110" data-hide-zero-citations="true" data-legend="always"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script><div data-badge-details="right" data-badge-type="medium-donut" data-doi="10.1038/nplants.2015.110" data-hide-no-mentions="true" class="altmetric-embed"></div>
+
+<div class="scite-badge" data-doi="10.1038/nplants.2015.110" data-layout="horizontal" data-show-zero="false" data-show-labels="true"></div><link rel="stylesheet" type="text/css" href="https://cdn.scite.ai/badge/scite-badge-latest.min.css"><script async type="application/javascript" src="https://cdn.scite.ai/badge/scite-badge-latest.min.js"></script>
+

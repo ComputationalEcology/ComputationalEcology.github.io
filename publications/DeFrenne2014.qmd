@@ -1,0 +1,34 @@
+---
+title: 'Thermophilization estimation is robust to the scale of species distribution data'
+type: 'article'
+author: 'De Frenne, Rodríguez-Sánchez, Bernhardt-Römermann, Brown, Eriksson, Hermy, Mitchell, Petřík, Van Calster, Vellend, Verheyen'
+year: '2014'
+publication: 'Proceedings of the National Academy of Sciences'
+# preprint: 'https://doi.org/10.1073/pnas.1401414111'
+doi: 'https://doi.org/10.1073/pnas.1401414111'
+pdf: 'https://doi.org/10.1073/pnas.1401414111'
+# data: 'https://doi.org/10.1073/pnas.1401414111'
+# code: 'https://doi.org/10.1073/pnas.1401414111'
+toc: false
+categories: 
+  - forest dynamics
+  - climate change
+---
+
+## Citation
+
+> De Frenne, P., Rodríguez-Sánchez, F., Bernhardt-Römermann, M., Brown, C.D., Eriksson, O., Hermy, M., et al. (2014) Reply to Harwood et al.: Thermophilization estimation is robust to the scale of species distribution data. Proceedings of the National Academy of Sciences, 111.
+
+## Abstract
+
+
+### Publication metrics
+
+<br>
+
+<span class="__dimensions_badge_embed__" data-doi="10.1073/pnas.1401414111" data-hide-zero-citations="true" data-legend="always"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script><div data-badge-details="right" data-badge-type="medium-donut" data-doi="10.1073/pnas.1401414111" data-hide-no-mentions="true" class="altmetric-embed"></div>
+
+<div class="scite-badge" data-doi="10.1073/pnas.1401414111" data-layout="horizontal" data-show-zero="false" data-show-labels="true"></div><link rel="stylesheet" type="text/css" href="https://cdn.scite.ai/badge/scite-badge-latest.min.css"><script async type="application/javascript" src="https://cdn.scite.ai/badge/scite-badge-latest.min.js"></script>
+

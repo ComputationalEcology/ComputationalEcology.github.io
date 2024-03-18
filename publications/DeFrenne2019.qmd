@@ -1,0 +1,36 @@
+---
+title: 'Global buffering of temperatures under forest canopies'
+type: 'article'
+author: 'De Frenne, Zellweger, Rodríguez-Sánchez, Scheffers, Hylander, Luoto, Vellend, Verheyen, Lenoir'
+year: '2019'
+publication: 'Nature Ecology & Evolution'
+preprint: 'https://hal.science/hal-02352625v1/file/De_Frenne_al_2019_NEE.pdf'
+doi: 'https://doi.org/10.1038/s41559-019-0842-1'
+pdf: 'https://frodriguezsanchez.net/pdf/DeFrenne_NatEcolEvol_2019.pdf'
+data: 'https://doi.org/10.6084/m9.figshare.7604849.v4'
+code: 'https://doi.org/10.6084/m9.figshare.7604849.v4'
+toc: false
+categories: 
+  - climate change
+  - forest dynamics
+  - microclimate
+---
+
+## Citation
+
+> De Frenne, P., Zellweger, F., Rodríguez-Sánchez, F., Scheffers, B.R., Hylander, K., Luoto, M., et al. (2019) Global buffering of temperatures under forest canopies. Nature Ecology &amp; Evolution, 3, 744–749.
+
+## Abstract
+
+Macroclimate warming is often assumed to occur within forests despite the potential for tree cover to modify microclimates. Here, using paired measurements, we compared the temperatures under the canopy versus in the open at 98 sites across 5 continents. We show that forests function as a thermal insulator, cooling the understory when ambient temperatures are hot and warming the understory when ambient temperatures are cold. The understory versus open temperature offset is magnified as temperatures become more extreme and is of greater magnitude than the warming of land temperatures over the past century. Tree canopies may thus reduce the severity of warming impacts on forest biodiversity and functioning.
+
+### Publication metrics
+
+<br>
+
+<span class="__dimensions_badge_embed__" data-doi="10.1038/s41559-019-0842-1" data-hide-zero-citations="true" data-legend="always"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script><div data-badge-details="right" data-badge-type="medium-donut" data-doi="10.1038/s41559-019-0842-1" data-hide-no-mentions="true" class="altmetric-embed"></div>
+
+<div class="scite-badge" data-doi="10.1038/s41559-019-0842-1" data-layout="horizontal" data-show-zero="false" data-show-labels="true"></div><link rel="stylesheet" type="text/css" href="https://cdn.scite.ai/badge/scite-badge-latest.min.css"><script async type="application/javascript" src="https://cdn.scite.ai/badge/scite-badge-latest.min.js"></script>
+

@@ -1,0 +1,54 @@
+---
+title: 'Looking forward through the past: identification of 50 priority research questions in palaeoecology'
+type: 'article'
+author: 'Seddon, Mackay, Baker, Birks, Breman, Buck, Ellis, Froyd, Gill, Gillson, Johnson, Jones, Juggins, Macias‐Fauria, Mills, Morris, Nogués‐Bravo, Punyasena, Roland, Tanentzap, Willis, Aberhan, van Asperen, Austin, Battarbee, Bhagwat, Belanger, Bennett, Birks, Bronk Ramsey, Brooks, de Bruyn, Butler, Chambers, Clarke, Davies, Dearing, Ezard, Feurdean, Flower, Gell, Hausmann, Hogan, Hopkins, Jeffers, Korhola, Marchant, Kiefer, Lamentowicz, Larocque‐Tobler, López‐Merino, Liow, McGowan, Miller, Montoya, Morton, Nogué, Onoufriou, Boush, Rodriguez‐Sanchez, Rose, Sayer, Shaw, Payne, Simpson, Sohar, Whitehouse, Williams, Witkowski'
+year: '2013'
+publication: 'Journal of Ecology'
+# preprint: 'https://doi.org/10.1111/1365-2745.12195'
+doi: 'https://doi.org/10.1111/1365-2745.12195'
+pdf: 'https://doi.org/10.1111/1365-2745.12195'
+# data: 'https://doi.org/10.1111/1365-2745.12195'
+# code: 'https://doi.org/10.1111/1365-2745.12195'
+toc: false
+categories: 
+  - climate change
+  - palaeoecology
+  - refugia
+  - review
+---
+
+## Citation
+
+> Seddon, A.W.R., Mackay, A.W., Baker, A.G., Birks, H.J.B., Breman, E., Buck, C.E., et al. (2013) Looking forward through the past: identification of 50 priority research questions in palaeoecology. Journal of Ecology, 102, 256–267.
+
+## Abstract
+
+<jats:title>Summary</jats:title><jats:p>
+<jats:list>
+
+<jats:list-item><jats:p>Priority question exercises are becoming an increasingly common tool to frame future agendas in conservation and ecological science. They are an effective way to identify research foci that advance the field and that also have high policy and conservation relevance.</jats:p></jats:list-item>
+
+<jats:list-item><jats:p>To date, there has been no coherent synthesis of key questions and priority research areas for palaeoecology, which combines biological, geochemical and molecular techniques in order to reconstruct past ecological and environmental systems on time‐scales from decades to millions of years.</jats:p></jats:list-item>
+
+<jats:list-item><jats:p>We adapted a well‐established methodology to identify 50 priority research questions in palaeoecology. Using a set of criteria designed to identify realistic and achievable research goals, we selected questions from a pool submitted by the international palaeoecology research community and relevant policy practitioners.</jats:p></jats:list-item>
+
+<jats:list-item><jats:p>The integration of online participation, both before and during the workshop, increased international engagement in question selection.</jats:p></jats:list-item>
+
+<jats:list-item><jats:p>The questions selected are structured around six themes: human–environment interactions in the Anthropocene; biodiversity, conservation and novel ecosystems; biodiversity over long time‐scales; ecosystem processes and biogeochemical cycling; comparing, combining and synthesizing information from multiple records; and new developments in palaeoecology.</jats:p></jats:list-item>
+
+<jats:list-item><jats:p>Future opportunities in palaeoecology are related to improved incorporation of uncertainty into reconstructions, an enhanced understanding of ecological and evolutionary dynamics and processes and the continued application of long‐term data for better‐informed landscape management.</jats:p></jats:list-item>
+
+<jats:list-item><jats:p><jats:italic>Synthesis</jats:italic>. Palaeoecology is a vibrant and thriving discipline, and these 50 priority questions highlight its potential for addressing both pure (e.g. ecological and evolutionary, methodological) and applied (e.g. environmental and conservation) issues related to ecological science and global change.</jats:p></jats:list-item>
+</jats:list>
+</jats:p>
+
+### Publication metrics
+
+<br>
+
+<span class="__dimensions_badge_embed__" data-doi="10.1111/1365-2745.12195" data-hide-zero-citations="true" data-legend="always"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script><div data-badge-details="right" data-badge-type="medium-donut" data-doi="10.1111/1365-2745.12195" data-hide-no-mentions="true" class="altmetric-embed"></div>
+
+<div class="scite-badge" data-doi="10.1111/1365-2745.12195" data-layout="horizontal" data-show-zero="false" data-show-labels="true"></div><link rel="stylesheet" type="text/css" href="https://cdn.scite.ai/badge/scite-badge-latest.min.css"><script async type="application/javascript" src="https://cdn.scite.ai/badge/scite-badge-latest.min.js"></script>
+

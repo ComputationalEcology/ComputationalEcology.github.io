@@ -1,0 +1,35 @@
+---
+title: 'Ciencia reproducible: ¿qué, por qué, cómo?'
+type: 'article'
+author: 'Rodríguez-Sanchez, Pérez-Luque, Bartomeus, Varela'
+year: '2016'
+publication: 'Ecosistemas'
+preprint: 'https://github.com/ecoinfAEET/Reproducibilidad'
+doi: 'https://doi.org/10.7818/ECOS.2016.25-2.11'
+pdf: 'https://www.revistaecosistemas.net/index.php/ecosistemas/article/view/1178/973'
+# data: 'https://doi.org/10.7818/ECOS.2016.25-2.11'
+code: 'https://github.com/ecoinfAEET/Reproducibilidad'
+toc: false
+categories: 
+  - data science
+  - reproducible research
+---
+
+## Citation
+
+> Rodríguez-Sanchez, F., Pérez-Luque, A.J., Bartomeus, I. & Varela, S. (2016) Ciencia reproducible: ¿qué, por qué, cómo? Ecosistemas, 25, 83–92.
+
+## Abstract
+
+La inmensa mayoría de los estudios científicos no son reproducibles: resulta muy difícil, si no imposible, trazar todo el proceso de análisis y obtención de resultados a partir de un conjunto de datos – incluso tratándose de los mismos investigadores. La trazabilidad y reproducibilidad de los resultados son sin embargo condiciones inherentes a la ciencia de calidad, y un requisito cada vez más frecuente por parte de revistas y organismos financiadores de la investigación. Los estudios científicos reproducibles incluyen código informático capaz de recrear todos los resultados a partir de los datos originales. De esta manera el proceso de análisis queda perfectamente registrado, se reduce drásticamente el riesgo de errores, y se facilita la reutilización de código para otros análisis. Pero la ciencia reproducible no sólo acelera el progreso científico sino que también reporta múltiples beneficios para el investigador como el ahorro de tiempo y esfuerzo, o el incremento de la calidad e impacto de sus publicaciones. En este artículo explicamos en qué consiste la reproducibilidad, por qué es necesaria en ciencia, y cómo podemos hacer ciencia reproducible. Presentamos una serie de recomendaciones y herramientas para el manejo y análisis de datos, control de versiones de archivos, organización de ficheros y manejo de programas informáticos que nos permiten desarrollar flujos de trabajo reproducibles en el contexto actual de la ecología.
+
+### Publication metrics
+
+<br>
+
+<span class="__dimensions_badge_embed__" data-doi="10.7818/ECOS.2016.25-2.11" data-hide-zero-citations="true" data-legend="always"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script><div data-badge-details="right" data-badge-type="medium-donut" data-doi="10.7818/ECOS.2016.25-2.11" data-hide-no-mentions="true" class="altmetric-embed"></div>
+
+<div class="scite-badge" data-doi="10.7818/ECOS.2016.25-2.11" data-layout="horizontal" data-show-zero="false" data-show-labels="true"></div><link rel="stylesheet" type="text/css" href="https://cdn.scite.ai/badge/scite-badge-latest.min.css"><script async type="application/javascript" src="https://cdn.scite.ai/badge/scite-badge-latest.min.js"></script>
+

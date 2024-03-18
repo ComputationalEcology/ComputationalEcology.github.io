@@ -1,0 +1,35 @@
+---
+title: 'Long‐term hurricane damage effects on tropical forest tree growth and mortality'
+type: 'article'
+author: 'Tanner, Rodriguez-Sanchez, Healey, Holdaway, Bellingham'
+year: '2014'
+publication: 'Ecology'
+# preprint: 'https://doi.org/10.1890/13-1801.1'
+doi: 'https://doi.org/10.1890/13-1801.1'
+pdf: 'https://frodriguezsanchez.net/pdf/Tanneretal_Ecology_2014.pdf'
+# data: 'https://doi.org/10.1890/13-1801.1'
+# code: 'https://doi.org/10.1890/13-1801.1'
+toc: false
+categories: 
+  - forest dynamics
+  - climate change
+---
+
+## Citation
+
+> Tanner, E.V.J., Rodriguez-Sanchez, F., Healey, J.R., Holdaway, R.J. & Bellingham, P.J. (2014) Long‐term hurricane damage effects on tropical forest tree growth and mortality. Ecology, 95, 2974–2983.
+
+## Abstract
+
+<jats:p>Hurricane winds can have large impacts on forest structure and dynamics. To date, most evaluations of hurricane impacts have focused on short‐term responses after a hurricane, often lacked pre‐hurricane measurements, and missed responses occurring over longer time scales. Here, we use a long‐term data set (1974–2009, 35 years) of tree stems (&gt;3 cm in diameter at 1.3 m aboveground) in four sites (0.35 ha in total) in montane rain forest (∼1600 m elevation) in Jamaica to investigate the patterns of crown damage in individual stems by Hurricane Gilbert in 1988, and how subsequent growth and mortality were affected by hurricane damage, sprouting, and the incidence of multiple stems. Topographical position on a mountain ridge was the best predictor of crown damage, followed by crown size and species identity. The average diameter growth rate of stems that survived the hurricane was greater than that pre‐hurricane for the whole 21‐yr post‐hurricane period. Growth rates of stems with damaged crowns increased less than those with undamaged crowns; differences in growth rate between damaged and undamaged trees disappeared after 11 years. Hurricane‐damaged stems had two to eight times higher mortality than undamaged stems for 19 years post hurricane. Many stems sprouted shortly after the hurricane, but few sprouts managed to establish (grow to &gt;3 cm diameter at breast height). However, sprouting and multi‐stemming were associated with reduced mortality rate, particularly in damaged trees. From an initial population of 1670 stems in 1974, 54% were still alive in 2009 (21 years after the hurricane). We conclude that despite the high frequency of hurricane damage to tree crowns and the subsequent increased mortality rate in this hurricane‐prone tropical montane forest, many stems will be hit and recover from several hurricanes in their lifetime.</jats:p>
+
+### Publication metrics
+
+<br>
+
+<span class="__dimensions_badge_embed__" data-doi="10.1890/13-1801.1" data-hide-zero-citations="true" data-legend="always"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script><div data-badge-details="right" data-badge-type="medium-donut" data-doi="10.1890/13-1801.1" data-hide-no-mentions="true" class="altmetric-embed"></div>
+
+<div class="scite-badge" data-doi="10.1890/13-1801.1" data-layout="horizontal" data-show-zero="false" data-show-labels="true"></div><link rel="stylesheet" type="text/css" href="https://cdn.scite.ai/badge/scite-badge-latest.min.css"><script async type="application/javascript" src="https://cdn.scite.ai/badge/scite-badge-latest.min.js"></script>
+

@@ -1,0 +1,20 @@
+---
+title: 'Restauración de comunidades vegetales en el Parque Natural los Alcornocales'
+type: 'article'
+author: ' Rodríguez-Sánchez'
+year: '2003'
+publication: 'Boletín del Parque Natural Los Alcornocales'
+# preprint: 'https://zenodo.org/doi/10.5281/zenodo.1325106'
+# doi: 'https://doi.org/10.5281/zenodo.4529818'
+# pdf: 'https://frodriguezsanchez.net/pdf/Rodriguez-Sanchez_Almoraima_2005.pdf'
+# data: 'https://zenodo.org/doi/10.5281/zenodo.1325106'
+# code: 'https://zenodo.org/doi/10.5281/zenodo.1325106'
+toc: false
+categories: 
+  - Parque Natural Los Alcornocales
+  - forest dynamics
+---
+
+
+
+

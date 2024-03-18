@@ -1,0 +1,50 @@
+---
+title: "Downscaling mutualistic networks from species to individuals reveals consistent interaction niches and roles within plant populations"
+type: "article"
+author: "Quintero, Arroyo, Isla, Rodríguez-Sánchez, Jordano"
+year: "2024"
+publication: "bioRxiv"
+preprint: "https://doi.org/10.1101/2024.02.02.578595"
+doi: "https://doi.org/10.1101/2024.02.02.578595 "
+pdf: "https://www.biorxiv.org/content/10.1101/2024.02.02.578595v1.full.pdf"
+data: "https://doi.org/10.5281/zenodo.10630819"
+code: "https://doi.org/10.5281/zenodo.10630819"
+toc: false
+categories:
+  - plant-animal mutualisms
+  - ecological networks
+---
+
+## Citation 
+
+> Quintero, E., Arroyo-Correa, B., Isla, J., Rodríguez-Sánchez, F. & Jordano, P. (2024) Downscaling mutualistic networks from species to individuals reveals consistent interaction niches and roles within plant populations. bioRxiv, https://doi.org/10.1101/2024.02.02.578595
+
+
+## Abstract
+
+The study of mutualistic interactions among species has received considerable attention over the past 30 years. However, less is known about the structure of individual interaction configurations within species. Recently, individual-based networks have begun to garner more attention, as they represent the fundamental scale at which ecological interactions are assembled.
+
+We compiled 44 empirical individual-based networks on plant-animal seed dispersal mutualism, encompassing 995 plant individuals across 28 species from various regions. We compare the structure of individual-based networks to that of species-based networks and by extending the niche concept to interaction assemblages, we explore levels of individual plant specialization. We examine how individual variation influences network structure and how plant individuals “explore” the interaction niche of the population.
+
+Both individual-based and species-based networks exhibited high variability in network properties, leading to a lack of marked structural and topological differences between them. Our results reveal low to medium specialization, with European populations exhibiting higher generality compared to American and Asian populations. Within populations, frugivores’ interaction allocation among plant individuals was highly heterogeneous, with one to three frugivore species dominating interactions in most populations.
+
+Regardless of plant species or geographical region, plant individuals displayed similar interaction profiles across populations, with only a few individuals playing a central role and exhibiting high diversity in the interaction assemblage.
+
+Our results emphasize the importance of downscaling from species-based to individual-based networks to understand the structuring of any given ecological community and provide an empirical basis for the extension of niche theory to complex interaction networks.
+
+Significance Statement 
+
+Ecological interactions in nature occur between individual partners rather than species, and their outcomes determine fitness variation. By examining among-individual variation in interaction niches, we can bridge evolutionary and ecological perspectives to understand interaction biodiversity. This study investigates individual plant variation in frugivore assemblages worldwide, exploring how individual plants “build” their interaction profiles with animal frugivores. Surprisingly, the structure of networks composed of individuals was indistinguishable from networks composed of species. Independently of species or region, interaction frequencies among frugivore partners was highly skewed, with a small subset of species providing most interactions. Additionally, within populations, only a few plants played a key role in attracting a high diversity of frugivores, making them central to the overall network structure.
+
+
+### Publication metrics
+
+<br>
+
+<span class="__dimensions_badge_embed__" data-doi="10.1101/2024.02.02.578595" data-hide-zero-citations="true" data-legend="always"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+<div data-badge-details="right" data-badge-type="medium-donut" data-doi="10.1101/2024.02.02.578595" data-hide-no-mentions="true" class="altmetric-embed"></div>
+
+<div class="scite-badge" data-doi="10.1101/2024.02.02.578595" data-layout="horizontal" data-show-zero="false" data-show-labels="true"></div><link rel="stylesheet" type="text/css" href="https://cdn.scite.ai/badge/scite-badge-latest.min.css"><script async type="application/javascript" src="https://cdn.scite.ai/badge/scite-badge-latest.min.js"></script>
+

@@ -1,0 +1,35 @@
+---
+title: 'Niche shifts after long‐distance dispersal events in bipolar sedges (Carex, Cyperaceae)'
+type: 'article'
+author: 'Villaverde, González‐Moreno, Rodríguez‐Sánchez, Escudero'
+year: '2017'
+publication: 'American Journal of Botany'
+# preprint: 'https://doi.org/10.3732/ajb.1700171'
+doi: 'https://doi.org/10.3732/ajb.1700171'
+pdf: 'https://frodriguezsanchez.net/pdf/Villaverde_AJB_2017.pdf'
+data: 'https://pakillo.github.io/Carex.bipolar/'
+code: 'https://pakillo.github.io/Carex.bipolar/'
+toc: false
+categories: 
+  - species distribution modelling
+  - biogeography
+---
+
+## Citation
+
+> Villaverde, T., González‐Moreno, P., Rodríguez‐Sánchez, F. & Escudero, M. (2017) Niche shifts after long‐distance dispersal events in bipolar sedges (Carex, Cyperaceae). American Journal of Botany, 104, 1765–1774.
+
+## Abstract
+
+<jats:sec><jats:title>PREMISE OF THE STUDY:</jats:title><jats:p>Bipolar species represent the greatest biogeographical disjunction on Earth, raising many questions about the colonization and adaptive processes behind such striking distribution. We investigated climatic niche differences of five <jats:italic>Carex</jats:italic> bipolar species in North and South America to assess niche shifts between these two regions. Moreover, we assessed potential distribution changes with future climate change.</jats:p></jats:sec><jats:sec><jats:title>METHODS:</jats:title><jats:p>We used 1202 presence data points from herbarium specimens and 19 bioclimatic variables to assess climatic niche differences and potential distributions among the five species using ordination methods and Maxent.</jats:p></jats:sec><jats:sec><jats:title>KEY RESULTS:</jats:title><jats:p>The niche overlap analyses showed low levels of niche filling and high climatic niche expansion between North and South America. <jats:italic>Carex macloviana</jats:italic> and <jats:italic>C. maritima</jats:italic> showed the greatest niche expansion (60% and 96%, respectively), followed by <jats:italic>C. magellanica</jats:italic> (45%) and <jats:italic>C. microglochin</jats:italic> (39%). Only <jats:italic>C. canescens</jats:italic> did not colonize new environments (niche expansion = 0.2%). In contrast, all species but <jats:italic>C. magellanica</jats:italic> had niche filling that was &lt;40%; hence, they are absent in the south from many environments they inhabit in North America. Climate change will push all species toward higher latitudes and elevation, reducing the availability of suitable environments.</jats:p></jats:sec><jats:sec><jats:title>CONCLUSIONS:</jats:title><jats:p>The colonization of South America seems to have involved frequent climatic niche shifts. Most species have colonized new environments from those occupied in the North. Observed niche shifts appear congruent with time since colonization and with current genetic structure within species. In these cold‐dwelling species, climate change will most likely decrease their suitable environments in the future.</jats:p></jats:sec>
+
+### Publication metrics
+
+<br>
+
+<span class="__dimensions_badge_embed__" data-doi="10.3732/ajb.1700171" data-hide-zero-citations="true" data-legend="always"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script><div data-badge-details="right" data-badge-type="medium-donut" data-doi="10.3732/ajb.1700171" data-hide-no-mentions="true" class="altmetric-embed"></div>
+
+<div class="scite-badge" data-doi="10.3732/ajb.1700171" data-layout="horizontal" data-show-zero="false" data-show-labels="true"></div><link rel="stylesheet" type="text/css" href="https://cdn.scite.ai/badge/scite-badge-latest.min.css"><script async type="application/javascript" src="https://cdn.scite.ai/badge/scite-badge-latest.min.js"></script>
+

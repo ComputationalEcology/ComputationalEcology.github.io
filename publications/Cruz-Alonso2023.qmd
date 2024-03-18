@@ -1,0 +1,35 @@
+---
+title: 'The easyclimate R package: Easy access to high-resolution daily climate data for Europe'
+type: 'article'
+author: 'Cruz-Alonso, Pucher, Ratcliffe, Ruiz-Benito, Astigarraga, Neumann, Hasenauer, Rodríguez-Sánchez'
+year: '2023'
+publication: 'Environmental Modelling & Software'
+preprint: 'https://doi.org/10.32942/osf.io/mc8uj'
+doi: 'https://doi.org/10.1016/j.envsoft.2023.105627'
+pdf: 'https://doi.org/10.1016/j.envsoft.2023.105627'
+# data: 'https://doi.org/10.1016/j.envsoft.2023.105627'
+code: 'https://github.com/VeruGHub/easyclimate_ms'
+toc: false
+categories: 
+  - software
+  - climate change
+---
+
+## Citation
+
+> Cruz-Alonso, V., Pucher, C., Ratcliffe, S., Ruiz-Benito, P., Astigarraga, J., Neumann, M., et al. (2023) The easyclimate R package: Easy access to high-resolution daily climate data for Europe. Environmental Modelling &amp; Software, 161, 105627.
+
+## Abstract
+
+In recent decades there has been an increasing demand in environmental sciences for harmonized climatic data at large spatial scales and long periods. Here we present easyclimate, a software package to obtain daily climatic data at high resolution (0.0083°, ∼1 km) with R. The package facilitates the downloading and processing of precipitation, minimum and maximum temperatures for Europe from 1950 to 2020. Using easyclimate and given a set of coordinates (points or polygons) and dates (days or years), the user can download the climatic information as a tidy table or a raster object. In this package we implemented Cloud-Optimized GeoTIFFs which provide access to daily climate data for thousands of sites/days, without having to download huge rasters. Daily climate data are not available in many of the current climate databases and are essential for many research questions and applications in environmental modelling, forestry, and ecological and vegetation studies across Europe.
+
+### Publication metrics
+
+<br>
+
+<span class="__dimensions_badge_embed__" data-doi="10.1016/j.envsoft.2023.105627" data-hide-zero-citations="true" data-legend="always"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script><div data-badge-details="right" data-badge-type="medium-donut" data-doi="10.1016/j.envsoft.2023.105627" data-hide-no-mentions="true" class="altmetric-embed"></div>
+
+<div class="scite-badge" data-doi="10.1016/j.envsoft.2023.105627" data-layout="horizontal" data-show-zero="false" data-show-labels="true"></div><link rel="stylesheet" type="text/css" href="https://cdn.scite.ai/badge/scite-badge-latest.min.css"><script async type="application/javascript" src="https://cdn.scite.ai/badge/scite-badge-latest.min.js"></script>
+

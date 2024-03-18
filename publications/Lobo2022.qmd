@@ -1,0 +1,27 @@
+---
+title: 'Evaluación del estado de conservación de las Dehesas Extremeñas usando LiDAR del PNOA y el Inventario Forestal Nacional (IFN IV)'
+type: 'article'
+author: 'Lobo, Duque-Lazo, Rodríguez-Sánchez, Tomé, Bernal'
+year: '2022'
+publication: '8º Congreso Forestal Español'
+# preprint: 'https://biblio.ugent.be/publication/8726229/file/8726230.pdf'
+# doi: 'https://doi.org/10.1016/j.scitotenv.2021.151338'
+pdf: 'https://8cfe.congresoforestal.es/sites/default/files/actas/8CFE-691.pdf'
+# data: 'https://doi.org/10.6084/m9.figshare.7604849'
+# code: 'https://doi.org/10.1016/j.scitotenv.2021.151338'
+toc: false
+categories: 
+  - forest dynamics
+---
+
+## Citation
+
+> Lobo A, Duque-Lazo J, Rodríguez-Sánchez F, Tomé JL, Bernal N. (2022) Evaluación del estado de conservación de las Dehesas Extremeñas usando LiDAR del PNOA y el Inventario Forestal Nacional (IFN IV). *Actas del 8º Congreso Forestal Español*.
+
+## Abstract
+
+Se evaluó el estado de conservación del hábitat de interés comunitario 6310 (Dehesas perennifolias de Quercus spp.) en Extremadura según el índice de conservación descrito por DÍAZ Y PULIDO (2009), adaptado para datos LiDAR. El índice de conservación se definió en base a la estructura poblacional del arbolado y a la cobertura arbustiva calibrados con datos del Cuarto Inventario Forestal Nacional y validado con un inventario independiente. El estado de conservación arbóreo se estimó en base a: 1) la probabilidad de existencia de regenerado, y 2) la probabilidad de que el número de pies jóvenes fuera mayor que el de pies adultos. El estado de conservación arbustivo se obtuvo mediante estimación directa con LiDAR. Y las teselas de la distribución del hábitat 6310 se clasificaron en: favorable, desfavorable inadecuado y desfavorable malo. La validación independiente resultó del 85% para el estado de conservación arbóreo, del 58% para el estado de conservación arbustivo, y del 69% para el índice de conservación combinado, revelando que <6% del hábitat 6310 presenta un estado de conservación favorable. El desarrollo de índices de conservación con datos LiDAR podría ser de gran utilidad para gestores y usuarios por su elevada resolución espacial, cobertura geográfica y disponibilidad.
+
+
+
+

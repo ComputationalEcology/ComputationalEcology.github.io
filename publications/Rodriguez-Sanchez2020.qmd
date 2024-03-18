@@ -1,0 +1,35 @@
+---
+title: 'Quince consejos para mejorar nuestro código y flujo de trabajo con R'
+type: 'article'
+author: 'Rodríguez-Sánchez'
+year: '2020'
+publication: 'Ecosistemas'
+preprint: 'https://github.com/ecoinfAEET/Notas_Ecosistemas/tree/master/consejos_mejor_codigo'
+doi: 'https://doi.org//10.7818/ECOS.2129'
+pdf: 'https://doi.org//10.7818/ECOS.2129'
+# data: 'https://doi.org//10.7818/ECOS.2129'
+code: 'https://github.com/ecoinfAEET/Notas_Ecosistemas/tree/master/consejos_mejor_codigo'
+toc: false
+categories: 
+  - data science
+  - reproducible research
+---
+
+## Citation
+
+> Rodríguez-Sánchez, F. (2020) Quince consejos para mejorar nuestro código y flujo de trabajo con R. Ecosistemas, 29.
+
+## Abstract
+
+<jats:p>La mayoría de los ecólogos que escribimos código informático para desarrollar nuestros análisis somos autodidactas. Nunca hemos recibido formación sobre buenas prácticas de programación. En consecuencia, nuestro código es a menudo ineficiente, desordenado, propenso a errores, difícil de revisar y reutilizar.En esta nota se recogen 15 recomendaciones para mejorar nuestro flujo de trabajo y programación particularmente en lenguaje R (R Core Team 2020) (aunque muchas de estas buenas prácticas sean igualmente aplicables a otros lenguajes). R se ha convertido en la herramienta estadística y lenguaje de programación más popular en ecología. Estas recomendaciones pretenden evitar errores frecuentes y mejorar la calidad del código desarrollado en nuestros análisis.</jats:p>
+
+### Publication metrics
+
+<br>
+
+<span class="__dimensions_badge_embed__" data-doi="/10.7818/ECOS.2129" data-hide-zero-citations="true" data-legend="always"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script><div data-badge-details="right" data-badge-type="medium-donut" data-doi="/10.7818/ECOS.2129" data-hide-no-mentions="true" class="altmetric-embed"></div>
+
+<div class="scite-badge" data-doi="/10.7818/ECOS.2129" data-layout="horizontal" data-show-zero="false" data-show-labels="true"></div><link rel="stylesheet" type="text/css" href="https://cdn.scite.ai/badge/scite-badge-latest.min.css"><script async type="application/javascript" src="https://cdn.scite.ai/badge/scite-badge-latest.min.js"></script>
+

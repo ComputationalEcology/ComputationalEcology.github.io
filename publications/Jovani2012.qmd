@@ -1,0 +1,34 @@
+---
+title: 'Age‐related sexual plumage dimorphism and badge framing in the European Robin Erithacus rubecula'
+type: 'article'
+author: 'JOVANI, AVILÉS, RODRÍGUEZ‐SÁNCHEZ'
+year: '2012'
+publication: 'Ibis'
+# preprint: 'https://doi.org/10.1111/j.1474-919X.2011.01187.x'
+doi: 'https://doi.org/10.1111/j.1474-919X.2011.01187.x'
+pdf: 'https://frodriguezsanchez.net/pdf/Jovanietal_Ibis_2012.pdf'
+# data: 'https://doi.org/10.1111/j.1474-919X.2011.01187.x'
+# code: 'https://doi.org/10.1111/j.1474-919X.2011.01187.x'
+toc: false
+# categories: 
+#   - journal article
+---
+
+## Citation
+
+> JOVANI, R., AVILÉS, J.M. & RODRÍGUEZ‐SÁNCHEZ, F. (2011) Age‐related sexual plumage dimorphism and badge framing in the European Robin Erithacus rubecula. Ibis, 154, 147–154.
+
+## Abstract
+
+<jats:p>Male and female European Robins <jats:italic>Erithacus rubecula</jats:italic> display their red breasts in year‐round territorial contests. Despite the clear signalling role of the red breast, little is known about its sexual dimorphism or trends in size when Robins age. We studied these patterns in resident and migrant Robins in a Mediterranean population. Both male and female first‐year Robins had smaller red breasts than second‐year individuals. Females, but not males, showed a reduction in badge area after the second year of life, leading to sexual dimorphism in red breast area in the oldest Robins. The grey fringe around the red breast showed a steady increase in width in males when ageing, but not in females, also leading to sexual dimorphism in this trait among oldest Robins. The contrast between the red breast and its surrounding grey fringe was higher than that between the breast and the back at both high and low environmental light intensities. This suggests that the grey fringe could function as a frame to highlight the perimeter of the red breast, and that the Robin’s plumage is equally suited to display in open areas and forest understoreys. Our study suggests that the extent of the red breast and its grey frame could confer information about the age and sex of the birds, and thus be used as a signal in territorial contests and mating decisions.</jats:p>
+
+### Publication metrics
+
+<br>
+
+<span class="__dimensions_badge_embed__" data-doi="10.1111/j.1474-919X.2011.01187.x" data-hide-zero-citations="true" data-legend="always"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script><div data-badge-details="right" data-badge-type="medium-donut" data-doi="10.1111/j.1474-919X.2011.01187.x" data-hide-no-mentions="true" class="altmetric-embed"></div>
+
+<div class="scite-badge" data-doi="10.1111/j.1474-919X.2011.01187.x" data-layout="horizontal" data-show-zero="false" data-show-labels="true"></div><link rel="stylesheet" type="text/css" href="https://cdn.scite.ai/badge/scite-badge-latest.min.css"><script async type="application/javascript" src="https://cdn.scite.ai/badge/scite-badge-latest.min.js"></script>
+

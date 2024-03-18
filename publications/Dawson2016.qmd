@@ -1,0 +1,35 @@
+---
+title: 'A second horizon scan of biogeography: Golden Ages, Midas touches, and the Red Queen'
+type: 'article'
+author: 'Dawson, Axmacher, Beierkuhnlein, Blois, Bradley, Cord, Dengler, He, Heaney, Jansson, Mahecha, Myers, Nogués-Bravo, Papadopoulou, Reu, Rodríguez-Sánchez, Steinbauer, Stigall, Tuanmu, Gavin'
+year: '2016'
+publication: 'Frontiers of Biogeography'
+# preprint: 'https://doi.org/10.21425/F58429770'
+doi: 'https://doi.org/10.21425/F58429770'
+pdf: 'https://escholarship.org/content/qt8bx638kb/qt8bx638kb.pdf?t=ok1udy'
+# data: 'https://doi.org/10.21425/F58429770'
+# code: 'https://doi.org/10.21425/F58429770'
+toc: false
+categories: 
+  - biogeography
+  - review
+---
+
+## Citation
+
+> Dawson, M.N., Axmacher, J.C., Beierkuhnlein, C., Blois, J.L., Bradley, B.A., Cord, A.F., et al. (2016) A second horizon scan of biogeography: Golden Ages, Midas touches, and the Red Queen. Frontiers of Biogeography, 8.
+
+## Abstract
+
+Are we entering a new ‘Golden Age’ of biogeography, with continued development of infrastructure and ideas? We highlight recent developments, and the challenges and opportunities they bring, in light of the snapshot provided by the 7th biennial meeting of the International Biogeography Society (IBS 2015). We summarize themes in and across 15 symposia using narrative analysis and word clouds, which we complement with recent publication trends and ‘research fronts’. We find that biogeography is still strongly defined by core sub-disciplines that reflect its origins in botanical, zoological (particularly bird and mammal), and geographic (e.g., island, montane) studies of the 1800s. That core is being enriched by large datasets (e.g. of environmental variables, ‘omics’, species’ occurrences, traits) and new techniques (e.g., advances in genetics, remote sensing, modeling) that promote studies with increasing detail and at increasing scales; disciplinary breadth is being diversified (e.g., by developments in paleobiogeography and microbiology) and integrated through the transfer of approaches and sharing of theory (e.g., spatial modeling and phylogenetics in evolutionary–ecological contexts). Yet some subdisciplines remain on the fringe (e.g., marine biogeography, deep-time paleobiogeography), new horizons and new theory may be overshadowed by popular techniques (e.g., species distribution modelling), and hypotheses, data, and analyses may each be wanting. Trends in publication suggest a shift away from traditional biogeography journals to multidisciplinary or open access journals. Thus, there are currently many opportunities and challenges as biogeography increasingly addresses human impacts on, and stewardship of, the planet (e.g., Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services). As in the past, biogeographers doubtless will continue to be engaged by new data and methods in exploring the nexus between biology and geography for decades into the future. But golden ages come and go, and they need not touch every domain in a discipline nor affect subdisciplines at the same time; moreover, what appears to be a Golden Age may sometimes have an undesirable ‘Midas touch’. Contexts within and outwith biogeography—e.g., methods, knowledge, climate, biodiversity, politics—are continually changing, and at times it can be challenging to establish or maintain relevance. In so many races with the Red Queen, we suggest that biogeography will enjoy greatest success if we also increasingly engage with the epistemology of our discipline.
+
+### Publication metrics
+
+<br>
+
+<span class="__dimensions_badge_embed__" data-doi="10.21425/F58429770" data-hide-zero-citations="true" data-legend="always"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script><div data-badge-details="right" data-badge-type="medium-donut" data-doi="10.21425/F58429770" data-hide-no-mentions="true" class="altmetric-embed"></div>
+
+<div class="scite-badge" data-doi="10.21425/F58429770" data-layout="horizontal" data-show-zero="false" data-show-labels="true"></div><link rel="stylesheet" type="text/css" href="https://cdn.scite.ai/badge/scite-badge-latest.min.css"><script async type="application/javascript" src="https://cdn.scite.ai/badge/scite-badge-latest.min.js"></script>
+

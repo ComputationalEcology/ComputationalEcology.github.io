@@ -1,0 +1,35 @@
+---
+title: 'Limits to reproduction and seed size-number trade-offs that shape forest dominance and future recovery'
+type: 'article'
+author: 'Qiu, Andrus, Aravena, Ascoli, Bergeron, Berretti, Berveiller, Bogdziewicz, Boivin, Bonal, Bragg, Caignard, Calama, Camarero, Chang-Yang, Cleavitt, Courbaud, Courbet, Curt, Das, Daskalakou, Davi, Delpierre, Delzon, Dietze, Calderon, Dormont, Espelta, Fahey, Farfan-Rios, Gehring, Gilbert, Gratzer, Greenberg, Guo, Hacket-Pain, Hampe, Han, Hille Ris Lambers, Hoshizaki, Ibanez, Johnstone, Journé, Kabeya, Kilner, Kitzberger, Knops, Kobe, Kunstler, Lageard, LaMontagne, Ledwon, Lefevre, Leininger, Limousin, Lutz, Macias, McIntire, Moore, Moran, Motta, Myers, Nagel, Noguchi, Ourcival, Parmenter, Pearse, Perez-Ramos, Piechnik, Poulsen, Poulton-Kamakura, Redmond, Reid, Rodman, Rodriguez-Sanchez, Sanguinetti, Scher, Schlesinger, Schmidt Van Marle, Seget, Sharma, Silman, Steele, Stephenson, Straub, Sun, Sutton, Swenson, Swift, Thomas, Uriarte, Vacchiano, Veblen, Whipple, Whitham, Wion, Wright, Wright, Zhu, Zimmerman, Zlotin, Zywiec, Clark'
+year: '2022'
+publication: 'Nature Communications'
+# preprint: 'https://doi.org/10.1038/s41467-022-30037-9'
+doi: 'https://doi.org/10.1038/s41467-022-30037-9'
+pdf: 'https://doi.org/10.1038/s41467-022-30037-9'
+data: 'https://doi.org/10.7924/r4348ph5t'
+code: 'https://cran.r-project.org/web/packages/mastif/index.html'
+toc: false
+categories: 
+  - forest dynamics
+  - biogeography
+---
+
+## Citation
+
+> Qiu, T., Andrus, R., Aravena, M.-C., Ascoli, D., Bergeron, Y., Berretti, R., et al. (2022) Limits to reproduction and seed size-number trade-offs that shape forest dominance and future recovery. Nature Communications, 13.
+
+## Abstract
+
+The relationships that control seed production in trees are fundamental to understanding the evolution of forest species and their capacity to recover from increasing losses to drought, fire, and harvest. A synthesis of fecundity data from 714 species worldwide allowed us to examine hypotheses that are central to quantifying reproduction, a foundation for assessing fitness in forest trees. Four major findings emerged. First, seed production is not constrained by a strict trade-off between seed size and numbers. Instead, seed numbers vary over ten orders of magnitude, with species that invest in large seeds producing more seeds than expected from the 1:1 trade-off. Second, gymnosperms have lower seed production than angiosperms, potentially due to their extra investments in protective woody cones. Third, nutrient-demanding species, indicated by high foliar phosphorus concentrations, have low seed production. Finally, sensitivity of individual species to soil fertility varies widely, limiting the response of community seed production to fertility gradients. In combination, these findings can inform models of forest response that need to incorporate reproductive potential.
+
+### Publication metrics
+
+<br>
+
+<span class="__dimensions_badge_embed__" data-doi="10.1038/s41467-022-30037-9" data-hide-zero-citations="true" data-legend="always"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script><div data-badge-details="right" data-badge-type="medium-donut" data-doi="10.1038/s41467-022-30037-9" data-hide-no-mentions="true" class="altmetric-embed"></div>
+
+<div class="scite-badge" data-doi="10.1038/s41467-022-30037-9" data-layout="horizontal" data-show-zero="false" data-show-labels="true"></div><link rel="stylesheet" type="text/css" href="https://cdn.scite.ai/badge/scite-badge-latest.min.css"><script async type="application/javascript" src="https://cdn.scite.ai/badge/scite-badge-latest.min.js"></script>
+

@@ -1,0 +1,43 @@
+---
+title: 'Climate refugia: joint inference from fossil records, species distribution models and phylogeography'
+type: 'article'
+author: 'Gavin, Fitzpatrick, Gugger, Heath, Rodríguez‐Sánchez, Dobrowski, Hampe, Hu, Ashcroft, Bartlein, Blois, Carstens, Davis, de Lafontaine, Edwards, Fernandez, Henne, Herring, Holden, Kong, Liu, Magri, Matzke, McGlone, Saltré, Stigall, Tsai, Williams'
+year: '2014'
+publication: 'New Phytologist'
+# preprint: 'https://doi.org/10.1111/nph.12929'
+doi: 'https://doi.org/10.1111/nph.12929'
+pdf: 'https://doi.org/10.1111/nph.12929'
+# data: 'https://doi.org/10.1111/nph.12929'
+# code: 'https://doi.org/10.1111/nph.12929'
+toc: false
+categories: 
+  - review
+  - refugia
+  - microclimate
+  - biogeography
+  - species distribution modelling
+  - phylogeography
+  - palaeoecology
+  - microclimate
+---
+
+## Citation
+
+> Gavin, D.G., Fitzpatrick, M.C., Gugger, P.F., Heath, K.D., Rodríguez‐Sánchez, F., Dobrowski, S.Z., et al. (2014) Climate refugia: joint inference from fossil records, species distribution models and phylogeography. New Phytologist, 204, 37–54.
+
+## Abstract
+
+Climate refugia, locations where taxa survive periods of regionally adverse climate, are thought to be critical for maintaining biodiversity through the glacial–interglacial climate changes of the Quaternary. A critical research need is to better integrate and reconcile the three major lines of evidence used to infer the existence of past refugia – fossil records, species distribution models and phylogeographic surveys – in order to characterize the complex spatiotemporal trajectories of species and populations in and out of refugia. Here we review the complementary strengths, limitations and new advances for these three approaches. We provide case studies to illustrate their combined application, and point the way towards new opportunities for synthesizing these disparate lines of evidence. Case studies with European beech, Qinghai spruce and Douglas-fir illustrate how the combination of these three approaches successfully resolves complex species histories not attainable from any one approach. Promising new statistical techniques can capitalize on the strengths of each method and provide a robust quantitative reconstruction of species history. Studying past refugia can help identify contemporary refugia and clarify their conservation significance, in particular by elucidating the fine-scale processes and the particular geographic locations that buffer species against rapidly changing climate.
+
+
+
+### Publication metrics
+
+<br>
+
+<span class="__dimensions_badge_embed__" data-doi="10.1111/nph.12929" data-hide-zero-citations="true" data-legend="always"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script><div data-badge-details="right" data-badge-type="medium-donut" data-doi="10.1111/nph.12929" data-hide-no-mentions="true" class="altmetric-embed"></div>
+
+<div class="scite-badge" data-doi="10.1111/nph.12929" data-layout="horizontal" data-show-zero="false" data-show-labels="true"></div><link rel="stylesheet" type="text/css" href="https://cdn.scite.ai/badge/scite-badge-latest.min.css"><script async type="application/javascript" src="https://cdn.scite.ai/badge/scite-badge-latest.min.js"></script>
+

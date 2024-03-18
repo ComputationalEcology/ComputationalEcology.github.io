@@ -1,0 +1,38 @@
+---
+title: 'Impactos de la herbivoría por ungulados en las comunidades de plantas leñosas del Parque Natural Los Alcornocales'
+type: 'article'
+author: ' Rodríguez-Sánchez, Luque-Oliva, Jurado'
+year: '2018'
+publication: 'Almoraima'
+preprint: 'https://zenodo.org/doi/10.5281/zenodo.1325106'
+doi: 'https://doi.org/10.5281/zenodo.4529818'
+pdf: 'https://frodriguezsanchez.net/pdf/Rodriguez-Sanchez_Almoraima_2018.pdf'
+data: 'https://zenodo.org/doi/10.5281/zenodo.1325106'
+code: 'https://zenodo.org/doi/10.5281/zenodo.1325106'
+toc: false
+categories: 
+  - Parque Natural Los Alcornocales
+  - forest dynamics
+---
+
+## Citation
+
+> Rodríguez-Sánchez F, Luque-Oliva V & Jurado V. (2018). Impactos de la herbivoría por ungulados en las comunidades de plantas leñosas del Parque Natural Los Alcornocales. Almoraima, 49, 251–263. 
+
+## Abstract
+
+Las poblaciones de ciervos y otros ungulados se han incrementado enormemente en muchas áreas mediterráneas en las últimas décadas. Los impactos del incremento de la presión de herbivoría en las comunidades de plantas y la eficacia de distintas medidas de conservación están aún poco claras. En este trabajo se evalúan los efectos de la herbivoría en comunidades arbustivas del Campo de Gibraltar y Parque Natural de Los Alcornocales. Se ha comparado la diversidad de plantas, la cobertura, la altura y la intensidad de daños dentro y fuera de un total de 20 cercados de exclusión de herbívoros establecidos hace 10-15 años para favorecer la regeneración del bosque. Aunque la composición de la comunidad de plantas (riqueza de especies y diversidad) fue similar en las zonas cercadas y no cercadas, la altura de los arbustos y su cobertura fueron mayores dentro de los cercados de protección. En contraste, el daño de herbivoría fue mucho mayor en las áreas no cercadas, particularmente en aquellas plantas de etapas sucesionales tardías y más palatables. Aunque la mayoría de las especies son de larga vida y muy resilientes, la sobrepoblación de herbívoros mantenida en el tiempo puede comprometer su reproducción y persistencia a largo plazo. De este modo, la sobrepoblación de ciervos está moldeando la estructura de las comunidades arbustivas mediterráneas, reduciendo su densidad y seleccionando aquellas plantas más tolerantes a la perturbación y el ramoneo frente a aquellas de etapas sucesionales más tardías.
+
+Deer have overpopulated many Mediterranean areas in recent decades. The likely impacts of the increased herbivory pressure on Mediterranean plant communities are, however, unclear. Here we assess the community-wide effects of deer browsing in shrublands of Los Alcornocales Natural Park (southern Spain). We compared plant species diversity, cover, height, and damage intensity within and outside of deer exclosures established 10-15 years ago to promote natural regeneration of the forest. Although community composition (species richness and diversity) was similar in fenced and non-fenced areas, shrub height and cover were higher within fenced areas. In contrast, browsing damage was much higher in open areas, particularly for late-successional, highly palatable species. Although most plant species were long-lived and highly resilient, sustained overbrowsing might compromise reproduction and long-term persistence in the landscape. Thus, deer overpopulation is shaping the structure of these Mediterranean shrublands, reducing shrub density and selecting against shade-tolerant species, hence delaying succession.
+
+
+### Publication metrics
+
+<br>
+
+<span class="__dimensions_badge_embed__" data-doi="10.5281/zenodo.4529819" data-hide-zero-citations="true" data-legend="always"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script><div data-badge-details="right" data-badge-type="medium-donut" data-doi="10.5281/zenodo.4529819" data-hide-no-mentions="true" class="altmetric-embed"></div>
+
+<div class="scite-badge" data-doi="10.5281/zenodo.4529819" data-layout="horizontal" data-show-zero="false" data-show-labels="true"></div><link rel="stylesheet" type="text/css" href="https://cdn.scite.ai/badge/scite-badge-latest.min.css"><script async type="application/javascript" src="https://cdn.scite.ai/badge/scite-badge-latest.min.js"></script>
+

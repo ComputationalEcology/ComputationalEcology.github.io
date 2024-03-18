@@ -1,0 +1,39 @@
+---
+title: "Yurena Arjona"
+sortby: 3
+categories: [Master Student]
+image: Yurena_Arjona.png
+# started: "Fall 2020"
+toc: false
+about:
+  id: person-profile
+  template: jolla
+  links:
+    - icon: link
+      text: website
+      href: https://www.researchgate.net/profile/Yurena-Arjona
+    # - icon: mortarboard
+    #   text: scholar
+    #   href: https://scholar.google.com/citations?user=ZV6_380AAAAJ
+    # - icon: github
+    #   text: github
+    #   href: https://www.github.com/virginialu
+    - icon: twitter
+      text: twitter
+      href: https://twitter.com/arjonayurena
+    # - icon: mastodon
+    #   text: mastodon
+    #   href: https://ecoevo.social/@frod_san
+
+---
+
+:::{#person-profile}
+:::
+
+2010
+
+"Variabilidad fenotípica de frutos y semillas de *Laurus*"
+
+Co-supervised with [Alfredo Valido](https://www.ipna.csic.es/personal/alfredo-valido-amador).
+
+

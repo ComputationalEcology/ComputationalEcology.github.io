@@ -1,0 +1,48 @@
+---
+title: "Lasting effects of avian-frugivore interactions on seed dispersal and seedling establishment"
+type: "article"
+author: "Quintero, Arroyo, Dirzo, Jordano, Rodríguez-Sánchez"
+year: "2024"
+publication: "Journal of Ecology"
+preprint: "https://doi.org/10.32942/X2BW2F"
+doi: "https://doi.org/10.1111/1365-2745.14260"
+pdf: "http://pjordanolab.ebd.csic.es/pdfs/Quintero_etal_2024_JEcology_Lasting%20effects%20of%20avian%20frugivore%20interactions%20on%20seed%20dispersal.pdf"
+data: "https://doi.org/10.5281/zenodo.8289087"
+code: "https://doi.org/10.5281/zenodo.8289087"
+toc: false
+categories:
+  - plant-animal mutualisms
+---
+
+## Citation 
+
+> Quintero E, Arroyo JM, Dirzo R, Jordano P & Rodríguez-Sánchez F. (2024) Lasting effects of avian-frugivore interactions on seed dispersal and seedling establishment. *Journal of Ecology* 112, 656–672. https://doi.org/10.1111/1365-2745.14260 
+
+## Abstract
+
+1. The consequences of plant–animal interactions often transcend the mere encounter stage, as those encounters are followed by a chain of subsequent stages on the plant's reproductive cycle that ultimately determine fitness. Yet, the dissemination and recruitment stages of animal-mediated seed dispersal are seldom analysed jointly, hindering a full understanding of the ecology of seed dispersal.
+
+2. We analyse the dispersal and recruitment of a fleshy-fruited plant (*Pistacia lentiscus*), from fruit production to seedling survival up to their second year. We link early reproductive investment of individual plants to seedling recruitment and explore the role played by seed viability, the coterie of frugivores and microhabitat seed deposition.
+
+3. The proportion of viable seeds was generally low (mean = 34%) but highly variable among individual plants (range: 0%–95%). Seed viability did not seem to have a direct effect on individual plant's recruitment.
+
+4. We recorded 28 bird species feeding on *P. lentiscus* fruits or seeds. Their contribution to plant recruitment was mainly determined by their intensity of fruit consumption and probability to disperse viable seeds. Most frugivores presented non-random microhabitat preferences, delivering uneven seed contributions to different sites.
+
+5. Post-dispersal seed predation by rodents was the most limiting phase in *P. lentiscus* recruitment. Yet, microhabitats showing the lowest predation rates received the lowest seed rain. Hence, we found a decoupling of the dissemination and recruitment stages: most seeds do not arrive at the most suitable microhabitats.
+
+6. We estimate *P. lentiscus* plants need to produce c. 5 × 105 fruits to recruit a single seedling that survives to its second summer in our study site. Its success as a prevalent species in Mediterranean lowland landscapes relies on its high fecundity and thorough fruit removal and dispersal by a diversified frugivore assemblage, which compensates for the high seed unviability characteristic of this genus.
+
+7. Synthesis: Measuring the delayed, post-dispersal outcomes of animal frugivory interactions may overturn inferences based on consumption observations only. Seed rain patterns are often decoupled from microhabitats' suitability for seedling recruitment. Hence, more integrative studies that encompass the entire plant reproductive cycle (from fruit production to seedling recruitment) are needed to fully understand frugivores' lasting contribution to plant regeneration in natural populations.
+
+
+### Publication metrics
+
+<br>
+
+<span class="__dimensions_badge_embed__" data-doi="10.1111/1365-2745.14260" data-hide-zero-citations="true" data-legend="always"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+<div data-badge-details="right" data-badge-type="medium-donut" data-doi="10.1111/1365-2745.14260" data-hide-no-mentions="true" class="altmetric-embed"></div>
+
+<div class="scite-badge" data-doi="10.1111/1365-2745.14260" data-layout="horizontal" data-show-zero="false" data-show-labels="true"></div><link rel="stylesheet" type="text/css" href="https://cdn.scite.ai/badge/scite-badge-latest.min.css"><script async type="application/javascript" src="https://cdn.scite.ai/badge/scite-badge-latest.min.js"></script>
+

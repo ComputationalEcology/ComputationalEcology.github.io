@@ -1,0 +1,36 @@
+---
+title: 'Taking sides? Aspect has limited influence on soil environment or litter decomposition in pan-European study of roadside verges'
+type: 'article'
+author: 'Amstutz, Firth, Spicer, De Frenne, Gómez-Aparicio, Graae, Kuś, Lindmo, Orczewska, Rodríguez-Sánchez, Vangansbeke, Vanneste, Hanley'
+year: '2024'
+publication: 'Pedobiologia'
+# preprint: 'https://doi.org/10.1016/j.pedobi.2023.150927'
+doi: 'https://doi.org/10.1016/j.pedobi.2023.150927'
+pdf: 'https://doi.org/10.1016/j.pedobi.2023.150927'
+# data: 'https://doi.org/10.1016/j.pedobi.2023.150927'
+# code: 'https://doi.org/10.1016/j.pedobi.2023.150927'
+toc: false
+categories: 
+  - microclimate
+  - biogeography
+---
+
+## Citation
+
+> Amstutz, A., Firth, LB., Spicer, JI., De Frenne, P., Gómez-Aparicio, L., Graae, BJ., et al. (2024) Taking sides? Aspect has limited influence on soil environment or litter decomposition in pan-European study of roadside verges. Pedobiologia, 102, 150927.
+
+## Abstract
+
+In addition to well-known effects on species ecophysiology, phenology, and distributions, climate change is widely predicted to impact essential ecosystem services such as decomposition and nutrient cycling. While temperature and soil moisture are thought to influence litter decomposition, elucidating consistent soil process responses to observed or predicted shifts in climate have proven difficult to evidence. Here we investigated how aspect (i.e., north-south orientation), a natural model for variation in soil temperature, influenced soil physico-chemical conditions and decomposition of two standardised litter types (Green tea and Rooibos teabags) in Pole-facing (PF) and Equator-facing (EF) roadside verges spanning a 3000 km and 27° latitudinal gradient across Europe. Despite average daily temperatures being 1.5 - 3.0 °C warmer on EF than PF slopes, there were only minor region-specific differences in initial soil physico-chemical conditions and short-term variation in litter decomposition (i.e., litter mass loss was higher in EF-verges for the first month of deployment only) associated with aspect. We conclude that previously observed differences in soil environments and the decomposition process associated with slope orientation, is largely litter or environment specific, although medium-term soil-decomposition in semi-natural grassland ecosystems may also be insensitive to the magnitude of temperature variation within the range predicted by the IPCC SSP1–2.6 emissions scenario. Nonetheless, consistent average and extreme temperature differences between adjacent PF- and EF-aspects along roadside verges provides a model system to explore exactly how resilient the soil environment and the micro-organisms responsible for decomposition, are to temperature variation.
+
+
+### Publication metrics
+
+<br>
+
+<span class="__dimensions_badge_embed__" data-doi="10.1016/j.pedobi.2023.150927" data-hide-zero-citations="true" data-legend="always"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>"
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script><div data-badge-details="right" data-badge-type="medium-donut" data-doi="10.1016/j.pedobi.2023.150927" data-hide-no-mentions="true" class="altmetric-embed"></div>
+
+<div class="scite-badge" data-doi="10.1016/j.pedobi.2023.150927" data-layout="horizontal" data-show-zero="false" data-show-labels="true"></div><link rel="stylesheet" type="text/css" href="https://cdn.scite.ai/badge/scite-badge-latest.min.css"><script async type="application/javascript" src="https://cdn.scite.ai/badge/scite-badge-latest.min.js"></script>
+

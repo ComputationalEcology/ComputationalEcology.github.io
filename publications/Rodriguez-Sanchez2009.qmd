@@ -1,0 +1,36 @@
+---
+title: 'Late Neogene history of the laurel tree (*Laurus* L., Lauraceae) based on phylogeographical analyses of Mediterranean and Macaronesian populations'
+type: 'article'
+author: 'Rodríguez‐Sánchez, Guzmán, Valido, Vargas, Arroyo'
+year: '2009'
+publication: 'Journal of Biogeography'
+# preprint: 'https://doi.org/10.1111/j.1365-2699.2009.02091.x'
+doi: 'https://doi.org/10.1111/j.1365-2699.2009.02091.x'
+pdf: 'https://frodriguezsanchez.net/pdf/Rodriguez-Sanchezetal_JBI_2009.pdf'
+# data: 'https://doi.org/10.1111/j.1365-2699.2009.02091.x'
+# code: 'https://doi.org/10.1111/j.1365-2699.2009.02091.x'
+toc: false
+categories: 
+  - biogeography
+  - laurel forests
+  - phylogeography
+---
+
+## Citation
+
+> Rodríguez‐Sánchez, F., Guzmán, B., Valido, A., Vargas, P. & Arroyo, J. (2009) Late Neogene history of the laurel tree (Laurus L., Lauraceae) based on phylogeographical analyses of Mediterranean and Macaronesian populations. Journal of Biogeography, 36, 1270–1281.
+
+## Abstract
+
+<jats:title>Abstract</jats:title><jats:p><jats:bold>Aim </jats:bold> The post‐glacial range dynamics of many European plant species have been widely investigated, but information rapidly diminishes as one moves further back in time. Here we infer the historical range shifts of <jats:italic>Laurus</jats:italic>, a paradigmatic tree of the Tethyan flora that has covered southern Eurasia since the Oligo‐Miocene, by means of phylogenetic and phylogeographical analyses.</jats:p><jats:p><jats:bold>Location </jats:bold> Mediterranean Basin, Black Sea and Macaronesian archipelagos (Azores, Madeira, Canary Islands).</jats:p><jats:p><jats:bold>Methods </jats:bold> We analysed plastid DNA (cpDNA) sequence (<jats:italic>trnK–matK</jats:italic>, <jats:italic>trnD–trnT</jats:italic>) variation in 57 populations of <jats:italic>Laurus</jats:italic> and three Lauraceae genera. Phylogenetic methods (maximum parsimony and Bayesian inference) and statistical parsimony networks were used to reconstruct relationships among haplotypes. These results were contrasted with the fossil record and bioclimatic niche‐based model predictions of past distributions to infer the migration routes and location of refugia.</jats:p><jats:p><jats:bold>Results </jats:bold> The phylogenetic tree revealed monophyly for <jats:italic>Laurus</jats:italic>. Overall sequence variability was low within <jats:italic>Laurus</jats:italic>, but six different haplotypes were distinguished and a single network retrieved, portraying three lineages primarily related to geography. A strongly divergent eastern lineage occupied Turkey and the Near East, a second clade was located in the Aegean region and, lastly, a western clade grouped all Macaronesian and central and western Mediterranean populations. A close relationship was observed between the Macaronesian populations of <jats:italic>L. azorica</jats:italic> and the western populations of <jats:italic>L. nobilis</jats:italic>.</jats:p><jats:p><jats:bold>Main conclusions </jats:bold> The phylogeographical structure of <jats:italic>Laurus</jats:italic> preserves the imprints of an ancient contraction and break‐up of the range that resulted in the evolution of separate cpDNA lineages in its western‐ and easternmost extremes. Intense range dynamics in the western Mediterranean and multiple glacial refugia contributed to the generation and long‐term conservation of this phylogeographical pattern, as shown by the fit between the haplotype ranges and past suitable areas inferred from bioclimatic models. Finally, our results challenge the taxonomic separation of <jats:italic>Laurus</jats:italic> into two distinct species.</jats:p>
+
+### Publication metrics
+
+<br>
+
+<span class="__dimensions_badge_embed__" data-doi="10.1111/j.1365-2699.2009.02091.x" data-hide-zero-citations="true" data-legend="always"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script><div data-badge-details="right" data-badge-type="medium-donut" data-doi="10.1111/j.1365-2699.2009.02091.x" data-hide-no-mentions="true" class="altmetric-embed"></div>
+
+<div class="scite-badge" data-doi="10.1111/j.1365-2699.2009.02091.x" data-layout="horizontal" data-show-zero="false" data-show-labels="true"></div><link rel="stylesheet" type="text/css" href="https://cdn.scite.ai/badge/scite-badge-latest.min.css"><script async type="application/javascript" src="https://cdn.scite.ai/badge/scite-badge-latest.min.js"></script>
+

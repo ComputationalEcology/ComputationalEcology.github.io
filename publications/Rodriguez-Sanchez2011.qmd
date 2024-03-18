@@ -1,0 +1,31 @@
+---
+title: 'Un análisis integrado de la respuesta de las especies al cambio climático: biogeografía y ecología de árboles relictos en el Mediterráneo'
+type: 'article'
+author: 'Rodríguez-Sánchez'
+year: '2011'
+publication: 'Ecosistemas'
+# preprint: 'https://doi.org/10.1038/nclimate1667'
+doi: 'https://www.revistaecosistemas.net/index.php/ecosistemas/article/view/641'
+pdf: 'https://frodriguezsanchez.net/pdf/Rodriguez-Sanchez_Ecosistemas_2011.pdf'
+# data: 'https://doi.org/10.1038/nclimate1667'
+# code: 'https://doi.org/10.1038/nclimate1667'
+toc: false
+categories: 
+  - review
+  - refugia
+  - biogeography
+  - species distribution modelling
+  - phylogeography
+  - palaeoecology
+  - laurel forests
+---
+
+## Citation
+
+> Rodríguez-Sánchez F (2011) Un análisis integrado de la respuesta de las especies al cambio climático: biogeografía y ecología de árboles relictos en el Mediterráneo. *Ecosistemas* 20(1).
+
+## Abstract
+
+
+
+

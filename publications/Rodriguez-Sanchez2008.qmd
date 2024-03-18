@@ -1,0 +1,39 @@
+---
+title: 'The Strait of Gibraltar as a melting pot for plant biodiversity'
+type: 'article'
+author: 'Rodriguez-Sanchez, Pérez-Barrales, Ojeda, Vargas, Arroyo'
+year: '2008'
+publication: 'Quaternary Science Reviews'
+# preprint: 'https://doi.org/10.1016/j.quascirev.2008.08.006'
+doi: 'https://doi.org/10.1016/j.quascirev.2008.08.006'
+pdf: 'https://frodriguezsanchez.net/pdf/Rodriguez-Sanchez_QSR_2008.pdf'
+# data: 'https://doi.org/10.1016/j.quascirev.2008.08.006'
+# code: 'https://doi.org/10.1016/j.quascirev.2008.08.006'
+toc: false
+categories: 
+  - review
+  - biogeography
+  - laurel forests
+  - climate change
+  - refugia
+  - Parque Natural Los Alcornocales
+---
+
+## Citation
+
+> Rodríguez-Sanchez F, Pérez-Barrales R, Ojeda F, Vargas P, Arroyo J. (2008) The Strait of Gibraltar as a melting pot for plant biodiversity. Quaternary Science Reviews, 27, 2100–2117.
+
+## Abstract
+
+The S Iberian Peninsula and NW Africa constitute one of the main hotspots for plant biodiversity within the Mediterranean Basin. At the core of this hotspot, across the Strait of Gibraltar, lies a smaller region whose singular Cenozoic history and ecological features have created a distinct, nested sub-hotspot. In particular, an important relict flora, a high endemism, and the dominance of vegetation types other than the paradigmatic Mediterranean-type sclerophyllous forests and shrublands, are biogeographical features of paramount relevance. These singular environments may have provided suitable mesic habitats for stable human populations in this region throughout the Quaternary. Here we explore the possible causes of the unique biodiversity of this region. First, we show that endemism is associated with poor soils and mild Mediterranean climate, whereas relictness is primarily associated with riparian and humid habitats which might have remained relatively stable since the Late Tertiary. We then review and provide new results on lineage and molecular diversity of some taxa based on their evolutionary relationships inferred from phylogenetic and phylogeographical analyses. These indicate that long-lived plants, such as trees, tend to show some discontinuity in effective gene flow, in comparison with short-lived and pioneer plants. Colonization abilities rather than dispersal vectors appear to be a crucial factor. We also analyze the role of microevolutionary processes that generate plant biodiversity in terms of reproductive features involved in lineage formation, such as breeding system, pollination biology and postdispersal regeneration. The few available studies show that this region is prone to changes in reproductive systems, associated with both abiotic and biotic conditions in the new habitats that plants face during colonization. Dispersal and regeneration ecology is especially important for relict species, as most of these species face some biotic (e.g., lack of dispersers, predation) and abiotic (edaphic and/or microclimate requirements) limitations to their recruitment. Nevertheless current limitations in the recruitment of relict plant species should not obscure the fact that they have been resilient in the face of Plio–Pleistocene climate changes in the Gibraltar region, whereas they became extinct in other Mediterranean areas. The relatively stable and mild climate of this region may have provided a suitable long-term environment for many other organisms, including humans.
+
+### Publication metrics
+
+<br>
+
+<span class="__dimensions_badge_embed__" data-doi="10.1016/j.quascirev.2008.08.006" data-hide-zero-citations="true" data-legend="always"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script><div data-badge-details="right" data-badge-type="medium-donut" data-doi="10.1016/j.quascirev.2008.08.006" data-hide-no-mentions="true" class="altmetric-embed"></div>
+
+<div class="scite-badge" data-doi="10.1016/j.quascirev.2008.08.006" data-layout="horizontal" data-show-zero="false" data-show-labels="true"></div><link rel="stylesheet" type="text/css" href="https://cdn.scite.ai/badge/scite-badge-latest.min.css"><script async type="application/javascript" src="https://cdn.scite.ai/badge/scite-badge-latest.min.js"></script>
+

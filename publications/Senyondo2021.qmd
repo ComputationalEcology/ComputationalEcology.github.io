@@ -1,0 +1,35 @@
+---
+title: 'Rdataretriever: R Interface to the Data Retriever'
+type: 'article'
+author: 'Senyondo, McGlinn, Sharma, Harris, Ye, Taylor, Ooms, Rodríguez-Sánchez, Ram, Pandey, Bansal, Pohlman, White'
+year: '2021'
+publication: 'Journal of Open Source Software'
+preprint: 'https://github.com/openjournals/joss-reviews/issues/2800'
+doi: 'https://doi.org/10.21105/joss.02800'
+pdf: 'https://doi.org/10.21105/joss.02800'
+# data: 'https://doi.org/10.21105/joss.02800'
+code: 'https://github.com/ropensci/rdataretriever'
+toc: false
+categories: 
+  - software
+---
+
+## Citation
+
+> Senyondo, H., McGlinn, D., Sharma, P., Harris, D., Ye, H., Taylor, S., et al. (2021) Rdataretriever: R Interface to the Data Retriever. Journal of Open Source Software, 6, 2800.
+
+## Abstract
+
+The rdataretriever provides an R interface to the Python-based Data Retriever software. The Data Retriever automates the multiple steps of data analysis including downloading, cleaning, standardizing, and importing datasets into a variety of relational databases and flat file formats. It also supports provenance tracking for these steps of the analysis workflow by allowing datasets to be committed at the time of installation and allowing them to be reinstalled with the same data and processing steps in the future. Finally, it supports the installation of spatial datasets into relational databases with spatial support. The rdataretriever provides an R interface to this functionality and also supports importing of datasets directly into R for immediate analysis. The system also supports the use of custom data processing routines to support complex datasets that require custom data manipulation steps. The Data Retriever and rdataretriever are focused on scientific data applications including a number of widely used, but difficult to work with, datasets in ecology and the environmental sciences
+
+
+### Publication metrics
+
+<br>
+
+<span class="__dimensions_badge_embed__" data-doi="10.21105/joss.02800" data-hide-zero-citations="true" data-legend="always"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script><div data-badge-details="right" data-badge-type="medium-donut" data-doi="10.21105/joss.02800" data-hide-no-mentions="true" class="altmetric-embed"></div>
+
+<div class="scite-badge" data-doi="10.21105/joss.02800" data-layout="horizontal" data-show-zero="false" data-show-labels="true"></div><link rel="stylesheet" type="text/css" href="https://cdn.scite.ai/badge/scite-badge-latest.min.css"><script async type="application/javascript" src="https://cdn.scite.ai/badge/scite-badge-latest.min.js"></script>
+

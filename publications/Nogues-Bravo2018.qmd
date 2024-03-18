@@ -1,0 +1,37 @@
+---
+title: 'Cracking the Code of Biodiversity Responses to Past Climate Change'
+type: 'article'
+author: 'Nogués-Bravo, Rodríguez-Sánchez, Orsini, de Boer, Jansson, Morlon, Fordham, Jackson'
+year: '2018'
+publication: 'Trends in Ecology & Evolution'
+preprint: 'https://core.ac.uk/download/pdf/267307812.pdf'
+doi: 'https://doi.org/10.1016/j.tree.2018.07.005'
+pdf: 'https://frodriguezsanchez.net/pdf/NoguesBravo_TREE_2018.pdf'
+# data: 'https://doi.org/10.1016/j.tree.2018.07.005'
+code: 'https://gist.github.com/Pakillo/1eaaf746ad65fcf52b5df8cd9e1430fb'
+toc: false
+categories: 
+  - review
+  - climate change
+  - biogeography
+  - palaeoecology
+---
+
+## Citation
+
+> Nogués-Bravo, D., Rodríguez-Sánchez, F., Orsini, L., Boer, E. de, Jansson, R., Morlon, H., et al. (2018) Cracking the Code of Biodiversity Responses to Past Climate Change. Trends in Ecology &amp; Evolution, 33, 765–776.
+
+## Abstract
+
+How individual species and entire ecosystems will respond to future climate change are among the most pressing questions facing ecologists. Past biodiversity dynamics recorded in the paleoecological archives show a broad array of responses, yet significant knowledge gaps remain. In particular, the relative roles of evolutionary adaptation, phenotypic plasticity, and dispersal in promoting survival during times of climate change have yet to be clarified. Investigating the paleo-archives offers great opportunities to understand biodiversity responses to future climate change. In this review we discuss the mechanisms by which biodiversity responds to environmental change, and identify gaps of knowledge on the role of range shifts and tolerance. We also outline approaches at the intersection of paleoecology, genomics, experiments, and predictive models that will elucidate the processes by which species have survived past climatic changes and enhance predictions of future changes in biological diversity.
+
+### Publication metrics
+
+<br>
+
+<span class="__dimensions_badge_embed__" data-doi="10.1016/j.tree.2018.07.005" data-hide-zero-citations="true" data-legend="always"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script><div data-badge-details="right" data-badge-type="medium-donut" data-doi="10.1016/j.tree.2018.07.005" data-hide-no-mentions="true" class="altmetric-embed"></div>
+
+<div class="scite-badge" data-doi="10.1016/j.tree.2018.07.005" data-layout="horizontal" data-show-zero="false" data-show-labels="true"></div><link rel="stylesheet" type="text/css" href="https://cdn.scite.ai/badge/scite-badge-latest.min.css"><script async type="application/javascript" src="https://cdn.scite.ai/badge/scite-badge-latest.min.js"></script>
+

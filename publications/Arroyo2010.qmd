@@ -1,0 +1,35 @@
+---
+title: 'Isolation and characterization of 20 microsatellite loci for laurel species (Laurus, Lauraceae)'
+type: 'article'
+author: 'Arroyo, Rigueiro, Rodríguez, Hampe, Valido, Rodríguez‐Sánchez, Jordano'
+year: '2010'
+publication: 'American Journal of Botany'
+# preprint: 'https://doi.org/10.3732/ajb.1000069'
+doi: 'https://doi.org/10.3732/ajb.1000069'
+pdf: 'https://frodriguezsanchez.net/pdf/Arroyo-AJB-2010.pdf'
+# data: 'https://doi.org/10.3732/ajb.1000069'
+# code: 'https://doi.org/10.3732/ajb.1000069'
+toc: false
+categories: 
+  - phylogeography
+  - laurel forests
+---
+
+## Citation
+
+> Arroyo, J.M., Rigueiro, C., Rodríguez, R., Hampe, A., Valido, A., Rodríguez‐Sánchez, F., et al. (2010) Isolation and characterization of 20 microsatellite loci for laurel species (Laurus, Lauraceae). American Journal of Botany, 97.
+
+## Abstract
+
+<jats:p>• <jats:italic>Premise of the study:</jats:italic> Microsatellite primers were developed for the evergreen tree <jats:italic>Laurus</jats:italic> to investigate population genetic structure and patterns of gene flow via animal‐dispersed pollen and seeds.</jats:p><jats:p>• <jats:italic>Methods and Results:</jats:italic> Twenty polymorphic nuclear microsatellite markers were developed using CA, GA, AAC, and ATG n‐enriched genomic libraries. Given the tetraploidy of the sampled populations, we analyzed our data both as dominant loci and as codominant genotypic data to calculate allele frequencies and genetic diversity. A total of 196 and 222 alleles were found in 37 Mediterranean (<jats:italic>L. nobilis</jats:italic>) and 26 Macaronesian islands (<jats:italic>L</jats:italic>. <jats:italic>azorica</jats:italic>) individuals, respectively.</jats:p><jats:p>• <jats:italic>Conclusions:</jats:italic> Levels of polymorphism of the reported markers are adequate for studies of diversity and parentage in natural populations of this Tertiary relict tree.</jats:p>
+
+### Publication metrics
+
+<br>
+
+<span class="__dimensions_badge_embed__" data-doi="10.3732/ajb.1000069" data-hide-zero-citations="true" data-legend="always"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script><div data-badge-details="right" data-badge-type="medium-donut" data-doi="10.3732/ajb.1000069" data-hide-no-mentions="true" class="altmetric-embed"></div>
+
+<div class="scite-badge" data-doi="10.3732/ajb.1000069" data-layout="horizontal" data-show-zero="false" data-show-labels="true"></div><link rel="stylesheet" type="text/css" href="https://cdn.scite.ai/badge/scite-badge-latest.min.css"><script async type="application/javascript" src="https://cdn.scite.ai/badge/scite-badge-latest.min.js"></script>
+

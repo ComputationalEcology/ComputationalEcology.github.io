@@ -1,0 +1,60 @@
+---
+title: 'ClimPlant: Realized climatic niches of vascular plants in European forest understoreys'
+type: 'article'
+author: 'Vangansbeke, Máliš, Hédl, Chudomelová, Vild, Wulf, Jahn, Welk, Rodríguez‐Sánchez, De Frenne'
+year: '2021'
+publication: 'Global Ecology and Biogeography'
+# preprint: 'https://doi.org/10.1111/geb.13303'
+doi: 'https://doi.org/10.1111/geb.13303'
+pdf: 'https://biblio.ugent.be/publication/8708229/file/8726479.pdf'
+data: 'https://doi.org/10.6084/m9.figshare.12199628.v3'
+# code: 'https://doi.org/10.1111/geb.13303'
+toc: false
+categories: 
+  - biogeography
+  - climate change
+  - species distribution modelling
+---
+
+## Citation
+
+> Vangansbeke, P., Máliš, F., Hédl, R., Chudomelová, M., Vild, O., Wulf, M., et al. (2021) ClimPlant: Realized climatic niches of vascular plants in European forest understoreys. Global Ecology and Biogeography, 30, 1183–1190.
+
+## Abstract
+
+
+Motivation
+
+Detailed knowledge on the climatic tolerances of species is crucial to understand, quantify and predict the impact of climate change on biodiversity and ecosystem functions. However, quantitative data are limited; often, only expert-based qualitative estimates are available. With the ClimPlant database, we capitalize on the link between species distribution ranges and macroclimate to infer the realized climatic niches of 968 European forest plant species.
+
+Main types of variables contained
+
+The ClimPlant database contains information on the distribution of monthly, growing-season and annual mean, minimum and maximum temperature and total precipitation within the distribution range of 968 European forest plants.
+
+Spatial location and grain
+
+Europe in 10 arc-min grid cells; the study area has been cropped rectangularly at 15° W (Atlantic Ocean), 60° E (Ural Mountains), 25° N (Sahara) and 75° N (Arctic Ocean).
+
+Time period and grain
+
+The distribution ranges of forest plant species are based on two renowned distribution atlases. The monthly mean, minimum and maximum temperature and precipitation between 1970 and 2000 were extracted from WorldClim v.2.
+
+Major taxa and level of measurement
+
+Nine hundred and sixty-eight vascular plant species of European forests, with taxonomy following the Euro+Med PlantBase nomenclature .
+
+Software format
+
+Data in 56 CSV files, with 1,000 values for monthly, growing season and annual observations of mean, minimum and maximum temperature and precipitation in the distribution range for every species. One summary CSV file with summary statistics (mean, median, fifth and 95th percentile), for every species, of each climatic variable, together with seven key geographical descriptors: area of the distribution range, latitude and longitude of the centroid, and northern, eastern, western and southern range limits within the study area.
+
+
+### Publication metrics
+
+<br>
+
+<span class="__dimensions_badge_embed__" data-doi="10.1111/geb.13303" data-hide-zero-citations="true" data-legend="always"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script><div data-badge-details="right" data-badge-type="medium-donut" data-doi="10.1111/geb.13303" data-hide-no-mentions="true" class="altmetric-embed"></div>
+
+<div class="scite-badge" data-doi="10.1111/geb.13303" data-layout="horizontal" data-show-zero="false" data-show-labels="true"></div><link rel="stylesheet" type="text/css" href="https://cdn.scite.ai/badge/scite-badge-latest.min.css"><script async type="application/javascript" src="https://cdn.scite.ai/badge/scite-badge-latest.min.js"></script>
+

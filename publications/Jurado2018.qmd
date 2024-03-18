@@ -1,0 +1,31 @@
+---
+title: 'Análisis de la producción de corcho en 6 municipios del Parque Natural Los Alcornocales (Cádiz-Málaga) durante los últimos 30 años (1985-2014)'
+type: 'article'
+author: 'Jurado, Luque-Oliva, Rodríguez-Sánchez'
+year: '2018'
+publication: 'Almoraima'
+# preprint: 'https://zenodo.org/doi/10.5281/zenodo.1325106'
+# doi: 'https://doi.org/10.5281/zenodo.4529818'
+pdf: 'http://institutoecg.es/wp-content/uploads/2019/03/Almoraima49-211-226.pdf'
+data: 'https://zenodo.org/doi/10.5281/zenodo.2635372'
+code: 'https://zenodo.org/doi/10.5281/zenodo.2635372'
+toc: false
+categories: 
+  - Parque Natural Los Alcornocales
+  - forest dynamics
+  - climate change
+---
+
+## Citation
+
+> Jurado-Doña V, Luque-Oliva V. & Rodriguez-Sanchez F. (2018) Análisis de la producción de corcho en 6 municipios del Parque Natural de Los Alcornocales (Cádiz-Málaga) durante los últimos 30 años (1985-2014). *Almoraima* 49: 211-225.
+
+## Abstract
+
+Se ha analizado la producción corchera de seis municipios del Parque Natural de Los Alcornocales desde 1985 hasta 2014, incluyendo tanto datos de los montes públicos como de las fincas privadas. Encontramos grandes diferencias en la producción anual de corcho tanto entre municipios como entre montes públicos y privados. Estas diferencias están determinadas, entre otros factores, por la superficie descorchada cada año y el grado de afectación por seca. En todos los casos estudiados existe una gran variabilidad interanual en la producción de corcho en la que intervienen factores ambientales, sociales y económicos. Además se detectan tendencias decrecientes de la producción durante estos 30 años en gran parte de los montes. Los resultados obtenidos aconsejan el seguimiento detallado del estado de los alcornocales a lo largo y ancho del Parque Natural para lograr la detección temprana de procesos de declive y la gestión adaptativa de la masa forestal ante los problemas derivados de la seca.
+
+We have analysed cork production trends in six municipalities of Los Alcornocales Natural Park from 1985 to 2014, including data from public and private farms. We found large differences in annual cork production both between municipalities and between public and private forests. These differences are determined, among other factors, by the area uncorked each year and the degree of affectation by oak dieback. In all the cases studied there is great interannual variability in the production of cork in which environmental, social and economic factors intervene. In addition, we detected decreasing trends of cork production during these 30 years in most of the forests. These results call for the detailed monitoring of the state of cork oak forests across the Natural Park to achieve the early detection of oak decline and adaptive management in the face of dieback processes.
+
+
+
+

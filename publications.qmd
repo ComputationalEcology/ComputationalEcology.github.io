@@ -1,0 +1,21 @@
+---
+title: "Publications"
+toc: false
+listing:
+  - id: articles
+    contents: "publications/*.qmd"
+    template: ./ejs/article.ejs
+    categories: true
+    sort:
+      - "year desc"
+      - "title"
+    sort-ui: [title,author,publication,year]
+    filter-ui: [title,author,publication,year]
+    page-size: 50
+    field-display-names: 
+      publication: "Publication"
+      year: "Year"
+---
+
+:::{#articles}
+:::

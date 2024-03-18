@@ -1,0 +1,36 @@
+---
+title: "Reciprocity and interaction effectiveness in generalised mutualisms among free-living species"
+type: "article"
+author: "Quintero, Rodríguez-Sánchez, Jordano"
+year: "2023"
+publication: "Ecology Letters"
+preprint: "https://doi.org/10.1101/2022.03.23.485462"
+doi: "https://doi.org/10.1111/ele.14141"
+pdf: "https://onlinelibrary.wiley.com/doi/epdf/10.1111/ele.14141"
+data: "https://github.com/PJordano-Lab/MS_effectiveness"
+code: "https://github.com/PJordano-Lab/MS_effectiveness"
+toc: false
+categories:
+  - plant-animal mutualisms
+  - ecological networks
+---
+
+## Citation 
+
+> Quintero E, Rodríguez-Sánchez F & Jordano P (2023) Reciprocity and interaction effectiveness in generalised mutualisms among free-living species. *Ecology Letters* 26, 132– 146. Available from: https://doi.org/10.1111/ele.14141 
+
+## Abstract
+
+Mutualistic interactions among free-living species generally involve low-frequency interactions and highly asymmetric dependence among partners, yet our understanding of factors behind their emergence is still limited. Using individual-based interactions of a super-generalist fleshy-fruited plant with its frugivore assemblage, we estimated the Resource Provisioning Effectiveness (RPE) and Seed Dispersal Effectiveness (SDE) to assess the balance in the exchange of resources. Plants were highly dependent on a few frugivore species, while frugivores interacted with most individual plants, resulting in strong asymmetries of mutual dependence. Interaction effectiveness was mainly driven by interaction frequency. Despite highly asymmetric dependences, the strong reliance on quantity of fruit consumed determined high reciprocity in rewards between partners (i.e. higher energy provided by the plant, more seedlings recruited), which was not obscured by minor variations in the quality of animal or plant service. We anticipate reciprocity will emerge in low-intimacy mutualisms where the mutualistic outcome largely relies upon interaction frequency.
+
+### Publication metrics
+
+<br>
+
+<span class="__dimensions_badge_embed__" data-doi="10.1111/ele.14141" data-hide-zero-citations="true" data-legend="always"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+<div data-badge-details="right" data-badge-type="medium-donut" data-doi="10.1111/ele.14141" data-hide-no-mentions="true" class="altmetric-embed"></div>
+
+<div class="scite-badge" data-doi="10.1111/ele.14141" data-layout="horizontal" data-show-zero="false" data-show-labels="true"></div><link rel="stylesheet" type="text/css" href="https://cdn.scite.ai/badge/scite-badge-latest.min.css"><script async type="application/javascript" src="https://cdn.scite.ai/badge/scite-badge-latest.min.js"></script>
+

@@ -1,0 +1,56 @@
+---
+title: "Postdoc offer on Macroevolution of plant dispersal"
+author: "Francisco Rodriguez-Sanchez"
+date: "2024-03-15"
+categories: [jobs]
+#image: 
+---
+
+We are looking to recruit a **postdoctoral researcher** with experience in **plant macroevolution and phylogenetic comparative analyses** to carry out a study on the **evolution of plant dispersal modes** across seed plants, using dated phylogenies and a novel database of plant dispersal traits. The researcher will join the Computational Ecology and Global Change group ([MAYBE_lab](https://ComputationalEcology.github.io/web)) at University of Sevilla (Spain), and will work in close collaboration with [Francisco Rodriguez-Sanchez](https://frodriguezsanchez.net), [Elena Quintero](https://ComputationalEcology.github.io/web/team/current/Elena_Quintero.html), [Pedro Jordano](http://ebd10.ebd.csic.es/), and other collaborators in Spain and worldwide. The project is funded by the Spanish Research Agency under grant CNS2022-135839 ("Evolution of plant biotic dispersal").
+
+
+## Main responsibilities
+
+The researcher will use a novel comprehensive database on the dispersal mode of thousands of plant species worldwide to analyse the evolution of biotic (animal) dispersal along the entire history of seed plants. The researcher will complete these analyses and will lead the writing of a manuscript reporting the results. If interested, the researcher may also collaborate with other ongoing related projects in the lab and co-supervise undergraduate and Master students.
+
+
+## Requirements
+
+- Experience on macroevolution and phylogenetic comparative analysis
+- Experience with R programming, data management and statistical analysis
+
+## Valuable skills/knowledge
+
+- Knowledge of plant/animal macroevolution, plant dispersal, biotic interactions
+- Version control with git
+
+## Where
+
+The postdoctoral researcher will join the Computational Ecology and Global Change group ([MAYBE_lab](https://ComputationalEcology.github.io/web)) at the [Department of Plant Biology and Ecology](https://area.us.es/bioeco/), Faculty of Biology, [University of Sevilla](https://www.us.es/), Spain. 
+
+The [MAYBE_lab](https://ComputationalEcology.github.io/web) is a young, dynamic and friendly research group broadly interested on the ecology and biogeography of plants and their animal mutualists in a global change context, with a strong interest on ecoinformatics and statistical modelling. Please browse [our website](https://ComputationalEcology.github.io/web) to learn more about us, including our [lab philosophy](https://ComputationalEcology.github.io/web/philosophy.html).
+
+Sevilla is a nice, lively Mediterranean city with strong cultural and street life, outstanding research institutes, and incredible natural surroundings (beaches, mountains, natural parks). People often love living here!
+
+![](Sevillaetal.jpg){fig-align="center"}
+
+
+## When
+
+The incorporation date is flexible, but should be **no later than September 2024**. Current funding runs until end of August 2025. The contract might be extended depending on performance and success with future funding applications. If interested, the PI will support the researcher in applying to national and international postdoctoral calls (Marie Curie, etc).
+
+
+## Salary and conditions
+
+We offer a friendly and flexible working environment. The contract is full time (37.5 hours per week), with corresponding holidays. The gross salary is between 30.000 and 36.000 euros per year (depending on arrival date), which is in the top quartile of salaries in the region and more than enough to live comfortably in Sevilla. Besides the salary, there is funding available for travelling (stays, conferences) and other project-related expenses.
+
+
+## Application process
+
+If interested please send an email to Francisco Rodriguez-Sanchez (frodriguez@us.es) **before 31 March 2024** including a motivation letter (1-page) and short CV (<5 pages) with two contacts for reference. If you have doubts/questions please do get in touch in the same email.
+
+We are looking forward to working with you!
+
+
+
+

@@ -1,0 +1,36 @@
+---
+title: 'Niche Estimation Above and Below the Species Level'
+type: 'article'
+author: 'Smith, Godsoe, Rodríguez-Sánchez, Wang, Warren'
+year: '2019'
+publication: 'Trends in Ecology & Evolution'
+# preprint: 'https://doi.org/10.1016/j.tree.2018.10.012'
+doi: 'https://doi.org/10.1016/j.tree.2018.10.012'
+pdf: 'https://frodriguezsanchez.net/pdf/Smith-TREE-2019.pdf'
+# data: 'https://doi.org/10.1016/j.tree.2018.10.012'
+code: 'https://zenodo.org/doi/10.5281/zenodo.1470855'
+toc: false
+categories: 
+  - species distribution modelling
+  - climate change
+  - review
+---
+
+## Citation
+
+> Smith, A.B., Godsoe, W., Rodríguez-Sánchez, F., Wang, H.-H. & Warren, D. (2019) Niche Estimation Above and Below the Species Level. Trends in Ecology &amp; Evolution, 34, 260–273.
+
+## Abstract
+
+Ecological niches reflect not only adaptation to local circumstances but also the tendency of related lineages to share environmental tolerances. As a result, information on phylogenetic relationships has underappreciated potential to inform ecological niche modeling. Here we review three strategies for incorporating evolutionary information into niche models: splitting lineages into subunits, lumping across lineages, and partial pooling of lineages into a common statistical framework that implicitly or explicitly accounts for evolutionary relationships. We challenge the default practice of modeling at the species level, which ignores the process of niche evolution and erroneously assumes that the species is always the appropriate level for niche estimation. Progress in the field requires reexamination of how we assess models of niches versus models of distributions.
+
+### Publication metrics
+
+<br>
+
+<span class="__dimensions_badge_embed__" data-doi="10.1016/j.tree.2018.10.012" data-hide-zero-citations="true" data-legend="always"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script><div data-badge-details="right" data-badge-type="medium-donut" data-doi="10.1016/j.tree.2018.10.012" data-hide-no-mentions="true" class="altmetric-embed"></div>
+
+<div class="scite-badge" data-doi="10.1016/j.tree.2018.10.012" data-layout="horizontal" data-show-zero="false" data-show-labels="true"></div><link rel="stylesheet" type="text/css" href="https://cdn.scite.ai/badge/scite-badge-latest.min.css"><script async type="application/javascript" src="https://cdn.scite.ai/badge/scite-badge-latest.min.js"></script>
+

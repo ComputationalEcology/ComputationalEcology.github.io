@@ -1,0 +1,35 @@
+---
+title: 'Microclimate moderates plant responses to macroclimate warming'
+type: 'article'
+author: 'De Frenne, Rodríguez-Sánchez, Coomes, Baeten, Verstraeten, Vellend, Bernhardt-Römermann, Brown, Brunet, Cornelis, Decocq, Dierschke, Eriksson, Gilliam, Hédl, Heinken, Hermy, Hommel, Jenkins, Kelly, Kirby, Mitchell, Naaf, Newman, Peterken, Petřík, Schultz, Sonnier, Van Calster, Waller, Walther, White, Woods, Wulf, Graae, Verheyen'
+year: '2013'
+publication: 'Proceedings of the National Academy of Sciences'
+# preprint: 'https://doi.org/10.1073/pnas.1311190110'
+doi: 'https://doi.org/10.1073/pnas.1311190110'
+pdf: 'https://doi.org/10.1073/pnas.1311190110'
+# data: 'https://doi.org/10.1073/pnas.1311190110'
+# code: 'https://doi.org/10.1073/pnas.1311190110'
+toc: false
+categories: 
+  - climate change
+  - forest dynamics
+---
+
+## Citation
+
+> De Frenne, P., Rodríguez-Sánchez, F., Coomes, D.A., Baeten, L., Verstraeten, G., Vellend, M., et al. (2013) Microclimate moderates plant responses to macroclimate warming. Proceedings of the National Academy of Sciences, 110, 18561–18565.
+
+## Abstract
+
+Recent global warming is acting across marine, freshwater, and terrestrial ecosystems to favor species adapted to warmer conditions and/or reduce the abundance of cold-adapted organisms (i.e., “thermophilization” of communities). Lack of community responses to increased temperature, however, has also been reported for several taxa and regions, suggesting that “climatic lags” may be frequent. Here we show that microclimatic effects brought about by forest canopy closure can buffer biotic responses to macroclimate warming, thus explaining an apparent climatic lag. Using data from 1,409 vegetation plots in European and North American temperate forests, each surveyed at least twice over an interval of 12–67 y, we document significant thermophilization of ground-layer plant communities. These changes reflect concurrent declines in species adapted to cooler conditions and increases in species adapted to warmer conditions. However, thermophilization, particularly the increase of warm-adapted species, is attenuated in forests whose canopies have become denser, probably reflecting cooler growing-season ground temperatures via increased shading. As standing stocks of trees have increased in many temperate forests in recent decades, local microclimatic effects may commonly be moderating the impacts of macroclimate warming on forest understories. Conversely, increases in harvesting woody biomass—e.g., for bioenergy—may open forest canopies and accelerate thermophilization of temperate forest biodiversity.
+
+### Publication metrics
+
+<br>
+
+<span class="__dimensions_badge_embed__" data-doi="10.1073/pnas.1311190110" data-hide-zero-citations="true" data-legend="always"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script><div data-badge-details="right" data-badge-type="medium-donut" data-doi="10.1073/pnas.1311190110" data-hide-no-mentions="true" class="altmetric-embed"></div>
+
+<div class="scite-badge" data-doi="10.1073/pnas.1311190110" data-layout="horizontal" data-show-zero="false" data-show-labels="true"></div><link rel="stylesheet" type="text/css" href="https://cdn.scite.ai/badge/scite-badge-latest.min.css"><script async type="application/javascript" src="https://cdn.scite.ai/badge/scite-badge-latest.min.js"></script>
+

@@ -1,0 +1,24 @@
+---
+title: 'Premio al mejor revisor de Ecosistemas y reconocimiento a editores invitados del bienio 2021-2022'
+type: 'article'
+author: 'Puerta Piñero, Blanco, Jiménez-Eguizábal, Pérez-Luque, Molina Morales, Lacerot, Rodriguez-Sánchez, Alonso, Rodríguez-Echeverría, Miquelajauregui, Bartomeus, Cerón-Souza'
+year: '2023'
+publication: 'Ecosistemas'
+# preprint: 'https://doi.org/10.7818/ECOS.2554'
+doi: 'https://doi.org/10.7818/ECOS.2554'
+pdf: 'https://doi.org/10.7818/ECOS.2554'
+# data: 'https://doi.org/10.7818/ECOS.2554'
+# code: 'https://doi.org/10.7818/ECOS.2554'
+toc: false
+# categories: 
+#   - journal article
+---
+
+## Citation
+
+> Puerta Piñero, C., Blanco, J.A., Jiménez-Eguizábal, L., Pérez-Luque, A.J., Molina Morales, M., Lacerot, G., et al. (2023) Premio al mejor revisor de Ecosistemas y reconocimiento a editores invitados del bienio 2021-2022. Ecosistemas, 32, 2554.
+
+
+
+
+

@@ -1,0 +1,27 @@
+---
+title: 'Los canutos de las Sierras de Algeciras y el Aljibe, retazos del pasado en un ambiente mediterráneo'
+type: 'article'
+author: 'Arroyo, Hampe, Rodríguez-Sánchez'
+year: '2009'
+publication: 'Proyecto Andalucía. Serie Ecología'
+# preprint: 'https://doi.org/10.1017/CBO9780511974540.014'
+# doi: 'https://doi.org/10.1017/CBO9780511974540.014'
+pdf: 'https://frodriguezsanchez.net/pdf/Arroyo-canutos-2009.pdf'
+# data: 'https://doi.org/10.1017/CBO9780511974540.014'
+# code: 'https://doi.org/10.1017/CBO9780511974540.014'
+toc: false
+categories: 
+  - book chapter
+  - laurel forests
+  - refugia
+  - Parque Natural Los Alcornocales
+---
+
+## Citation
+
+> Arroyo J, Hampe A, Rodríguez-Sánchez F. (2009) Los canutos de las Sierras de Algeciras y el Aljibe, retazos del pasado en un ambiente mediterráneo. En: Proyecto Andalucía, Serie Ecología, 295-324.
+
+
+
+
+

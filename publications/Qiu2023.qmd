@@ -1,0 +1,36 @@
+---
+title: 'Masting is uncommon in trees that depend on mutualist dispersers in the context of global climate and fertility gradients'
+type: 'article'
+author: 'Qiu, Aravena, Ascoli, Bergeron, Bogdziewicz, Boivin, Bonal, Caignard, Cailleret, Calama, Calderon, Camarero, Chang-Yang, Chave, Chianucci, Courbaud, Cutini, Das, Delpierre, Delzon, Dietze, Dormont, Espelta, Fahey, Farfan-Rios, Franklin, Gehring, Gilbert, Gratzer, Greenberg, Guignabert, Guo, Hacket-Pain, Hampe, Han, Holik, Hoshizaki, Ibanez, Johnstone, Journé, Kitzberger, Knops, Kunstler, Kurokawa, Lageard, LaMontagne, Lefevre, Leininger, Limousin, Lutz, Macias, Marell, McIntire, Moore, Moran, Motta, Myers, Nagel, Naoe, Noguchi, Oguro, Parmenter, Pearse, Perez-Ramos, Piechnik, Podgorski, Poulsen, Redmond, Reid, Rodman, Rodriguez-Sanchez, Samonil, Sanguinetti, Scher, Seget, Sharma, Shibata, Silman, Steele, Stephenson, Straub, Sutton, Swenson, Swift, Thomas, Uriarte, Vacchiano, Whipple, Whitham, Wion, Wright, Zhu, Zimmerman, Zywiec, Clark'
+year: '2023'
+publication: 'Nature Plants'
+# preprint: 'https://doi.org/10.1038/s41477-023-01446-5'
+doi: 'https://doi.org/10.1038/s41477-023-01446-5'
+pdf: 'https://e-space.mmu.ac.uk/632644/1/Qiu%20et%20al%202023%20NPlants%20-%2014578_3_merged_1683917452.pdf'
+data: 'https://doi.org/10.7924/r4348ph5t'
+code: 'https://cran.r-project.org/web/packages/mastif/index.html'
+toc: false
+categories: 
+  - plant-animal mutualisms
+  - forest dynamics
+  - biogeography
+---
+
+## Citation
+
+> Qiu, T., Aravena, M.-C., Ascoli, D., Bergeron, Y., Bogdziewicz, M., Boivin, T., et al. (2023) Masting is uncommon in trees that depend on mutualist dispersers in the context of global climate and fertility gradients. Nature Plants, 9, 1044–1056.
+
+## Abstract
+
+The benefits of masting (volatile, quasi-synchronous seed production at lagged intervals) include satiation of seed predators, but these benefits come with a cost to mutualist pollen and seed dispersers. If the evolution of masting represents a balance between these benefits and costs, we expect mast avoidance in species that are heavily reliant on mutualist dispersers. These effects play out in the context of variable climate and site fertility among species that vary widely in nutrient demand. Meta-analyses of published data have focused on variation at the population scale, thus omitting periodicity within trees and synchronicity between trees. From raw data on 12 million tree-years worldwide, we quantified three components of masting that have not previously been analysed together: (i) volatility, defined as the frequency-weighted year-to-year variation; (ii) periodicity, representing the lag between high-seed years; and (iii) synchronicity, indicating the tree-to-tree correlation. Results show that mast avoidance (low volatility and low synchronicity) by species dependent on mutualist dispersers explains more variation than any other effect. Nutrient-demanding species have low volatility, and species that are most common on nutrient-rich and warm/wet sites exhibit short periods. The prevalence of masting in cold/dry sites coincides with climatic conditions where dependence on vertebrate dispersers is less common than in the wet tropics. Mutualist dispersers neutralize the benefits of masting for predator satiation, further balancing the effects of climate, site fertility and nutrient demands.
+
+### Publication metrics
+
+<br>
+
+<span class="__dimensions_badge_embed__" data-doi="10.1038/s41477-023-01446-5" data-hide-zero-citations="true" data-legend="always"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script><div data-badge-details="right" data-badge-type="medium-donut" data-doi="10.1038/s41477-023-01446-5" data-hide-no-mentions="true" class="altmetric-embed"></div>
+
+<div class="scite-badge" data-doi="10.1038/s41477-023-01446-5" data-layout="horizontal" data-show-zero="false" data-show-labels="true"></div><link rel="stylesheet" type="text/css" href="https://cdn.scite.ai/badge/scite-badge-latest.min.css"><script async type="application/javascript" src="https://cdn.scite.ai/badge/scite-badge-latest.min.js"></script>
+

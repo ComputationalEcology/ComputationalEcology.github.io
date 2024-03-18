@@ -1,0 +1,50 @@
+---
+title: 'Reconstructing the demise of Tethyan plants: climate‐driven range dynamics of *Laurus* since the Pliocene'
+type: 'article'
+author: 'Rodríguez‐Sánchez, Arroyo'
+year: '2008'
+publication: 'Global Ecology and Biogeography'
+# preprint: 'https://doi.org/10.1111/j.1466-8238.2008.00410.x'
+doi: 'https://doi.org/10.1111/j.1466-8238.2008.00410.x'
+pdf: 'https://frodriguezsanchez.net/pdf/Rodriguez-Sanchez_GEB_2008.pdf'
+# data: 'https://doi.org/10.1111/j.1466-8238.2008.00410.x'
+# code: 'https://doi.org/10.1111/j.1466-8238.2008.00410.x'
+toc: false
+categories: 
+  - laurel forests
+  - refugia
+  - biogeography
+  - climate change
+  - species distribution modelling
+  - palaeoecology
+---
+
+## Citation
+
+> Rodríguez‐Sánchez, F. & Arroyo, J. (2008) Reconstructing the demise of Tethyan plants: climate‐driven range dynamics of Laurus since the Pliocene. Global Ecology and Biogeography, 17, 685–695.
+
+## Abstract
+
+
+
+Aim  Climate changes are thought to be responsible for the retreat and eventual extinction of subtropical lauroid species that covered much of Europe and North Africa during the Palaeogene and early Neogene; little is known, however, of the spatial and temporal patterns of this demise. Herein we calibrate ecological niche models to assess the climatic requirements of Laurus L. (Lauraceae), an emblematic relic from the Tethyan subtropical flora, subsequently using these models to infer how the range dynamics of Laurus were affected by Plio-Pleistocene climate changes. We also provide predictions of likely range changes resulting from future climatic scenarios.
+
+Location  The Mediterranean Basin and Macaronesian islands (Canaries, Madeira, Azores).
+
+Methods  We used a maximum-entropy algorithm (Maxent) to model the relationship between climate and Laurus distribution over time. The models were fitted both to the present and to the middle Pliocene, based on fossil records. We employed climatic reconstructions for the mid-Pliocene (3 Ma), the Last Glacial Maximum (21 ka) and a CO2-doubling future scenario to project putative species distribution in each period. We validated the model projections with Laurus fossil and present occurrences.
+
+Results  Laurus preferentially occupied warm and moist areas with low seasonality, showing a marked stasis of its climatic niche. Models fitted to Pliocene conditions successfully predicted the current species distribution. Large suitable areas existed during the Pliocene, which were strongly reduced during the Pleistocene, but humid refugia within the Mediterranean Basin and Macaronesian islands enabled long-term persistence. Future climate conditions are likely to re-open areas suitable for colonization north of the current range.
+
+Main conclusions  The climatic requirements of Laurus remained virtually unchanged over the last 3 Myr. This marked niche conservatism imposed largely deterministic range dynamics driven by climate conditions. This species's relatively high drought tolerance might account for the survival of Laurus in continental Europe throughout the Quaternary whilst other Lauraceae became extinct. Climatic scenarios for the end of this century would favour an expansion of the species's range towards northern latitudes, while severely limiting southern populations due to increased water stress.
+
+
+### Publication metrics
+
+<br>
+
+<span class="__dimensions_badge_embed__" data-doi="10.1111/j.1466-8238.2008.00410.x" data-hide-zero-citations="true" data-legend="always"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script><div data-badge-details="right" data-badge-type="medium-donut" data-doi="10.1111/j.1466-8238.2008.00410.x" data-hide-no-mentions="true" class="altmetric-embed"></div>
+
+<div class="scite-badge" data-doi="10.1111/j.1466-8238.2008.00410.x" data-layout="horizontal" data-show-zero="false" data-show-labels="true"></div><link rel="stylesheet" type="text/css" href="https://cdn.scite.ai/badge/scite-badge-latest.min.css"><script async type="application/javascript" src="https://cdn.scite.ai/badge/scite-badge-latest.min.js"></script>
+

@@ -1,0 +1,57 @@
+---
+title: 'Widespread latitudinal asymmetry in the performance of marginal populations: A meta‐analysis'
+type: 'article'
+author: 'Pulido, Castagneyrol, Rodríguez‐Sánchez, Cáceres, Pardo, Moracho, Kollmann, Valladares, Ehrlén, Jump, Svenning, Hampe'
+year: '2023'
+publication: 'Global Ecology and Biogeography'
+preprint: 'https://doi.org/10.1101/529560'
+doi: 'https://doi.org/10.1111/geb.13665'
+pdf: 'https://doi.org/10.1111/geb.13665'
+data: 'https://doi.org/10.15454/STOJ93'
+code: 'https://doi.org/10.15454/STOJ93'
+toc: false
+categories: 
+  - biogeography
+  - climate change
+---
+
+## Citation
+
+> Pulido, F., Castagneyrol, B., Rodríguez‐Sánchez, F., Cáceres, Y., Pardo, A., Moracho, E., et al. (2023) Widespread latitudinal asymmetry in the performance of marginal populations: A meta‐analysis. *Global Ecology and Biogeography*, 32, 842–854.
+
+## Abstract
+
+
+Aim
+
+Range shifts are expected to occur when populations at one range margin perform better than those at the other margin, yet no global trend in population performances at range margins has been demonstrated empirically across a wide range of taxa and biomes. Here we test the prediction that, if impacts of ongoing climate change on performance in marginal populations are widespread, then populations from the high-latitude margin (HLM) should perform as well as or better than central populations, whereas low-latitude margin (LLM) populations should perform worse.
+Location
+
+Global.
+Time period
+
+1995–2019.
+Major taxa studied
+
+Plants and animals.
+Methods
+
+To test our prediction, we used a meta-analysis to quantify empirical support for asymmetry in the performance of high- and low-latitude margin populations compared to central populations. Performance estimates (survival, reproduction, or lifetime fitness) for populations occurring in their natural environment were derived from 51 papers involving 113 margin-centre comparisons from 54 species and 705 populations from the Americas, Europe, Africa and Australia. We then related these performance differences to climatic differences among populations. We also tested whether patterns are consistent across taxonomic kingdoms (plants vs animals) and across realms (marine vs terrestrial).
+Results
+
+Populations at margins performed significantly worse than central populations, and this trend was primarily driven by the low-latitude margin. Although the difference was of small magnitude, it was largely consistent across biological kingdoms and realms. Differences in performance were weakly (p = .08) related to the difference in average temperatures between central and marginal populations.
+Main conclusions
+
+The observed asymmetry in performance in marginal populations is consistent with predictions about the effects of global climate change, though further research is needed to confirm the effect of climate. It indicates that changes in demographic rates in marginal populations can serve as early-warning signals of impending range shifts.
+
+
+### Publication metrics
+
+<br>
+
+<span class="__dimensions_badge_embed__" data-doi="10.1111/geb.13665" data-hide-zero-citations="true" data-legend="always"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script><div data-badge-details="right" data-badge-type="medium-donut" data-doi="10.1111/geb.13665" data-hide-no-mentions="true" class="altmetric-embed"></div>
+
+<div class="scite-badge" data-doi="10.1111/geb.13665" data-layout="horizontal" data-show-zero="false" data-show-labels="true"></div><link rel="stylesheet" type="text/css" href="https://cdn.scite.ai/badge/scite-badge-latest.min.css"><script async type="application/javascript" src="https://cdn.scite.ai/badge/scite-badge-latest.min.js"></script>
+
