@@ -2,7 +2,7 @@
 title: "Iván Gallardo"
 sortby: "5"
 categories: [Undergraduate Student]
-image: avatar.jpg
+image: Ivan_Gallardo.jpg
 # started: "Fall 2020"
 toc: false
 about:

@@ -2,7 +2,7 @@
 title: "Marta Muñoz"
 sortby: "6"
 categories: [Undergraduate Student]
-image: avatar.jpg
+image: Marta_Munoz.jpg
 # started: "Fall 2020"
 toc: false
 about:
