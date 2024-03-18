@@ -2,45 +2,45 @@
 title: "Software"
 ---
 
-- [CityShadeMapper: Create high resolution maps of shading/insolation in cities](https://pakillo.github.io/CityShadeMapper/)
+- [CityShadeMapper](https://pakillo.github.io/CityShadeMapper/): Create high resolution maps of shading/insolation in cities
 
-- [DHARMa.helpers: helper functions to check Bayesian brms models with DHARMa](https://pakillo.github.io/DHARMa.helpers/)
+- [DHARMa.helpers](https://pakillo.github.io/DHARMa.helpers/): helper functions to check Bayesian brms models with DHARMa
 
-- [easyclimate: easy access to high-resolution daily climate data](https://verughub.github.io/easyclimate/)
+- [easyclimate](https://verughub.github.io/easyclimate/): easy access to high-resolution daily climate data
 
-- [grateful: facilitate citation of R packages](https://pakillo.github.io/grateful/)
+- [grateful](https://pakillo.github.io/grateful/): facilitate citation of R packages
 
-- [FloraIberica: Taxonomic and distribution data for the vascular plants of the Iberian Peninsula and Balearic Islands](https://pakillo.github.io/FloraIberica/)
+- [FloraIberica](https://pakillo.github.io/FloraIberica/): Taxonomic and distribution data for the vascular plants of the Iberian Peninsula and Balearic Islands
 
-- [ANECAtools: Facilitando el proceso de acreditación en la ANECA](https://pakillo.github.io/ANECAtools/)
+- [ANECAtools](https://pakillo.github.io/ANECAtools/): Facilitando el proceso de acreditación en la ANECA
 
-- [labeleR: Automatic generation of labels, certificates and much more with R](https://github.com/EcologyR/labeleR)
+- [labeleR](https://github.com/EcologyR/labeleR): Automatic generation of labels, certificates and much more with R
 
 - [Lumping, splitting, or pooling taxa for niche estimation? An evaluation through computer simulations](https://github.com/Pakillo/lump.split.pool.ENM)
 
-- [Rgis: streamlining GIS operations in R](https://pakillo.github.io/rgis/)
+- [Rgis](https://pakillo.github.io/rgis/): streamlining GIS operations in R
 
-- [rSDM: Species Distribution Modelling in R](https://pakillo.github.io/rSDM/)
+- [rSDM](https://pakillo.github.io/rSDM/): Species Distribution Modelling in R
 
-- [safeinstall: safe install of R packages from online repositories](https://github.com/Pakillo/safeinstall)
+- [safeinstall](https://github.com/Pakillo/safeinstall): safe install of R packages from online repositories
 
-- [vegetools: tools for reproducible vegetation analyses](https://github.com/Pakillo/vegetools)
+- [vegetools](https://github.com/Pakillo/vegetools): tools for reproducible vegetation analyses
 
-- [biblioformat: Revise and Reformat Plain Text Bibliographies with R](https://github.com/Pakillo/biblioformat)
+- [biblioformat](https://github.com/Pakillo/biblioformat): Revise and Reformat Plain Text Bibliographies with R
 
-- [Effectiveness landscapes: plotting the effectiveness landscape of plant-animal mutualisms](https://github.com/pedroj/effectiveness_pckg)
+- [Effectiveness landscapes](https://github.com/pedroj/effectiveness_pckg): plotting the effectiveness landscape of plant-animal mutualisms
 
-- [rmdTemplates: a collection of Rmarkdown templates](https://github.com/Pakillo/rmdTemplates)
+- [rmdTemplates](https://github.com/Pakillo/rmdTemplates): a collection of Rmarkdown templates
 
-- [template: generic template for research projects structured as R packages](https://pakillo.github.io/template/)
+- [template](https://pakillo.github.io/template/): generic template for research projects structured as R packages
 
-- [aire: calidad del aire en Andalucía](https://github.com/SevillaR/aire)
+- [aire](https://github.com/SevillaR/aire): calidad del aire en Andalucía
 
-- [CVtools: tools for academic CV preparation in R & Rmarkdown](https://github.com/Pakillo/CVtools)
+- [CVtools](https://github.com/Pakillo/CVtools): tools for academic CV preparation in R & Rmarkdown
 
-- [RmdTools: helper functions for Rmarkdown](https://github.com/Pakillo/RmdTools)
+- [RmdTools](https://github.com/Pakillo/RmdTools): helper functions for Rmarkdown
 
-- [pacotools: Miscellaneous tools I often need and forget about](https://github.com/Pakillo/pacotools)
+- [pacotools](https://github.com/Pakillo/pacotools): Miscellaneous tools I often need and forget about
 
 
 
