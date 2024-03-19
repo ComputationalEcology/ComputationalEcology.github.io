@@ -2,7 +2,7 @@
 title: 'Maintaining forest cover to enhance temperature buffering under future climate change'
 type: 'article'
 author: 'De Lombaerde, Vangansbeke, Lenoir, Van Meerbeek, Lembrechts, Rodríguez-Sánchez, Luoto, Scheffers, Haesen, Aalto, Christiansen, De Pauw, Depauw, Govaert, Greiser, Hampe, Hylander, Klinges, Koelemeijer, Meeussen, Ogée, Sanczuk, Vanneste, Zellweger, Baeten, De Frenne'
-year: '2023'
+year: '2022'
 publication: 'Science of The Total Environment'
 preprint: 'https://biblio.ugent.be/publication/8726229/file/8726230.pdf'
 doi: 'https://doi.org/10.1016/j.scitotenv.2021.151338'
