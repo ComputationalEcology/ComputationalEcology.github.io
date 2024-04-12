@@ -7,3 +7,9 @@
 ![](images/MAYBE_lab_name.png){fig-align="center"}
 
 ![](images/Grazalema_panoramic.jpg){fig-align="center"}
+
+------------------------------------------------------------------------
+
+Welcome to the Computational Ecology & Global Change lab (MAYBE_lab) at [University of Sevilla](https://www.us.es) (Spain)!
+
+------------------------------------------------------------------------
