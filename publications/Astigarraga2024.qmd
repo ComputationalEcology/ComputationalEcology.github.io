@@ -1,0 +1,36 @@
+---
+title: 'Relative decline in density of Northern Hemisphere tree species in warm and arid regions of their climate niches'
+type: 'article'
+author: 'Astigarraga, Esquivel-Muelbert, Ruiz-Benito, Rodríguez-Sánchez, Zavala, Vilà-Cabrera, Schelhaas, Kunstler, Woodall, Cienciala, Dahlgren, Govaere, König, Lehtonen, Talarczyk, Liu, Pugh'
+year: '2024'
+publication: 'Proceedings of the National Academy of Sciences'
+preprint: 'https://doi.org/10.1101/2023.09.04.556202'
+doi: 'https://doi.org/10.1073/pnas.2314899121'
+pdf: 'https://doi.org/10.1073/pnas.2314899121'
+data: 'https://doi.org/10.5281/zenodo.10882718'
+code: 'https://doi.org/10.5281/zenodo.10882718'
+toc: false
+categories: 
+  - forest dynamics
+  - biogeography
+  - climate change
+---
+
+## Citation
+
+> Astigarraga, J., Esquivel-Muelbert, A., Ruiz-Benito, P., Rodríguez-Sánchez, F., Zavala, M.A., Vilà-Cabrera, A., et al. (2024) Relative decline in density of Northern Hemisphere tree species in warm and arid regions of their climate niches. Proceedings of the National Academy of Sciences, 121.
+
+## Abstract
+
+<jats:p>Although climate change is expected to drive tree species toward colder and wetter regions of their distribution, broadscale empirical evidence is lacking. One possibility is that past and present human activities in forests obscure or alter the effects of climate. Here, using data from more than two million monitored trees from 73 widely distributed species, we quantify changes in tree species density within their climatic niches across Northern Hemisphere forests. We observe a reduction in mean density across species, coupled with a tendency toward increasing tree size. However, the direction and magnitude of changes in density exhibit considerable variability between species, influenced by stand development that results from previous stand-level disturbances. Remarkably, when accounting for stand development, our findings show a significant change in density toward cold and wet climatic conditions for 43% of the species, compared to only 14% of species significantly changing their density toward warm and arid conditions in both early- and late-development stands. The observed changes in climate-driven density showed no clear association with species traits related to drought tolerance, recruitment and dispersal capacity, or resource use, nor with the temperature or aridity affiliation of the species, leaving the underlying mechanism uncertain. Forest conservation policies and associated management strategies might want to consider anticipated long-term species range shifts alongside the integration of contemporary within-distribution density changes.</jats:p>
+
+### Publication metrics
+
+<br>
+
+<span class="__dimensions_badge_embed__" data-doi="10.1073/pnas.2314899121" data-hide-zero-citations="true" data-legend="always"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script><div data-badge-details="right" data-badge-type="medium-donut" data-doi="10.1073/pnas.2314899121" data-hide-no-mentions="true" class="altmetric-embed"></div>
+
+<div class="scite-badge" data-doi="10.1073/pnas.2314899121" data-layout="horizontal" data-show-zero="false" data-show-labels="true"></div><link rel="stylesheet" type="text/css" href="https://cdn.scite.ai/badge/scite-badge-latest.min.css"><script async type="application/javascript" src="https://cdn.scite.ai/badge/scite-badge-latest.min.js"></script>
+
