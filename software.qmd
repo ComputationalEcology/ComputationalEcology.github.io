@@ -2,6 +2,10 @@
 title: "Software"
 ---
 
+- [BayesianNetworks](https://pakillo.github.io/BayesianNetworks/): Bayesian modelling of bipartite networks
+
+- [network.tools](https://pakillo.github.io/network.tools/): Tools to work with bipartite networks
+
 - [CityShadeMapper](https://pakillo.github.io/CityShadeMapper/): Create high resolution maps of shading/insolation in cities
 
 - [DHARMa.helpers](https://pakillo.github.io/DHARMa.helpers/): helper functions to check Bayesian brms models with DHARMa
