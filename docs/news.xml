@@ -9,13 +9,14 @@
 <link>https://ComputationalEcology.github.io/news.html</link>
 <atom:link href="https://ComputationalEcology.github.io/news.xml" rel="self" type="application/rss+xml"/>
 <description>Computational Ecology &amp; Global Change group</description>
-<generator>quarto-1.3.450</generator>
+<generator>quarto-1.4.555</generator>
 <lastBuildDate>Thu, 14 Mar 2024 23:00:00 GMT</lastBuildDate>
 <item>
   <title>Postdoc offer on Macroevolution of plant dispersal</title>
   <dc:creator>Francisco Rodriguez-Sanchez</dc:creator>
-  <link>https://ComputationalEcology.github.io/posts/2024-postdoc-plant-macroevolution/index.html</link>
+  <link>https://ComputationalEcology.github.io/posts/2024-postdoc-plant-macroevolution/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -46,7 +47,7 @@
 <p>Sevilla is a nice, lively Mediterranean city with strong cultural and street life, outstanding research institutes, and incredible natural surroundings (beaches, mountains, natural parks). People often love living here!</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://ComputationalEcology.github.io/posts/2024-postdoc-plant-macroevolution/Sevillaetal.jpg" class="img-fluid figure-img"></p>
+<p><img src="https://ComputationalEcology.github.io/posts/2024-postdoc-plant-macroevolution/Sevillaetal.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
 </figure>
 </div>
 </section>
@@ -68,7 +69,7 @@
 
  ]]></description>
   <category>jobs</category>
-  <guid>https://ComputationalEcology.github.io/posts/2024-postdoc-plant-macroevolution/index.html</guid>
+  <guid>https://ComputationalEcology.github.io/posts/2024-postdoc-plant-macroevolution/</guid>
   <pubDate>Thu, 14 Mar 2024 23:00:00 GMT</pubDate>
 </item>
 </channel>

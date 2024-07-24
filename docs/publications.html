@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.4.555">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -47,7 +47,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -56,6 +62,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -71,7 +78,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-project','listing-website','listing-format','listing-language','listing-title','listing-type','listing-author','listing-year','listing-publication','listing-preprint','listing-doi','listing-pdf','listing-data','listing-toc','listing-path','listing-outputHref','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-categories','listing-code',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-project','listing-website','listing-format','listing-language','listing-title','listing-type','listing-author','listing-year','listing-publication','listing-preprint','listing-doi','listing-pdf','listing-data','listing-toc','listing-path','listing-outputHref','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count','listing-categories','listing-code',{ data: ['index'] },{ data: ['categories'] }],
       page: 50,
     pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-title","listing-author","listing-publication","listing-year"],
@@ -95,6 +102,33 @@ ul.task-list li input[type="checkbox"] {
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
 <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -102,9 +136,9 @@ ul.task-list li input[type="checkbox"] {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">MAYBE_lab</span>
     </a>
@@ -116,40 +150,40 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html" rel="" target="">
- <span class="menu-text">Home</span></a>
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./team.html" rel="" target="">
- <span class="menu-text">Team</span></a>
+    <a class="nav-link" href="./team.html"> 
+<span class="menu-text">Team</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./publications.html" rel="" target="" aria-current="page">
- <span class="menu-text">Publications</span></a>
+    <a class="nav-link active" href="./publications.html" aria-current="page"> 
+<span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./software.html" rel="" target="">
- <span class="menu-text">Software</span></a>
+    <a class="nav-link" href="./software.html"> 
+<span class="menu-text">Software</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./news.html" rel="" target="">
- <span class="menu-text">News</span></a>
+    <a class="nav-link" href="./news.html"> 
+<span class="menu-text">News</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./philosophy.html" rel="" target="">
- <span class="menu-text">Lab philosophy</span></a>
+    <a class="nav-link" href="./philosophy.html"> 
+<span class="menu-text">Lab philosophy</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="./index.xml" rel="" target=""><i class="bi bi-rss" role="img">
+    <a class="nav-link" href="./index.xml"> <i class="bi bi-rss" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools">
-</div>
           </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -177,7 +211,9 @@ ul.task-list li input[type="checkbox"] {
   </div>
   
 
+
 </header>
+
 
 <div id="listing-articles" class="quarto-listing quarto-listing-container-custom">
 <div class="listing-actions-group">
@@ -206,8 +242,9 @@ ul.task-list li input[type="checkbox"] {
     </div>
 </div>
 <ul class="pub-list list">
+
   <br>
-  <li data-index="0" data-categories="plant-animal mutualisms,ecological networks" data-listing-file-modified-sort="1710769156094" data-listing-reading-time-sort="3">
+  <li data-index="0" data-categories="plant-animal mutualisms,ecological networks" data-listing-file-modified-sort="1721835737094" data-listing-reading-time-sort="3" data-listing-word-count-sort="426">
     <span class="listing-title lead">Downscaling mutualistic networks from species to individuals reveals consistent interaction niches and roles within plant populations</span><br>
     <span class="listing-author">Quintero, Arroyo, Isla, Rodríguez-Sánchez, Jordano</span><br>
     <span class="listing-publication fst-italic ">bioRxiv</span>
@@ -215,24 +252,35 @@ ul.task-list li input[type="checkbox"] {
     <a href="./publications/Quintero2024b.html" class="btn btn-primary">
       Details
     </a>
+    
     <a href="https://doi.org/10.1101/2024.02.02.578595 " class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       DOI
     </a>
+    
+    
     <a href="https://www.biorxiv.org/content/10.1101/2024.02.02.578595v1.full.pdf" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-text"></i> PDF
     </a>
+    
+    
     <a href="https://doi.org/10.1101/2024.02.02.578595" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-text"></i> Preprint
     </a>
+    
+    
     <a href="https://doi.org/10.5281/zenodo.10630819" class="btn btn-light" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-zip"></i> Data
     </a>
+    
+    
     <a href="https://doi.org/10.5281/zenodo.10630819" class="btn btn-light" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-zip"></i> Code
     </a>
+    
   </li>
+
   <br>
-  <li data-index="1" data-categories="plant-animal mutualisms" data-listing-file-modified-sort="1710769173814" data-listing-reading-time-sort="3">
+  <li data-index="1" data-categories="plant-animal mutualisms" data-listing-file-modified-sort="1710769173814" data-listing-reading-time-sort="3" data-listing-word-count-sort="411">
     <span class="listing-title lead">Lasting effects of avian-frugivore interactions on seed dispersal and seedling establishment</span><br>
     <span class="listing-author">Quintero, Arroyo, Dirzo, Jordano, Rodríguez-Sánchez</span><br>
     <span class="listing-publication fst-italic ">Journal of Ecology</span>
@@ -240,24 +288,71 @@ ul.task-list li input[type="checkbox"] {
     <a href="./publications/Quintero2024.html" class="btn btn-primary">
       Details
     </a>
+    
     <a href="https://doi.org/10.1111/1365-2745.14260" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       DOI
     </a>
+    
+    
     <a href="http://pjordanolab.ebd.csic.es/pdfs/Quintero_etal_2024_JEcology_Lasting%20effects%20of%20avian%20frugivore%20interactions%20on%20seed%20dispersal.pdf" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-text"></i> PDF
     </a>
+    
+    
     <a href="https://doi.org/10.32942/X2BW2F" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-text"></i> Preprint
     </a>
+    
+    
     <a href="https://doi.org/10.5281/zenodo.8289087" class="btn btn-light" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-zip"></i> Data
     </a>
+    
+    
     <a href="https://doi.org/10.5281/zenodo.8289087" class="btn btn-light" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-zip"></i> Code
     </a>
+    
   </li>
+
   <br>
-  <li data-index="2" data-categories="microclimate,biogeography" data-listing-file-modified-sort="1710768388245" data-listing-reading-time-sort="2">
+  <li data-index="2" data-categories="forest dynamics,biogeography,climate change" data-listing-file-modified-sort="1721835461713" data-listing-reading-time-sort="2" data-listing-word-count-sort="289">
+    <span class="listing-title lead">Relative decline in density of Northern Hemisphere tree species in warm and arid regions of their climate niches</span><br>
+    <span class="listing-author">Astigarraga, Esquivel-Muelbert, Ruiz-Benito, Rodríguez-Sánchez, Zavala, Vilà-Cabrera, Schelhaas, Kunstler, Woodall, Cienciala, Dahlgren, Govaere, König, Lehtonen, Talarczyk, Liu, Pugh</span><br>
+    <span class="listing-publication fst-italic ">Proceedings of the National Academy of Sciences</span>
+    <span class="listing-year">(2024)</span><br>
+    <a href="./publications/Astigarraga2024.html" class="btn btn-primary">
+      Details
+    </a>
+    
+    <a href="https://doi.org/10.1073/pnas.2314899121" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
+      DOI
+    </a>
+    
+    
+    <a href="https://doi.org/10.1073/pnas.2314899121" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
+      <i class="bi bi-file-earmark-text"></i> PDF
+    </a>
+    
+    
+    <a href="https://doi.org/10.1101/2023.09.04.556202" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
+      <i class="bi bi-file-earmark-text"></i> Preprint
+    </a>
+    
+    
+    <a href="https://doi.org/10.5281/zenodo.10882718" class="btn btn-light" target="_blank" rel="noopener noreferrer">
+      <i class="bi bi-file-earmark-zip"></i> Data
+    </a>
+    
+    
+    <a href="https://doi.org/10.5281/zenodo.10882718" class="btn btn-light" target="_blank" rel="noopener noreferrer">
+      <i class="bi bi-file-earmark-zip"></i> Code
+    </a>
+    
+  </li>
+
+  <br>
+  <li data-index="3" data-categories="microclimate,biogeography" data-listing-file-modified-sort="1710768388245" data-listing-reading-time-sort="2" data-listing-word-count-sort="307">
     <span class="listing-title lead">Taking sides? Aspect has limited influence on soil environment or litter decomposition in pan-European study of roadside verges</span><br>
     <span class="listing-author">Amstutz, Firth, Spicer, De Frenne, Gómez-Aparicio, Graae, Kuś, Lindmo, Orczewska, Rodríguez-Sánchez, Vangansbeke, Vanneste, Hanley</span><br>
     <span class="listing-publication fst-italic ">Pedobiologia</span>
@@ -265,34 +360,23 @@ ul.task-list li input[type="checkbox"] {
     <a href="./publications/Amstutz2024.html" class="btn btn-primary">
       Details
     </a>
+    
     <a href="https://doi.org/10.1016/j.pedobi.2023.150927" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       DOI
     </a>
+    
+    
     <a href="https://doi.org/10.1016/j.pedobi.2023.150927" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-text"></i> PDF
     </a>
+    
+    
+    
+    
   </li>
+
   <br>
-  <li data-index="3" data-categories="forest dynamics,biogeography,climate change" data-listing-file-modified-sort="1710769308503" data-listing-reading-time-sort="2">
-    <span class="listing-title lead">Abundance of Northern Hemisphere tree species declines in the warm and arid regions of their climatic niches</span><br>
-    <span class="listing-author">Astigarraga, Esquivel-Muelbert, Ruiz-Benito, Rodríguez-Sánchez, Zavala, Vilà-Cabrera, Schelhaas, Kunstler, Woodall, Cienciala, Dahlgren, Govaere, König, Lehtonen, Talarczyk, Pugh</span><br>
-    <span class="listing-publication fst-italic ">bioRxiv</span>
-    <span class="listing-year">(2023)</span><br>
-    <a href="./publications/Astigarraga2023.html" class="btn btn-primary">
-      Details
-    </a>
-    <a href="https://doi.org/10.1101/2023.09.04.556202" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
-      DOI
-    </a>
-    <a href="https://www.biorxiv.org/content/10.1101/2023.09.04.556202v1.full.pdf" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
-      <i class="bi bi-file-earmark-text"></i> PDF
-    </a>
-    <a href="https://doi.org/10.1101/2023.09.04.556202" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
-      <i class="bi bi-file-earmark-text"></i> Preprint
-    </a>
-  </li>
-  <br>
-  <li data-index="4" data-categories="plant-animal mutualisms,forest dynamics,biogeography" data-listing-file-modified-sort="1710769255215" data-listing-reading-time-sort="2">
+  <li data-index="4" data-categories="plant-animal mutualisms,forest dynamics,biogeography" data-listing-file-modified-sort="1710769255215" data-listing-reading-time-sort="2" data-listing-word-count-sort="294">
     <span class="listing-title lead">Masting is uncommon in trees that depend on mutualist dispersers in the context of global climate and fertility gradients</span><br>
     <span class="listing-author">Qiu, Aravena, Ascoli, Bergeron, Bogdziewicz, Boivin, Bonal, Caignard, Cailleret, Calama, Calderon, Camarero, Chang-Yang, Chave, Chianucci, Courbaud, Cutini, Das, Delpierre, Delzon, Dietze, Dormont, Espelta, Fahey, Farfan-Rios, Franklin, Gehring, Gilbert, Gratzer, Greenberg, Guignabert, Guo, Hacket-Pain, Hampe, Han, Holik, Hoshizaki, Ibanez, Johnstone, Journé, Kitzberger, Knops, Kunstler, Kurokawa, Lageard, LaMontagne, Lefevre, Leininger, Limousin, Lutz, Macias, Marell, McIntire, Moore, Moran, Motta, Myers, Nagel, Naoe, Noguchi, Oguro, Parmenter, Pearse, Perez-Ramos, Piechnik, Podgorski, Poulsen, Redmond, Reid, Rodman, Rodriguez-Sanchez, Samonil, Sanguinetti, Scher, Seget, Sharma, Shibata, Silman, Steele, Stephenson, Straub, Sutton, Swenson, Swift, Thomas, Uriarte, Vacchiano, Whipple, Whitham, Wion, Wright, Zhu, Zimmerman, Zywiec, Clark</span><br>
     <span class="listing-publication fst-italic ">Nature Plants</span>
@@ -300,21 +384,31 @@ ul.task-list li input[type="checkbox"] {
     <a href="./publications/Qiu2023.html" class="btn btn-primary">
       Details
     </a>
+    
     <a href="https://doi.org/10.1038/s41477-023-01446-5" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       DOI
     </a>
+    
+    
     <a href="https://e-space.mmu.ac.uk/632644/1/Qiu%20et%20al%202023%20NPlants%20-%2014578_3_merged_1683917452.pdf" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-text"></i> PDF
     </a>
+    
+    
+    
     <a href="https://doi.org/10.7924/r4348ph5t" class="btn btn-light" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-zip"></i> Data
     </a>
+    
+    
     <a href="https://cran.r-project.org/web/packages/mastif/index.html" class="btn btn-light" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-zip"></i> Code
     </a>
+    
   </li>
+
   <br>
-  <li data-index="5" data-listing-file-modified-sort="1710769362724" data-listing-reading-time-sort="1">
+  <li data-index="5" data-listing-file-modified-sort="1710769362724" data-listing-reading-time-sort="1" data-listing-word-count-sort="35">
     <span class="listing-title lead">Premio al mejor revisor de Ecosistemas y reconocimiento a editores invitados del bienio 2021-2022</span><br>
     <span class="listing-author">Puerta Piñero, Blanco, Jiménez-Eguizábal, Pérez-Luque, Molina Morales, Lacerot, Rodriguez-Sánchez, Alonso, Rodríguez-Echeverría, Miquelajauregui, Bartomeus, Cerón-Souza</span><br>
     <span class="listing-publication fst-italic ">Ecosistemas</span>
@@ -322,15 +416,23 @@ ul.task-list li input[type="checkbox"] {
     <a href="./publications/Puerta2023.html" class="btn btn-primary">
       Details
     </a>
+    
     <a href="https://doi.org/10.7818/ECOS.2554" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       DOI
     </a>
+    
+    
     <a href="https://doi.org/10.7818/ECOS.2554" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-text"></i> PDF
     </a>
+    
+    
+    
+    
   </li>
+
   <br>
-  <li data-index="6" data-categories="plant-animal mutualisms,ecological networks" data-listing-file-modified-sort="1710769395528" data-listing-reading-time-sort="2">
+  <li data-index="6" data-categories="plant-animal mutualisms,ecological networks" data-listing-file-modified-sort="1710769395528" data-listing-reading-time-sort="2" data-listing-word-count-sort="205">
     <span class="listing-title lead">Reciprocity and interaction effectiveness in generalised mutualisms among free-living species</span><br>
     <span class="listing-author">Quintero, Rodríguez-Sánchez, Jordano</span><br>
     <span class="listing-publication fst-italic ">Ecology Letters</span>
@@ -338,24 +440,35 @@ ul.task-list li input[type="checkbox"] {
     <a href="./publications/Quintero2023.html" class="btn btn-primary">
       Details
     </a>
+    
     <a href="https://doi.org/10.1111/ele.14141" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       DOI
     </a>
+    
+    
     <a href="https://onlinelibrary.wiley.com/doi/epdf/10.1111/ele.14141" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-text"></i> PDF
     </a>
+    
+    
     <a href="https://doi.org/10.1101/2022.03.23.485462" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-text"></i> Preprint
     </a>
+    
+    
     <a href="https://github.com/PJordano-Lab/MS_effectiveness" class="btn btn-light" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-zip"></i> Data
     </a>
+    
+    
     <a href="https://github.com/PJordano-Lab/MS_effectiveness" class="btn btn-light" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-zip"></i> Code
     </a>
+    
   </li>
+
   <br>
-  <li data-index="7" data-categories="software,climate change" data-listing-file-modified-sort="1710768513914" data-listing-reading-time-sort="2">
+  <li data-index="7" data-categories="software,climate change" data-listing-file-modified-sort="1710768513914" data-listing-reading-time-sort="2" data-listing-word-count-sort="212">
     <span class="listing-title lead">The easyclimate R package: Easy access to high-resolution daily climate data for Europe</span><br>
     <span class="listing-author">Cruz-Alonso, Pucher, Ratcliffe, Ruiz-Benito, Astigarraga, Neumann, Hasenauer, Rodríguez-Sánchez</span><br>
     <span class="listing-publication fst-italic ">Environmental Modelling &amp; Software</span>
@@ -363,21 +476,31 @@ ul.task-list li input[type="checkbox"] {
     <a href="./publications/Cruz-Alonso2023.html" class="btn btn-primary">
       Details
     </a>
+    
     <a href="https://doi.org/10.1016/j.envsoft.2023.105627" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       DOI
     </a>
+    
+    
     <a href="https://doi.org/10.1016/j.envsoft.2023.105627" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-text"></i> PDF
     </a>
+    
+    
     <a href="https://doi.org/10.32942/osf.io/mc8uj" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-text"></i> Preprint
     </a>
+    
+    
+    
     <a href="https://github.com/VeruGHub/easyclimate_ms" class="btn btn-light" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-zip"></i> Code
     </a>
+    
   </li>
+
   <br>
-  <li data-index="8" data-categories="biogeography,climate change" data-listing-file-modified-sort="1710769440604" data-listing-reading-time-sort="2">
+  <li data-index="8" data-categories="biogeography,climate change" data-listing-file-modified-sort="1710769440604" data-listing-reading-time-sort="2" data-listing-word-count-sort="346">
     <span class="listing-title lead">Widespread latitudinal asymmetry in the performance of marginal populations: A meta‐analysis</span><br>
     <span class="listing-author">Pulido, Castagneyrol, Rodríguez‐Sánchez, Cáceres, Pardo, Moracho, Kollmann, Valladares, Ehrlén, Jump, Svenning, Hampe</span><br>
     <span class="listing-publication fst-italic ">Global Ecology and Biogeography</span>
@@ -385,24 +508,35 @@ ul.task-list li input[type="checkbox"] {
     <a href="./publications/Pulido2023.html" class="btn btn-primary">
       Details
     </a>
+    
     <a href="https://doi.org/10.1111/geb.13665" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       DOI
     </a>
+    
+    
     <a href="https://doi.org/10.1111/geb.13665" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-text"></i> PDF
     </a>
+    
+    
     <a href="https://doi.org/10.1101/529560" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-text"></i> Preprint
     </a>
+    
+    
     <a href="https://doi.org/10.15454/STOJ93" class="btn btn-light" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-zip"></i> Data
     </a>
+    
+    
     <a href="https://doi.org/10.15454/STOJ93" class="btn btn-light" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-zip"></i> Code
     </a>
+    
   </li>
+
   <br>
-  <li data-index="9" data-categories="forest dynamics" data-listing-file-modified-sort="1710769462884" data-listing-reading-time-sort="2">
+  <li data-index="9" data-categories="forest dynamics" data-listing-file-modified-sort="1710769462884" data-listing-reading-time-sort="2" data-listing-word-count-sort="238">
     <span class="listing-title lead">Evaluación del estado de conservación de las Dehesas Extremeñas usando LiDAR del PNOA y el Inventario Forestal Nacional (IFN IV)</span><br>
     <span class="listing-author">Lobo, Duque-Lazo, Rodríguez-Sánchez, Tomé, Bernal</span><br>
     <span class="listing-publication fst-italic ">8º Congreso Forestal Español</span>
@@ -410,12 +544,19 @@ ul.task-list li input[type="checkbox"] {
     <a href="./publications/Lobo2022.html" class="btn btn-primary">
       Details
     </a>
+    
+    
     <a href="https://8cfe.congresoforestal.es/sites/default/files/actas/8CFE-691.pdf" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-text"></i> PDF
     </a>
+    
+    
+    
+    
   </li>
+
   <br>
-  <li data-index="10" data-categories="forest dynamics,biogeography" data-listing-file-modified-sort="1710768542263" data-listing-reading-time-sort="1">
+  <li data-index="10" data-categories="forest dynamics,biogeography" data-listing-file-modified-sort="1710768542263" data-listing-reading-time-sort="1" data-listing-word-count-sort="186">
     <span class="listing-title lead">Globally, tree fecundity exceeds productivity gradients</span><br>
     <span class="listing-author">Journé, Andrus, Aravena, Ascoli, Berretti, Berveiller, Bogdziewicz, Boivin, Bonal, Caignard, Calama, Camarero, Chang‐Yang, Courbaud, Courbet, Curt, Das, Daskalakou, Davi, Delpierre, Delzon, Dietze, Donoso Calderon, Dormont, Maria Espelta, Fahey, Farfan‐Rios, Gehring, Gilbert, Gratzer, Greenberg, Guo, Hacket‐Pain, Hampe, Han, Lambers, Hoshizaki, Ibanez, Johnstone, Kabeya, Kays, Kitzberger, Knops, Kobe, Kunstler, Lageard, LaMontagne, Leininger, Limousin, Lutz, Macias, McIntire, Moore, Moran, Motta, Myers, Nagel, Noguchi, Ourcival, Parmenter, Pearse, Perez‐Ramos, Piechnik, Poulsen, Poulton‐Kamakura, Qiu, Redmond, Reid, Rodman, Rodriguez‐Sanchez, Sanguinetti, Scher, Marle, Seget, Sharma, Silman, Steele, Stephenson, Straub, Swenson, Swift, Thomas, Uriarte, Vacchiano, Veblen, Whipple, Whitham, Wright, Wright, Zhu, Zimmerman, Zlotin, Zywiec, Clark</span><br>
     <span class="listing-publication fst-italic ">Ecology Letters</span>
@@ -423,21 +564,31 @@ ul.task-list li input[type="checkbox"] {
     <a href="./publications/Journe2022.html" class="btn btn-primary">
       Details
     </a>
+    
     <a href="https://doi.org/10.1111/ele.14012" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       DOI
     </a>
+    
+    
     <a href="https://onlinelibrary.wiley.com/doi/am-pdf/10.1111/ele.14012" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-text"></i> PDF
     </a>
+    
+    
+    
     <a href="https://doi.org/10.5281/zenodo.6381799" class="btn btn-light" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-zip"></i> Data
     </a>
+    
+    
     <a href="https://doi.org/10.5281/zenodo.6381799" class="btn btn-light" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-zip"></i> Code
     </a>
+    
   </li>
+
   <br>
-  <li data-index="11" data-categories="forest dynamics,biogeography" data-listing-file-modified-sort="1710769515413" data-listing-reading-time-sort="2">
+  <li data-index="11" data-categories="forest dynamics,biogeography" data-listing-file-modified-sort="1710769515413" data-listing-reading-time-sort="2" data-listing-word-count-sort="229">
     <span class="listing-title lead">Limits to reproduction and seed size-number trade-offs that shape forest dominance and future recovery</span><br>
     <span class="listing-author">Qiu, Andrus, Aravena, Ascoli, Bergeron, Berretti, Berveiller, Bogdziewicz, Boivin, Bonal, Bragg, Caignard, Calama, Camarero, Chang-Yang, Cleavitt, Courbaud, Courbet, Curt, Das, Daskalakou, Davi, Delpierre, Delzon, Dietze, Calderon, Dormont, Espelta, Fahey, Farfan-Rios, Gehring, Gilbert, Gratzer, Greenberg, Guo, Hacket-Pain, Hampe, Han, Hille Ris Lambers, Hoshizaki, Ibanez, Johnstone, Journé, Kabeya, Kilner, Kitzberger, Knops, Kobe, Kunstler, Lageard, LaMontagne, Ledwon, Lefevre, Leininger, Limousin, Lutz, Macias, McIntire, Moore, Moran, Motta, Myers, Nagel, Noguchi, Ourcival, Parmenter, Pearse, Perez-Ramos, Piechnik, Poulsen, Poulton-Kamakura, Redmond, Reid, Rodman, Rodriguez-Sanchez, Sanguinetti, Scher, Schlesinger, Schmidt Van Marle, Seget, Sharma, Silman, Steele, Stephenson, Straub, Sun, Sutton, Swenson, Swift, Thomas, Uriarte, Vacchiano, Veblen, Whipple, Whitham, Wion, Wright, Wright, Zhu, Zimmerman, Zlotin, Zywiec, Clark</span><br>
     <span class="listing-publication fst-italic ">Nature Communications</span>
@@ -445,21 +596,31 @@ ul.task-list li input[type="checkbox"] {
     <a href="./publications/Qiu2022.html" class="btn btn-primary">
       Details
     </a>
+    
     <a href="https://doi.org/10.1038/s41467-022-30037-9" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       DOI
     </a>
+    
+    
     <a href="https://doi.org/10.1038/s41467-022-30037-9" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-text"></i> PDF
     </a>
+    
+    
+    
     <a href="https://doi.org/10.7924/r4348ph5t" class="btn btn-light" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-zip"></i> Data
     </a>
+    
+    
     <a href="https://cran.r-project.org/web/packages/mastif/index.html" class="btn btn-light" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-zip"></i> Code
     </a>
+    
   </li>
+
   <br>
-  <li data-index="12" data-categories="climate change,forest dynamics,microclimate" data-listing-file-modified-sort="1710847734980" data-listing-reading-time-sort="2">
+  <li data-index="12" data-categories="climate change,forest dynamics,microclimate" data-listing-file-modified-sort="1710847734980" data-listing-reading-time-sort="2" data-listing-word-count-sort="307">
     <span class="listing-title lead">Maintaining forest cover to enhance temperature buffering under future climate change</span><br>
     <span class="listing-author">De Lombaerde, Vangansbeke, Lenoir, Van Meerbeek, Lembrechts, Rodríguez-Sánchez, Luoto, Scheffers, Haesen, Aalto, Christiansen, De Pauw, Depauw, Govaert, Greiser, Hampe, Hylander, Klinges, Koelemeijer, Meeussen, Ogée, Sanczuk, Vanneste, Zellweger, Baeten, De Frenne</span><br>
     <span class="listing-publication fst-italic ">Science of The Total Environment</span>
@@ -467,21 +628,31 @@ ul.task-list li input[type="checkbox"] {
     <a href="./publications/Lombaerde2022.html" class="btn btn-primary">
       Details
     </a>
+    
     <a href="https://doi.org/10.1016/j.scitotenv.2021.151338" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       DOI
     </a>
+    
+    
     <a href="https://biblio.ugent.be/publication/8726229/file/8726230.pdf" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-text"></i> PDF
     </a>
+    
+    
     <a href="https://biblio.ugent.be/publication/8726229/file/8726230.pdf" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-text"></i> Preprint
     </a>
+    
+    
     <a href="https://doi.org/10.6084/m9.figshare.7604849" class="btn btn-light" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-zip"></i> Data
     </a>
+    
+    
   </li>
+
   <br>
-  <li data-index="13" data-categories="biogeography,climate change,species distribution modelling" data-listing-file-modified-sort="1710769610345" data-listing-reading-time-sort="2">
+  <li data-index="13" data-categories="biogeography,climate change,species distribution modelling" data-listing-file-modified-sort="1710769610345" data-listing-reading-time-sort="2" data-listing-word-count-sort="324">
     <span class="listing-title lead">ClimPlant: Realized climatic niches of vascular plants in European forest understoreys</span><br>
     <span class="listing-author">Vangansbeke, Máliš, Hédl, Chudomelová, Vild, Wulf, Jahn, Welk, Rodríguez‐Sánchez, De Frenne</span><br>
     <span class="listing-publication fst-italic ">Global Ecology and Biogeography</span>
@@ -489,18 +660,27 @@ ul.task-list li input[type="checkbox"] {
     <a href="./publications/Vangansbeke2021.html" class="btn btn-primary">
       Details
     </a>
+    
     <a href="https://doi.org/10.1111/geb.13303" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       DOI
     </a>
+    
+    
     <a href="https://biblio.ugent.be/publication/8708229/file/8726479.pdf" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-text"></i> PDF
     </a>
+    
+    
+    
     <a href="https://doi.org/10.6084/m9.figshare.12199628.v3" class="btn btn-light" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-zip"></i> Data
     </a>
+    
+    
   </li>
+
   <br>
-  <li data-index="14" data-listing-file-modified-sort="1710769668989" data-listing-reading-time-sort="2">
+  <li data-index="14" data-listing-file-modified-sort="1710769668989" data-listing-reading-time-sort="2" data-listing-word-count-sort="215">
     <span class="listing-title lead">Primary Coenzyme Q deficiencies: A literature review and online platform of clinical features to uncover genotype-phenotype correlations</span><br>
     <span class="listing-author">Alcázar-Fabra, Rodríguez-Sánchez, Trevisson, Brea-Calvo</span><br>
     <span class="listing-publication fst-italic ">Free Radical Biology and Medicine</span>
@@ -508,21 +688,31 @@ ul.task-list li input[type="checkbox"] {
     <a href="./publications/Alcazar-Fabra2021.html" class="btn btn-primary">
       Details
     </a>
+    
     <a href="https://doi.org/10.1016/j.freeradbiomed.2021.02.046" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       DOI
     </a>
+    
+    
     <a href="https://doi.org/10.1016/j.freeradbiomed.2021.02.046" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-text"></i> PDF
     </a>
+    
+    
     <a href="https://digital.csic.es/bitstream/10261/260227/4/Primary_Coenzime_Q_Deficiencies_Preprint2021.pdf" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-text"></i> Preprint
     </a>
+    
+    
     <a href="https://coenzymeqbiology.github.io/clinic-CoQ-deficiency" class="btn btn-light" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-zip"></i> Data
     </a>
+    
+    
   </li>
+
   <br>
-  <li data-index="15" data-categories="software" data-listing-file-modified-sort="1710769682741" data-listing-reading-time-sort="2">
+  <li data-index="15" data-categories="software" data-listing-file-modified-sort="1710769682741" data-listing-reading-time-sort="2" data-listing-word-count-sort="220">
     <span class="listing-title lead">Rdataretriever: R Interface to the Data Retriever</span><br>
     <span class="listing-author">Senyondo, McGlinn, Sharma, Harris, Ye, Taylor, Ooms, Rodríguez-Sánchez, Ram, Pandey, Bansal, Pohlman, White</span><br>
     <span class="listing-publication fst-italic ">Journal of Open Source Software</span>
@@ -530,21 +720,31 @@ ul.task-list li input[type="checkbox"] {
     <a href="./publications/Senyondo2021.html" class="btn btn-primary">
       Details
     </a>
+    
     <a href="https://doi.org/10.21105/joss.02800" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       DOI
     </a>
+    
+    
     <a href="https://doi.org/10.21105/joss.02800" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-text"></i> PDF
     </a>
+    
+    
     <a href="https://github.com/openjournals/joss-reviews/issues/2800" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-text"></i> Preprint
     </a>
+    
+    
+    
     <a href="https://github.com/ropensci/rdataretriever" class="btn btn-light" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-zip"></i> Code
     </a>
+    
   </li>
+
   <br>
-  <li data-index="16" data-categories="data science,reproducible research" data-listing-file-modified-sort="1710769709618" data-listing-reading-time-sort="1">
+  <li data-index="16" data-categories="data science,reproducible research" data-listing-file-modified-sort="1710769709618" data-listing-reading-time-sort="1" data-listing-word-count-sort="152">
     <span class="listing-title lead">Quince consejos para mejorar nuestro código y flujo de trabajo con R</span><br>
     <span class="listing-author">Rodríguez-Sánchez </span><br>
     <span class="listing-publication fst-italic ">Ecosistemas</span>
@@ -552,21 +752,31 @@ ul.task-list li input[type="checkbox"] {
     <a href="./publications/Rodriguez-Sanchez2020.html" class="btn btn-primary">
       Details
     </a>
+    
     <a href="https://doi.org//10.7818/ECOS.2129" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       DOI
     </a>
+    
+    
     <a href="https://doi.org//10.7818/ECOS.2129" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-text"></i> PDF
     </a>
+    
+    
     <a href="https://github.com/ecoinfAEET/Notas_Ecosistemas/tree/master/consejos_mejor_codigo" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-text"></i> Preprint
     </a>
+    
+    
+    
     <a href="https://github.com/ecoinfAEET/Notas_Ecosistemas/tree/master/consejos_mejor_codigo" class="btn btn-light" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-zip"></i> Code
     </a>
+    
   </li>
+
   <br>
-  <li data-index="17" data-categories="climate change,forest dynamics,microclimate" data-listing-file-modified-sort="1710769742926" data-listing-reading-time-sort="1">
+  <li data-index="17" data-categories="climate change,forest dynamics,microclimate" data-listing-file-modified-sort="1710769742926" data-listing-reading-time-sort="1" data-listing-word-count-sort="165">
     <span class="listing-title lead">Global buffering of temperatures under forest canopies</span><br>
     <span class="listing-author">De Frenne, Zellweger, Rodríguez-Sánchez, Scheffers, Hylander, Luoto, Vellend, Verheyen, Lenoir</span><br>
     <span class="listing-publication fst-italic ">Nature Ecology &amp; Evolution</span>
@@ -574,24 +784,35 @@ ul.task-list li input[type="checkbox"] {
     <a href="./publications/DeFrenne2019.html" class="btn btn-primary">
       Details
     </a>
+    
     <a href="https://doi.org/10.1038/s41559-019-0842-1" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       DOI
     </a>
+    
+    
     <a href="https://frodriguezsanchez.net/pdf/DeFrenne_NatEcolEvol_2019.pdf" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-text"></i> PDF
     </a>
+    
+    
     <a href="https://hal.science/hal-02352625v1/file/De_Frenne_al_2019_NEE.pdf" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-text"></i> Preprint
     </a>
+    
+    
     <a href="https://doi.org/10.6084/m9.figshare.7604849.v4" class="btn btn-light" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-zip"></i> Data
     </a>
+    
+    
     <a href="https://doi.org/10.6084/m9.figshare.7604849.v4" class="btn btn-light" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-zip"></i> Code
     </a>
+    
   </li>
+
   <br>
-  <li data-index="18" data-categories="species distribution modelling,climate change,review" data-listing-file-modified-sort="1710769774874" data-listing-reading-time-sort="1">
+  <li data-index="18" data-categories="species distribution modelling,climate change,review" data-listing-file-modified-sort="1710769774874" data-listing-reading-time-sort="1" data-listing-word-count-sort="176">
     <span class="listing-title lead">Niche Estimation Above and Below the Species Level</span><br>
     <span class="listing-author">Smith, Godsoe, Rodríguez-Sánchez, Wang, Warren</span><br>
     <span class="listing-publication fst-italic ">Trends in Ecology &amp; Evolution</span>
@@ -599,18 +820,27 @@ ul.task-list li input[type="checkbox"] {
     <a href="./publications/Smith2019.html" class="btn btn-primary">
       Details
     </a>
+    
     <a href="https://doi.org/10.1016/j.tree.2018.10.012" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       DOI
     </a>
+    
+    
     <a href="https://frodriguezsanchez.net/pdf/Smith-TREE-2019.pdf" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-text"></i> PDF
     </a>
+    
+    
+    
+    
     <a href="https://zenodo.org/doi/10.5281/zenodo.1470855" class="btn btn-light" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-zip"></i> Code
     </a>
+    
   </li>
+
   <br>
-  <li data-index="19" data-categories="Parque Natural Los Alcornocales,forest dynamics,climate change" data-listing-file-modified-sort="1710769825162" data-listing-reading-time-sort="2">
+  <li data-index="19" data-categories="Parque Natural Los Alcornocales,forest dynamics,climate change" data-listing-file-modified-sort="1710769825162" data-listing-reading-time-sort="2" data-listing-word-count-sort="327">
     <span class="listing-title lead">Análisis de la producción de corcho en 6 municipios del Parque Natural Los Alcornocales (Cádiz-Málaga) durante los últimos 30 años (1985-2014)</span><br>
     <span class="listing-author">Jurado, Luque-Oliva, Rodríguez-Sánchez</span><br>
     <span class="listing-publication fst-italic ">Almoraima</span>
@@ -618,18 +848,27 @@ ul.task-list li input[type="checkbox"] {
     <a href="./publications/Jurado2018.html" class="btn btn-primary">
       Details
     </a>
+    
+    
     <a href="http://institutoecg.es/wp-content/uploads/2019/03/Almoraima49-211-226.pdf" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-text"></i> PDF
     </a>
+    
+    
+    
     <a href="https://zenodo.org/doi/10.5281/zenodo.2635372" class="btn btn-light" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-zip"></i> Data
     </a>
+    
+    
     <a href="https://zenodo.org/doi/10.5281/zenodo.2635372" class="btn btn-light" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-zip"></i> Code
     </a>
+    
   </li>
+
   <br>
-  <li data-index="20" data-categories="review,climate change,biogeography,palaeoecology" data-listing-file-modified-sort="1710769858083" data-listing-reading-time-sort="2">
+  <li data-index="20" data-categories="review,climate change,biogeography,palaeoecology" data-listing-file-modified-sort="1710769858083" data-listing-reading-time-sort="2" data-listing-word-count-sort="202">
     <span class="listing-title lead">Cracking the Code of Biodiversity Responses to Past Climate Change</span><br>
     <span class="listing-author">Nogués-Bravo, Rodríguez-Sánchez, Orsini, de Boer, Jansson, Morlon, Fordham, Jackson</span><br>
     <span class="listing-publication fst-italic ">Trends in Ecology &amp; Evolution</span>
@@ -637,21 +876,31 @@ ul.task-list li input[type="checkbox"] {
     <a href="./publications/Nogues-Bravo2018.html" class="btn btn-primary">
       Details
     </a>
+    
     <a href="https://doi.org/10.1016/j.tree.2018.07.005" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       DOI
     </a>
+    
+    
     <a href="https://frodriguezsanchez.net/pdf/NoguesBravo_TREE_2018.pdf" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-text"></i> PDF
     </a>
+    
+    
     <a href="https://core.ac.uk/download/pdf/267307812.pdf" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-text"></i> Preprint
     </a>
+    
+    
+    
     <a href="https://gist.github.com/Pakillo/1eaaf746ad65fcf52b5df8cd9e1430fb" class="btn btn-light" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-zip"></i> Code
     </a>
+    
   </li>
+
   <br>
-  <li data-index="21" data-categories="Parque Natural Los Alcornocales,forest dynamics" data-listing-file-modified-sort="1710769874543" data-listing-reading-time-sort="3">
+  <li data-index="21" data-categories="Parque Natural Los Alcornocales,forest dynamics" data-listing-file-modified-sort="1710769874543" data-listing-reading-time-sort="3" data-listing-word-count-sort="445">
     <span class="listing-title lead">Impactos de la herbivoría por ungulados en las comunidades de plantas leñosas del Parque Natural Los Alcornocales</span><br>
     <span class="listing-author"> Rodríguez-Sánchez, Luque-Oliva, Jurado</span><br>
     <span class="listing-publication fst-italic ">Almoraima</span>
@@ -659,24 +908,35 @@ ul.task-list li input[type="checkbox"] {
     <a href="./publications/Rodriguez-Sanchez2018.html" class="btn btn-primary">
       Details
     </a>
+    
     <a href="https://doi.org/10.5281/zenodo.4529818" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       DOI
     </a>
+    
+    
     <a href="https://frodriguezsanchez.net/pdf/Rodriguez-Sanchez_Almoraima_2018.pdf" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-text"></i> PDF
     </a>
+    
+    
     <a href="https://zenodo.org/doi/10.5281/zenodo.1325106" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-text"></i> Preprint
     </a>
+    
+    
     <a href="https://zenodo.org/doi/10.5281/zenodo.1325106" class="btn btn-light" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-zip"></i> Data
     </a>
+    
+    
     <a href="https://zenodo.org/doi/10.5281/zenodo.1325106" class="btn btn-light" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-zip"></i> Code
     </a>
+    
   </li>
+
   <br>
-  <li data-index="22" data-categories="species distribution modelling,biogeography,palaeoecology,climate change,phylogeography" data-listing-file-modified-sort="1710769909491" data-listing-reading-time-sort="2">
+  <li data-index="22" data-categories="species distribution modelling,biogeography,palaeoecology,climate change,phylogeography" data-listing-file-modified-sort="1710769909491" data-listing-reading-time-sort="2" data-listing-word-count-sort="281">
     <span class="listing-title lead">Pliocene–Pleistocene ecological niche evolution shapes the phylogeography of a Mediterranean plant group</span><br>
     <span class="listing-author">Benítez‐Benítez, Escudero, Rodríguez‐Sánchez, Martín‐Bravo, Jiménez‐Mejías</span><br>
     <span class="listing-publication fst-italic ">Molecular Ecology</span>
@@ -684,15 +944,23 @@ ul.task-list li input[type="checkbox"] {
     <a href="./publications/Benitez-Benitez2018.html" class="btn btn-primary">
       Details
     </a>
+    
     <a href="https://doi.org/10.1111/mec.14567" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       DOI
     </a>
+    
+    
+    
+    
     <a href="https://doi.org/10.5061/dryad.76tk7" class="btn btn-light" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-zip"></i> Data
     </a>
+    
+    
   </li>
+
   <br>
-  <li data-index="23" data-categories="data science,reproducible research" data-listing-file-modified-sort="1710769928439" data-listing-reading-time-sort="1">
+  <li data-index="23" data-categories="data science,reproducible research" data-listing-file-modified-sort="1710769928439" data-listing-reading-time-sort="1" data-listing-word-count-sort="48">
     <span class="listing-title lead">Academia's failure to retain data scientists</span><br>
     <span class="listing-author">Rodríguez-Sánchez, Marwick, Lazowska, VanderPlas</span><br>
     <span class="listing-publication fst-italic ">Science</span>
@@ -700,18 +968,27 @@ ul.task-list li input[type="checkbox"] {
     <a href="./publications/Rodriguez-Sanchez2017.html" class="btn btn-primary">
       Details
     </a>
+    
     <a href="https://doi.org/10.1126/science.aam6116" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       DOI
     </a>
+    
+    
     <a href="https://frodriguezsanchez.net/pdf/Rodriguez-Sanchez_Science_2017.pdf" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-text"></i> PDF
     </a>
+    
+    
     <a href="https://github.com/Pakillo/letter" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-text"></i> Preprint
     </a>
+    
+    
+    
   </li>
+
   <br>
-  <li data-index="24" data-categories="species distribution modelling,biogeography" data-listing-file-modified-sort="1710770034784" data-listing-reading-time-sort="2">
+  <li data-index="24" data-categories="species distribution modelling,biogeography" data-listing-file-modified-sort="1710770034784" data-listing-reading-time-sort="2" data-listing-word-count-sort="298">
     <span class="listing-title lead">Niche shifts after long‐distance dispersal events in bipolar sedges (Carex, Cyperaceae)</span><br>
     <span class="listing-author">Villaverde, González‐Moreno, Rodríguez‐Sánchez, Escudero</span><br>
     <span class="listing-publication fst-italic ">American Journal of Botany</span>
@@ -719,21 +996,31 @@ ul.task-list li input[type="checkbox"] {
     <a href="./publications/Villaverde2017.html" class="btn btn-primary">
       Details
     </a>
+    
     <a href="https://doi.org/10.3732/ajb.1700171" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       DOI
     </a>
+    
+    
     <a href="https://frodriguezsanchez.net/pdf/Villaverde_AJB_2017.pdf" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-text"></i> PDF
     </a>
+    
+    
+    
     <a href="https://pakillo.github.io/Carex.bipolar/" class="btn btn-light" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-zip"></i> Data
     </a>
+    
+    
     <a href="https://pakillo.github.io/Carex.bipolar/" class="btn btn-light" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-zip"></i> Code
     </a>
+    
   </li>
+
   <br>
-  <li data-index="25" data-categories="data science,teaching" data-listing-file-modified-sort="1710770066336" data-listing-reading-time-sort="1">
+  <li data-index="25" data-categories="data science,teaching" data-listing-file-modified-sort="1710770066336" data-listing-reading-time-sort="1" data-listing-word-count-sort="53">
     <span class="listing-title lead">Optimizando el uso de R para el análisis de datos en ecología</span><br>
     <span class="listing-author">Rodríguez-Sánchez, Bartomeus</span><br>
     <span class="listing-publication fst-italic ">Ecosistemas</span>
@@ -741,15 +1028,23 @@ ul.task-list li input[type="checkbox"] {
     <a href="./publications/Rodriguez-Sanchez2017b.html" class="btn btn-primary">
       Details
     </a>
+    
     <a href="https://doi.org/10.7818/ECOS.2017.26-2.09" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       DOI
     </a>
+    
+    
     <a href="https://doi.org/10.7818/ECOS.2017.26-2.09" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-text"></i> PDF
     </a>
+    
+    
+    
+    
   </li>
+
   <br>
-  <li data-index="26" data-categories="biogeography,review" data-listing-file-modified-sort="1710770094036" data-listing-reading-time-sort="3">
+  <li data-index="26" data-categories="biogeography,review" data-listing-file-modified-sort="1710770094036" data-listing-reading-time-sort="3" data-listing-word-count-sort="428">
     <span class="listing-title lead">A second horizon scan of biogeography: Golden Ages, Midas touches, and the Red Queen</span><br>
     <span class="listing-author">Dawson, Axmacher, Beierkuhnlein, Blois, Bradley, Cord, Dengler, He, Heaney, Jansson, Mahecha, Myers, Nogués-Bravo, Papadopoulou, Reu, Rodríguez-Sánchez, Steinbauer, Stigall, Tuanmu, Gavin</span><br>
     <span class="listing-publication fst-italic ">Frontiers of Biogeography</span>
@@ -757,15 +1052,23 @@ ul.task-list li input[type="checkbox"] {
     <a href="./publications/Dawson2016.html" class="btn btn-primary">
       Details
     </a>
+    
     <a href="https://doi.org/10.21425/F58429770" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       DOI
     </a>
+    
+    
     <a href="https://escholarship.org/content/qt8bx638kb/qt8bx638kb.pdf?t=ok1udy" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-text"></i> PDF
     </a>
+    
+    
+    
+    
   </li>
+
   <br>
-  <li data-index="27" data-categories="data science,reproducible research" data-listing-file-modified-sort="1710770116056" data-listing-reading-time-sort="2">
+  <li data-index="27" data-categories="data science,reproducible research" data-listing-file-modified-sort="1710770116056" data-listing-reading-time-sort="2" data-listing-word-count-sort="267">
     <span class="listing-title lead">Ciencia reproducible: ¿qué, por qué, cómo?</span><br>
     <span class="listing-author">Rodríguez-Sanchez, Pérez-Luque, Bartomeus, Varela</span><br>
     <span class="listing-publication fst-italic ">Ecosistemas</span>
@@ -773,21 +1076,31 @@ ul.task-list li input[type="checkbox"] {
     <a href="./publications/Rodriguez-Sanchez2016.html" class="btn btn-primary">
       Details
     </a>
+    
     <a href="https://doi.org/10.7818/ECOS.2016.25-2.11" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       DOI
     </a>
+    
+    
     <a href="https://www.revistaecosistemas.net/index.php/ecosistemas/article/view/1178/973" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-text"></i> PDF
     </a>
+    
+    
     <a href="https://github.com/ecoinfAEET/Reproducibilidad" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-text"></i> Preprint
     </a>
+    
+    
+    
     <a href="https://github.com/ecoinfAEET/Reproducibilidad" class="btn btn-light" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-zip"></i> Code
     </a>
+    
   </li>
+
   <br>
-  <li data-index="28" data-categories="data science" data-listing-file-modified-sort="1710770142240" data-listing-reading-time-sort="1">
+  <li data-index="28" data-categories="data science" data-listing-file-modified-sort="1710770142240" data-listing-reading-time-sort="1" data-listing-word-count-sort="55">
     <span class="listing-title lead">Ecoinformática: nuevo grupo de trabajo de la Asociación Española de Ecología Terrestre</span><br>
     <span class="listing-author">Rodríguez Sánchez, Pérez-Luque, Bartomeus, Varela</span><br>
     <span class="listing-publication fst-italic ">Ecosistemas</span>
@@ -795,15 +1108,23 @@ ul.task-list li input[type="checkbox"] {
     <a href="./publications/Rodriguez-Sanchez2016b.html" class="btn btn-primary">
       Details
     </a>
+    
     <a href="https://doi.org/10.7818/ECOS.2016.25-1.17" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       DOI
     </a>
+    
+    
     <a href="https://doi.org/10.7818/ECOS.2016.25-1.17" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-text"></i> PDF
     </a>
+    
+    
+    
+    
   </li>
+
   <br>
-  <li data-index="29" data-categories="forest dynamics,microclimate" data-listing-file-modified-sort="1710770156805" data-listing-reading-time-sort="2">
+  <li data-index="29" data-categories="forest dynamics,microclimate" data-listing-file-modified-sort="1710770156805" data-listing-reading-time-sort="2" data-listing-word-count-sort="242">
     <span class="listing-title lead">Light accelerates plant responses to warming</span><br>
     <span class="listing-author">De Frenne, Rodríguez-Sánchez, De Schrijver, Coomes, Hermy, Vangansbeke, Verheyen</span><br>
     <span class="listing-publication fst-italic ">Nature Plants</span>
@@ -811,18 +1132,27 @@ ul.task-list li input[type="checkbox"] {
     <a href="./publications/DeFrenne2015.html" class="btn btn-primary">
       Details
     </a>
+    
     <a href="https://doi.org/10.1038/nplants.2015.110" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       DOI
     </a>
+    
+    
     <a href="https://frodriguezsanchez.net/pdf/De%20Frenneetal_NaturePlants_2015.pdf" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-text"></i> PDF
     </a>
+    
+    
+    
     <a href="https://doi.org/10.5061/dryad.672gn" class="btn btn-light" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-zip"></i> Data
     </a>
+    
+    
   </li>
+
   <br>
-  <li data-index="30" data-categories="review,refugia,microclimate,biogeography,species distribution modelling,phylogeography,palaeoecology,microclimate" data-listing-file-modified-sort="1710770180033" data-listing-reading-time-sort="2">
+  <li data-index="30" data-categories="review,refugia,microclimate,biogeography,species distribution modelling,phylogeography,palaeoecology,microclimate" data-listing-file-modified-sort="1710770180033" data-listing-reading-time-sort="2" data-listing-word-count-sort="255">
     <span class="listing-title lead">Climate refugia: joint inference from fossil records, species distribution models and phylogeography</span><br>
     <span class="listing-author">Gavin, Fitzpatrick, Gugger, Heath, Rodríguez‐Sánchez, Dobrowski, Hampe, Hu, Ashcroft, Bartlein, Blois, Carstens, Davis, de Lafontaine, Edwards, Fernandez, Henne, Herring, Holden, Kong, Liu, Magri, Matzke, McGlone, Saltré, Stigall, Tsai, Williams</span><br>
     <span class="listing-publication fst-italic ">New Phytologist</span>
@@ -830,15 +1160,23 @@ ul.task-list li input[type="checkbox"] {
     <a href="./publications/Gavin2014.html" class="btn btn-primary">
       Details
     </a>
+    
     <a href="https://doi.org/10.1111/nph.12929" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       DOI
     </a>
+    
+    
     <a href="https://doi.org/10.1111/nph.12929" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-text"></i> PDF
     </a>
+    
+    
+    
+    
   </li>
+
   <br>
-  <li data-index="31" data-categories="forest dynamics,climate change" data-listing-file-modified-sort="1710770209049" data-listing-reading-time-sort="2">
+  <li data-index="31" data-categories="forest dynamics,climate change" data-listing-file-modified-sort="1710770209049" data-listing-reading-time-sort="2" data-listing-word-count-sort="341">
     <span class="listing-title lead">Long‐term hurricane damage effects on tropical forest tree growth and mortality</span><br>
     <span class="listing-author">Tanner, Rodriguez-Sanchez, Healey, Holdaway, Bellingham</span><br>
     <span class="listing-publication fst-italic ">Ecology</span>
@@ -846,15 +1184,23 @@ ul.task-list li input[type="checkbox"] {
     <a href="./publications/Tanner2014.html" class="btn btn-primary">
       Details
     </a>
+    
     <a href="https://doi.org/10.1890/13-1801.1" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       DOI
     </a>
+    
+    
     <a href="https://frodriguezsanchez.net/pdf/Tanneretal_Ecology_2014.pdf" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-text"></i> PDF
     </a>
+    
+    
+    
+    
   </li>
+
   <br>
-  <li data-index="32" data-categories="forest dynamics,climate change" data-listing-file-modified-sort="1710770243109" data-listing-reading-time-sort="1">
+  <li data-index="32" data-categories="forest dynamics,climate change" data-listing-file-modified-sort="1710770243109" data-listing-reading-time-sort="1" data-listing-word-count-sort="69">
     <span class="listing-title lead">Thermophilization estimation is robust to the scale of species distribution data</span><br>
     <span class="listing-author">De Frenne, Rodríguez-Sánchez, Bernhardt-Römermann, Brown, Eriksson, Hermy, Mitchell, Petřík, Van Calster, Vellend, Verheyen</span><br>
     <span class="listing-publication fst-italic ">Proceedings of the National Academy of Sciences</span>
@@ -862,15 +1208,23 @@ ul.task-list li input[type="checkbox"] {
     <a href="./publications/DeFrenne2014.html" class="btn btn-primary">
       Details
     </a>
+    
     <a href="https://doi.org/10.1073/pnas.1401414111" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       DOI
     </a>
+    
+    
     <a href="https://doi.org/10.1073/pnas.1401414111" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-text"></i> PDF
     </a>
+    
+    
+    
+    
   </li>
+
   <br>
-  <li data-index="33" data-categories="biogeography,climate change" data-listing-file-modified-sort="1710770764337" data-listing-reading-time-sort="2">
+  <li data-index="33" data-categories="biogeography,climate change" data-listing-file-modified-sort="1710770764337" data-listing-reading-time-sort="2" data-listing-word-count-sort="354">
     <span class="listing-title lead">Latitudinal gradients as natural laboratories to infer species' responses to temperature</span><br>
     <span class="listing-author">De Frenne, Graae, Rodríguez‐Sánchez, Kolb, Chabrerie, Decocq, De Kort, De Schrijver, Diekmann, Eriksson, Gruwez, Hermy, Lenoir, Plue, Coomes, Verheyen</span><br>
     <span class="listing-publication fst-italic ">Journal of Ecology</span>
@@ -878,15 +1232,23 @@ ul.task-list li input[type="checkbox"] {
     <a href="./publications/DeFrenne2013b.html" class="btn btn-primary">
       Details
     </a>
+    
     <a href="https://doi.org/10.1111/1365-2745.12074" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       DOI
     </a>
+    
+    
     <a href="https://doi.org/10.1111/1365-2745.12074" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-text"></i> PDF
     </a>
+    
+    
+    
+    
   </li>
+
   <br>
-  <li data-index="34" data-categories="climate change,palaeoecology,refugia,review" data-listing-file-modified-sort="1710770287010" data-listing-reading-time-sort="2">
+  <li data-index="34" data-categories="climate change,palaeoecology,refugia,review" data-listing-file-modified-sort="1710770287010" data-listing-reading-time-sort="2" data-listing-word-count-sort="309">
     <span class="listing-title lead">Looking forward through the past: identification of 50 priority research questions in palaeoecology</span><br>
     <span class="listing-author">Seddon, Mackay, Baker, Birks, Breman, Buck, Ellis, Froyd, Gill, Gillson, Johnson, Jones, Juggins, Macias‐Fauria, Mills, Morris, Nogués‐Bravo, Punyasena, Roland, Tanentzap, Willis, Aberhan, van Asperen, Austin, Battarbee, Bhagwat, Belanger, Bennett, Birks, Bronk Ramsey, Brooks, de Bruyn, Butler, Chambers, Clarke, Davies, Dearing, Ezard, Feurdean, Flower, Gell, Hausmann, Hogan, Hopkins, Jeffers, Korhola, Marchant, Kiefer, Lamentowicz, Larocque‐Tobler, López‐Merino, Liow, McGowan, Miller, Montoya, Morton, Nogué, Onoufriou, Boush, Rodriguez‐Sanchez, Rose, Sayer, Shaw, Payne, Simpson, Sohar, Whitehouse, Williams, Witkowski</span><br>
     <span class="listing-publication fst-italic ">Journal of Ecology</span>
@@ -894,15 +1256,23 @@ ul.task-list li input[type="checkbox"] {
     <a href="./publications/Seddon2014.html" class="btn btn-primary">
       Details
     </a>
+    
     <a href="https://doi.org/10.1111/1365-2745.12195" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       DOI
     </a>
+    
+    
     <a href="https://doi.org/10.1111/1365-2745.12195" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-text"></i> PDF
     </a>
+    
+    
+    
+    
   </li>
+
   <br>
-  <li data-index="35" data-categories="climate change,forest dynamics" data-listing-file-modified-sort="1710770258525" data-listing-reading-time-sort="2">
+  <li data-index="35" data-categories="climate change,forest dynamics" data-listing-file-modified-sort="1710770258525" data-listing-reading-time-sort="2" data-listing-word-count-sort="262">
     <span class="listing-title lead">Microclimate moderates plant responses to macroclimate warming</span><br>
     <span class="listing-author">De Frenne, Rodríguez-Sánchez, Coomes, Baeten, Verstraeten, Vellend, Bernhardt-Römermann, Brown, Brunet, Cornelis, Decocq, Dierschke, Eriksson, Gilliam, Hédl, Heinken, Hermy, Hommel, Jenkins, Kelly, Kirby, Mitchell, Naaf, Newman, Peterken, Petřík, Schultz, Sonnier, Van Calster, Waller, Walther, White, Woods, Wulf, Graae, Verheyen</span><br>
     <span class="listing-publication fst-italic ">Proceedings of the National Academy of Sciences</span>
@@ -910,15 +1280,23 @@ ul.task-list li input[type="checkbox"] {
     <a href="./publications/DeFrenne2013.html" class="btn btn-primary">
       Details
     </a>
+    
     <a href="https://doi.org/10.1073/pnas.1311190110" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       DOI
     </a>
+    
+    
     <a href="https://doi.org/10.1073/pnas.1311190110" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-text"></i> PDF
     </a>
+    
+    
+    
+    
   </li>
+
   <br>
-  <li data-index="36" data-listing-file-modified-sort="1710770327858" data-listing-reading-time-sort="2">
+  <li data-index="36" data-listing-file-modified-sort="1710770327858" data-listing-reading-time-sort="2" data-listing-word-count-sort="278">
     <span class="listing-title lead">Age‐related sexual plumage dimorphism and badge framing in the European Robin Erithacus rubecula</span><br>
     <span class="listing-author">JOVANI, AVILÉS, RODRÍGUEZ‐SÁNCHEZ</span><br>
     <span class="listing-publication fst-italic ">Ibis</span>
@@ -926,15 +1304,23 @@ ul.task-list li input[type="checkbox"] {
     <a href="./publications/Jovani2012.html" class="btn btn-primary">
       Details
     </a>
+    
     <a href="https://doi.org/10.1111/j.1474-919X.2011.01187.x" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       DOI
     </a>
+    
+    
     <a href="https://frodriguezsanchez.net/pdf/Jovanietal_Ibis_2012.pdf" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-text"></i> PDF
     </a>
+    
+    
+    
+    
   </li>
+
   <br>
-  <li data-index="37" data-categories="refugia,microclimate,biogeography,species distribution modelling,phylogeography,palaeoecology,microclimate" data-listing-file-modified-sort="1710770348818" data-listing-reading-time-sort="1">
+  <li data-index="37" data-categories="refugia,microclimate,biogeography,species distribution modelling,phylogeography,palaeoecology,microclimate" data-listing-file-modified-sort="1710770348818" data-listing-reading-time-sort="1" data-listing-word-count-sort="56">
     <span class="listing-title lead">Climate refugia: from the Last Glacial Maximum to the twenty‐first century</span><br>
     <span class="listing-author">Hampe, Rodríguez‐Sánchez, Dobrowski, Hu, Gavin</span><br>
     <span class="listing-publication fst-italic ">New Phytologist</span>
@@ -942,15 +1328,23 @@ ul.task-list li input[type="checkbox"] {
     <a href="./publications/Hampe2013.html" class="btn btn-primary">
       Details
     </a>
+    
     <a href="https://doi.org/10.1111/nph.12059" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       DOI
     </a>
+    
+    
     <a href="https://doi.org/10.1111/nph.12059" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-text"></i> PDF
     </a>
+    
+    
+    
+    
   </li>
+
   <br>
-  <li data-index="38" data-categories="refugia,microclimate,biogeography,species distribution modelling,phylogeography,palaeoecology,microclimate" data-listing-file-modified-sort="1710770364278" data-listing-reading-time-sort="1">
+  <li data-index="38" data-categories="refugia,microclimate,biogeography,species distribution modelling,phylogeography,palaeoecology,microclimate" data-listing-file-modified-sort="1710770364278" data-listing-reading-time-sort="1" data-listing-word-count-sort="54">
     <span class="listing-title lead">Climate refugia: joint inferences from fossils, genetics and models</span><br>
     <span class="listing-author">Gavin, Dobrowski, Hampe, Hu, Rodríguez‐Sánchez</span><br>
     <span class="listing-publication fst-italic ">PAGES News</span>
@@ -958,12 +1352,19 @@ ul.task-list li input[type="checkbox"] {
     <a href="./publications/Gavin2012.html" class="btn btn-primary">
       Details
     </a>
+    
+    
     <a href="https://frodriguezsanchez.net/pdf/Gavin_PAGES_2012.pdf" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-text"></i> PDF
     </a>
+    
+    
+    
+    
   </li>
+
   <br>
-  <li data-index="39" data-categories="climate change" data-listing-file-modified-sort="1710770387646" data-listing-reading-time-sort="1">
+  <li data-index="39" data-categories="climate change" data-listing-file-modified-sort="1710770387646" data-listing-reading-time-sort="1" data-listing-word-count-sort="50">
     <span class="listing-title lead">Uncertainty in thermal tolerances and climatic debt</span><br>
     <span class="listing-author">Rodríguez-Sánchez, De Frenne, Hampe</span><br>
     <span class="listing-publication fst-italic ">Nature Climate Change</span>
@@ -971,15 +1372,23 @@ ul.task-list li input[type="checkbox"] {
     <a href="./publications/Rodriguez-Sanchez2012.html" class="btn btn-primary">
       Details
     </a>
+    
     <a href="https://doi.org/10.1038/nclimate1667" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       DOI
     </a>
+    
+    
     <a href="https://frodriguezsanchez.net/pdf/Rodriguez-Sanchezetal_NatureClimChange_2012.pdf" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-text"></i> PDF
     </a>
+    
+    
+    
+    
   </li>
+
   <br>
-  <li data-index="40" data-categories="book chapter,review,refugia,biogeography,species distribution modelling,phylogeography,palaeoecology,laurel forests" data-listing-file-modified-sort="1710766059365" data-listing-reading-time-sort="2">
+  <li data-index="40" data-categories="book chapter,review,refugia,biogeography,species distribution modelling,phylogeography,palaeoecology,laurel forests" data-listing-file-modified-sort="1710766059365" data-listing-reading-time-sort="2" data-listing-word-count-sort="216">
     <span class="listing-title lead">Cenozoic climate changes and the demise of Tethyan laurel forests: lessons for the future from an integrative reconstruction of the past</span><br>
     <span class="listing-author">Rodríguez-Sánchez, Arroyo</span><br>
     <span class="listing-publication fst-italic ">Climate Change, Ecology and Systematics</span>
@@ -987,15 +1396,23 @@ ul.task-list li input[type="checkbox"] {
     <a href="./publications/Rodriguez-Sanchez2011b.html" class="btn btn-primary">
       Details
     </a>
+    
     <a href="https://doi.org/10.1017/CBO9780511974540.014" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       DOI
     </a>
+    
+    
     <a href="https://frodriguezsanchez.net/pdf/Rodriguez-Sanchez_CCES_2011.pdf" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-text"></i> PDF
     </a>
+    
+    
+    
+    
   </li>
+
   <br>
-  <li data-index="41" data-categories="review,refugia,biogeography,species distribution modelling,phylogeography,palaeoecology,laurel forests" data-listing-file-modified-sort="1710770419687" data-listing-reading-time-sort="1">
+  <li data-index="41" data-categories="review,refugia,biogeography,species distribution modelling,phylogeography,palaeoecology,laurel forests" data-listing-file-modified-sort="1710770419687" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
     <span class="listing-title lead">Un análisis integrado de la respuesta de las especies al cambio climático: biogeografía y ecología de árboles relictos en el Mediterráneo</span><br>
     <span class="listing-author">Rodríguez-Sánchez </span><br>
     <span class="listing-publication fst-italic ">Ecosistemas</span>
@@ -1003,15 +1420,23 @@ ul.task-list li input[type="checkbox"] {
     <a href="./publications/Rodriguez-Sanchez2011.html" class="btn btn-primary">
       Details
     </a>
+    
     <a href="https://www.revistaecosistemas.net/index.php/ecosistemas/article/view/641" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       DOI
     </a>
+    
+    
     <a href="https://frodriguezsanchez.net/pdf/Rodriguez-Sanchez_Ecosistemas_2011.pdf" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-text"></i> PDF
     </a>
+    
+    
+    
+    
   </li>
+
   <br>
-  <li data-index="42" data-categories="phylogeography,laurel forests" data-listing-file-modified-sort="1710770464571" data-listing-reading-time-sort="1">
+  <li data-index="42" data-categories="phylogeography,laurel forests" data-listing-file-modified-sort="1710770464571" data-listing-reading-time-sort="1" data-listing-word-count-sort="181">
     <span class="listing-title lead">Isolation and characterization of 20 microsatellite loci for laurel species (Laurus, Lauraceae)</span><br>
     <span class="listing-author">Arroyo, Rigueiro, Rodríguez, Hampe, Valido, Rodríguez‐Sánchez, Jordano</span><br>
     <span class="listing-publication fst-italic ">American Journal of Botany</span>
@@ -1019,15 +1444,23 @@ ul.task-list li input[type="checkbox"] {
     <a href="./publications/Arroyo2010.html" class="btn btn-primary">
       Details
     </a>
+    
     <a href="https://doi.org/10.3732/ajb.1000069" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       DOI
     </a>
+    
+    
     <a href="https://frodriguezsanchez.net/pdf/Arroyo-AJB-2010.pdf" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-text"></i> PDF
     </a>
+    
+    
+    
+    
   </li>
+
   <br>
-  <li data-index="43" data-categories="review,biogeography,palaeoecology,phylogeography,species distribution modelling" data-listing-file-modified-sort="1710770488239" data-listing-reading-time-sort="2">
+  <li data-index="43" data-categories="review,biogeography,palaeoecology,phylogeography,species distribution modelling" data-listing-file-modified-sort="1710770488239" data-listing-reading-time-sort="2" data-listing-word-count-sort="340">
     <span class="listing-title lead">Past tree range dynamics in the Iberian Peninsula inferred through phylogeography and palaeodistribution modelling: A review</span><br>
     <span class="listing-author">Rodríguez-Sánchez, Hampe, Jordano, Arroyo</span><br>
     <span class="listing-publication fst-italic ">Review of Palaeobotany and Palynology</span>
@@ -1035,15 +1468,23 @@ ul.task-list li input[type="checkbox"] {
     <a href="./publications/Rodriguez-Sanchez2010.html" class="btn btn-primary">
       Details
     </a>
+    
     <a href="https://doi.org/10.1016/j.revpalbo.2010.03.008" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       DOI
     </a>
+    
+    
     <a href="https://frodriguezsanchez.net/pdf/Rodriguez-Sanchezetal_RPP_2010.pdf" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-text"></i> PDF
     </a>
+    
+    
+    
+    
   </li>
+
   <br>
-  <li data-index="44" data-categories="biogeography,laurel forests,phylogeography" data-listing-file-modified-sort="1710770511723" data-listing-reading-time-sort="2">
+  <li data-index="44" data-categories="biogeography,laurel forests,phylogeography" data-listing-file-modified-sort="1710770511723" data-listing-reading-time-sort="2" data-listing-word-count-sort="360">
     <span class="listing-title lead">Late Neogene history of the laurel tree (*Laurus* L., Lauraceae) based on phylogeographical analyses of Mediterranean and Macaronesian populations</span><br>
     <span class="listing-author">Rodríguez‐Sánchez, Guzmán, Valido, Vargas, Arroyo</span><br>
     <span class="listing-publication fst-italic ">Journal of Biogeography</span>
@@ -1051,15 +1492,23 @@ ul.task-list li input[type="checkbox"] {
     <a href="./publications/Rodriguez-Sanchez2009.html" class="btn btn-primary">
       Details
     </a>
+    
     <a href="https://doi.org/10.1111/j.1365-2699.2009.02091.x" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       DOI
     </a>
+    
+    
     <a href="https://frodriguezsanchez.net/pdf/Rodriguez-Sanchezetal_JBI_2009.pdf" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-text"></i> PDF
     </a>
+    
+    
+    
+    
   </li>
+
   <br>
-  <li data-index="45" data-categories="book chapter,laurel forests,refugia,Parque Natural Los Alcornocales" data-listing-file-modified-sort="1710767429972" data-listing-reading-time-sort="1">
+  <li data-index="45" data-categories="book chapter,laurel forests,refugia,Parque Natural Los Alcornocales" data-listing-file-modified-sort="1710767429972" data-listing-reading-time-sort="1" data-listing-word-count-sort="31">
     <span class="listing-title lead">Los canutos de las Sierras de Algeciras y el Aljibe, retazos del pasado en un ambiente mediterráneo</span><br>
     <span class="listing-author">Arroyo, Hampe, Rodríguez-Sánchez</span><br>
     <span class="listing-publication fst-italic ">Proyecto Andalucía. Serie Ecología</span>
@@ -1067,12 +1516,19 @@ ul.task-list li input[type="checkbox"] {
     <a href="./publications/Arroyo2009.html" class="btn btn-primary">
       Details
     </a>
+    
+    
     <a href="https://frodriguezsanchez.net/pdf/Arroyo-canutos-2009.pdf" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-text"></i> PDF
     </a>
+    
+    
+    
+    
   </li>
+
   <br>
-  <li data-index="46" data-categories="book chapter,laurel forests" data-listing-file-modified-sort="1710770541288" data-listing-reading-time-sort="1">
+  <li data-index="46" data-categories="book chapter,laurel forests" data-listing-file-modified-sort="1710770541288" data-listing-reading-time-sort="1" data-listing-word-count-sort="42">
     <span class="listing-title lead">Matorrales ombrófilos arborescentes con Laurus nobilis</span><br>
     <span class="listing-author">Rodríguez-Sánchez, Arroyo</span><br>
     <span class="listing-publication fst-italic ">Bases ecológicas preliminares para la conservación de los tipos de hábitat de interés comunitario en España</span>
@@ -1080,12 +1536,19 @@ ul.task-list li input[type="checkbox"] {
     <a href="./publications/Rodriguez-Sanchez2009b.html" class="btn btn-primary">
       Details
     </a>
+    
+    
     <a href="https://frodriguezsanchez.net/pdf/Rodriguez-Sanchez_Bases_2009.pdf" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-text"></i> PDF
     </a>
+    
+    
+    
+    
   </li>
+
   <br>
-  <li data-index="47" data-categories="laurel forests,refugia,biogeography,climate change,species distribution modelling,palaeoecology" data-listing-file-modified-sort="1710770605072" data-listing-reading-time-sort="2">
+  <li data-index="47" data-categories="laurel forests,refugia,biogeography,climate change,species distribution modelling,palaeoecology" data-listing-file-modified-sort="1710770605072" data-listing-reading-time-sort="2" data-listing-word-count-sort="387">
     <span class="listing-title lead">Reconstructing the demise of Tethyan plants: climate‐driven range dynamics of *Laurus* since the Pliocene</span><br>
     <span class="listing-author">Rodríguez‐Sánchez, Arroyo</span><br>
     <span class="listing-publication fst-italic ">Global Ecology and Biogeography</span>
@@ -1093,15 +1556,23 @@ ul.task-list li input[type="checkbox"] {
     <a href="./publications/Rodriguez-Sanchez2008b.html" class="btn btn-primary">
       Details
     </a>
+    
     <a href="https://doi.org/10.1111/j.1466-8238.2008.00410.x" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       DOI
     </a>
+    
+    
     <a href="https://frodriguezsanchez.net/pdf/Rodriguez-Sanchez_GEB_2008.pdf" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-text"></i> PDF
     </a>
+    
+    
+    
+    
   </li>
+
   <br>
-  <li data-index="48" data-categories="review,biogeography,laurel forests,climate change,refugia,Parque Natural Los Alcornocales" data-listing-file-modified-sort="1710770662777" data-listing-reading-time-sort="3">
+  <li data-index="48" data-categories="review,biogeography,laurel forests,climate change,refugia,Parque Natural Los Alcornocales" data-listing-file-modified-sort="1710770662777" data-listing-reading-time-sort="3" data-listing-word-count-sort="416">
     <span class="listing-title lead">The Strait of Gibraltar as a melting pot for plant biodiversity</span><br>
     <span class="listing-author">Rodriguez-Sanchez, Pérez-Barrales, Ojeda, Vargas, Arroyo</span><br>
     <span class="listing-publication fst-italic ">Quaternary Science Reviews</span>
@@ -1109,15 +1580,23 @@ ul.task-list li input[type="checkbox"] {
     <a href="./publications/Rodriguez-Sanchez2008.html" class="btn btn-primary">
       Details
     </a>
+    
     <a href="https://doi.org/10.1016/j.quascirev.2008.08.006" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       DOI
     </a>
+    
+    
     <a href="https://frodriguezsanchez.net/pdf/Rodriguez-Sanchez_QSR_2008.pdf" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-text"></i> PDF
     </a>
+    
+    
+    
+    
   </li>
+
   <br>
-  <li data-index="49" data-categories="Parque Natural Los Alcornocales,forest dynamics" data-listing-file-modified-sort="1710770680729" data-listing-reading-time-sort="1">
+  <li data-index="49" data-categories="Parque Natural Los Alcornocales,forest dynamics" data-listing-file-modified-sort="1710770680729" data-listing-reading-time-sort="1" data-listing-word-count-sort="131">
     <span class="listing-title lead">La necesidad de la experimentación en ecología y conservación: una aproximación para la restauración forestal en el Parque Natural Los Alcornocales</span><br>
     <span class="listing-author"> Rodríguez-Sánchez, Arroyo</span><br>
     <span class="listing-publication fst-italic ">Almoraima</span>
@@ -1125,12 +1604,19 @@ ul.task-list li input[type="checkbox"] {
     <a href="./publications/Rodriguez-Sanchez2005.html" class="btn btn-primary">
       Details
     </a>
+    
+    
     <a href="https://frodriguezsanchez.net/pdf/Rodriguez-Sanchez_Almoraima_2005.pdf" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-file-earmark-text"></i> PDF
     </a>
+    
+    
+    
+    
   </li>
+
   <br>
-  <li data-index="50" data-categories="Parque Natural Los Alcornocales,forest dynamics" data-listing-file-modified-sort="1710770694609" data-listing-reading-time-sort="1">
+  <li data-index="50" data-categories="Parque Natural Los Alcornocales,forest dynamics" data-listing-file-modified-sort="1710770694609" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
     <span class="listing-title lead">Restauración de comunidades vegetales en el Parque Natural los Alcornocales</span><br>
     <span class="listing-author"> Rodríguez-Sánchez</span><br>
     <span class="listing-publication fst-italic ">Boletín del Parque Natural Los Alcornocales</span>
@@ -1138,8 +1624,15 @@ ul.task-list li input[type="checkbox"] {
     <a href="./publications/Rodriguez-Sanchez2003.html" class="btn btn-primary">
       Details
     </a>
+    
+    
+    
+    
+    
   </li>
+
 </ul>
+
 <div class="listing-no-matching d-none">
 No matching items
 </div>
@@ -1231,10 +1724,27 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/ComputationalEcology\.github\.io");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -1244,8 +1754,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -1257,7 +1776,130 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -1301,6 +1943,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -1326,6 +1969,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -1391,12 +2060,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-left">
       &nbsp;
     </div>   
-    <div class="nav-footer-center">CC-BY-NC 4.0, Francisco Rodríguez-Sánchez</div>
+    <div class="nav-footer-center">
+<p>CC-BY-NC 4.0, Francisco Rodríguez-Sánchez</p>
+</div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
   </div>
 </footer>
+
 
 
 
