@@ -48,6 +48,7 @@ doi2qmd <- function(doi = NULL, filename = NULL) {
     ""
   )
 
+  filename <- paste0(dt$author[[1]]$family[1], substr(dt$created, start = 1, stop = 4))
   if (!file.exists(here::here("publications", paste0(filename, ".qmd")))) {
     writeLines(content, con = here::here("publications", paste0(filename, ".qmd")))
   }

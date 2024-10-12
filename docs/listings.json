@@ -5,13 +5,13 @@
       "/team/current/FRS.html",
       "/team/current/Elena_Quintero.html",
       "/team/current/Ignacio_Ramos.html",
-      "/team/current/Maria_Sanchez.html",
-      "/team/current/Mario_Masero.html",
-      "/team/current/Ivan_Gallardo.html",
-      "/team/current/Marta_Munoz.html",
       "/team/current/Chechu.html",
       "/team/past/Julen_Astigarraga.html",
-      "/team/past/Virginia_Luque.html"
+      "/team/past/Virginia_Luque.html",
+      "/team/past/Maria_Sanchez.html",
+      "/team/past/Mario_Masero.html",
+      "/team/past/Ivan_Gallardo.html",
+      "/team/past/Marta_Munoz.html"
     ]
   },
   {
@@ -24,9 +24,11 @@
     "listing": "/publications.html",
     "items": [
       "/publications/Quintero2024b.html",
+      "/publications/Villalba2024.html",
       "/publications/Quintero2024.html",
       "/publications/Astigarraga2024.html",
       "/publications/Amstutz2024.html",
+      "/publications/Sanczuk2024.html",
       "/publications/Qiu2023.html",
       "/publications/Puerta2023.html",
       "/publications/Quintero2023.html",

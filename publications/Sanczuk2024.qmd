@@ -1,0 +1,36 @@
+---
+title: 'Unexpected westward range shifts in European forest plants link to nitrogen deposition'
+type: 'article'
+author: 'Sanczuk, Verheyen, Lenoir, Zellweger, Lembrechts, Rodríguez-Sánchez, Baeten, Bernhardt-Römermann, De Pauw, Vangansbeke, Perring, Berki, Bjorkman, Brunet, Chudomelová, De Lombaerde, Decocq, Dirnböck, Durak, Greiser, Hédl, Heinken, Jandt, Jaroszewicz, Kopecký, Landuyt, Macek, Máliš, Naaf, Nagel, Petřík, Reczyńska, Schmidt, Standovár, Staude, Świerkosz, Teleki, Vanneste, Vild, Waller, De Frenne'
+year: '2024'
+publication: 'Science'
+# preprint: 'https://doi.org/10.1126/science.ado0878'
+doi: 'https://doi.org/10.1126/science.ado0878'
+pdf: 'https://frodriguezsanchez.net/pdf/Sanczuk_etal_2024_accepted_version.pdf'
+data: 'https://doi.org/10.5061/dryad.4b8gthtmt'
+code: 'https://doi.org/10.5061/dryad.4b8gthtmt'
+toc: false
+categories: 
+  - biogeography
+  - climate change
+  - forest dynamics
+---
+
+## Citation
+
+> Sanczuk, P., Verheyen, K., Lenoir, J., Zellweger, F., Lembrechts, J.J., Rodríguez-Sánchez, F., et al. (2024) Unexpected westward range shifts in European forest plants link to nitrogen deposition. Science, 386, 193–198.
+
+## Abstract
+
+Climate change is commonly assumed to induce species’ range shifts toward the poles. Yet, other environmental changes may affect the geographical distribution of species in unexpected ways. Here, we quantify multidecadal shifts in the distribution of European forest plants and link these shifts to key drivers of forest biodiversity change: climate change, atmospheric deposition (nitrogen and sulfur), and forest canopy dynamics. Surprisingly, westward distribution shifts were 2.6 times more likely than northward ones. Not climate change, but nitrogen-mediated colonization events, possibly facilitated by the recovery from past acidifying deposition, best explain westward movements. Biodiversity redistribution patterns appear complex and are more likely driven by the interplay among several environmental changes than due to the exclusive effects of climate change alone.
+
+### Publication metrics
+
+<br>
+
+<span class="__dimensions_badge_embed__" data-doi="10.1126/science.ado0878" data-hide-zero-citations="true" data-legend="always"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script><div data-badge-details="right" data-badge-type="medium-donut" data-doi="10.1126/science.ado0878" data-hide-no-mentions="true" class="altmetric-embed"></div>
+
+<div class="scite-badge" data-doi="10.1126/science.ado0878" data-layout="horizontal" data-show-zero="false" data-show-labels="true"></div><link rel="stylesheet" type="text/css" href="https://cdn.scite.ai/badge/scite-badge-latest.min.css"><script async type="application/javascript" src="https://cdn.scite.ai/badge/scite-badge-latest.min.js"></script>
+

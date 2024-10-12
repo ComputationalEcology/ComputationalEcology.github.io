@@ -1,0 +1,39 @@
+---
+title: "FRUGIVORY CAMTRAP: A dataset of plant–animal interactions recorded with camera traps"
+type: "article"
+author: "Villalba P, Arroyo-Correa B, Calvo G, Homet P, Isla J, Mendoza I, Moracho E, Quintero E, Rodriguez-Sanchez F, Jordano P"
+year: "2024"
+publication: "Ecology"
+# preprint: "https://doi.org/10.1101/2024.02.02.578595"
+doi: "https://doi.org/10.1002/ecy.4424"
+pdf: "https://doi.org/10.1002/ecy.4424"
+data: "https://esajournals.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1002%2Fecy.4424&file=ecy4424-sup-0001-DataS1.zip"
+# code: "https://doi.org/10.5281/zenodo.10630819"
+toc: false
+categories:
+  - plant-animal mutualisms
+  - ecological networks
+  - data science
+---
+
+## Citation 
+
+>  Villalva P, Arroyo-Correa B, Calvo G, Homet P, Isla J, Mendoza I, Moracho E, Quintero E, Rodríguez-Sánchez F, Jordano P. 2024. FRUGIVORY CAMTRAP: A Dataset of Plant–Animal Interactions Recorded with Camera Traps. Ecology e4424. https://doi.org/10.1002/ecy.4424
+
+
+## Abstract
+
+Ecological interactions are a key component of biodiversity, essential for understanding ecosystem services and functioning. Recording and quantifying ecological interactions is challenging, frequently requiring complex logistics and substantial effort in the field. Camera traps are routinely used in ecology for various applications, and have proven to be an excellent method for passive and non-invasive sampling of plant–animal interactions. We implemented a standardized camera trap protocol to document vertebrate frugivores-fleshy fruited plants interactions in Doñana National Park, SW Spain, with the central objective of inventorying the diversity of plant–animal ecological interactions providing seed dispersal services. From 2018 to 2023 we recorded pairwise interactions from which we obtained qualitative (presence-absence) and quantitative (frequency of visits) information. Each record in the dataset contains information of a visit by an individual animal to an individual plant, resulting in any form of fleshy-fruit use and provides information on visitation phenology, visit length, and feeding behavior. The dataset presented here includes 10,659 frugivory interaction events for 59 vertebrate species (46 birds, 13 mammals) recorded on 339 plant individuals from 13 different plant species which dominate the fleshy-fruited plant assemblage in the Doñana National Park. The most recorded animal species consuming fruits and playing a legitimate seed dispersal role was Curruca melanocephala (1678 records) among birds and Vulpes vulpes among mammals (751 records). Cervus elaphus, a fruit consumer with a marginal role as legitimate seed disperser, was the most recorded mammal species (1508 records). Avian frugivores, particularly those from the Sylviidae and Turdidae families, are widespread in the region and play a crucial role in maintaining the dispersal service for the fleshy-fruited plant populations in the area. The dataset offers highly versatile quantitative information that can be used to investigate frugivory from the highest resolution scale, the interaction event between pairs of individuals. In addition, other information that can be extracted includes the timing of interactions of animals and plants (their phenological couplings), activity periods of the animals, behavior during the events and preferences for individual plants within populations. There are no copyright restrictions on the data. When using the data from this data paper in publications, we kindly request that you cite the paper accordingly. Additionally, we encourage researchers and educators to inform us about how they are using this data, as we value feedback and would like to be aware of its various applications.
+
+
+### Publication metrics
+
+<br>
+
+<span class="__dimensions_badge_embed__" data-doi="10.1002/ecy.4424" data-hide-zero-citations="true" data-legend="always"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+<div data-badge-details="right" data-badge-type="medium-donut" data-doi="10.1002/ecy.4424" data-hide-no-mentions="true" class="altmetric-embed"></div>
+
+<div class="scite-badge" data-doi="10.1002/ecy.4424" data-layout="horizontal" data-show-zero="false" data-show-labels="true"></div><link rel="stylesheet" type="text/css" href="https://cdn.scite.ai/badge/scite-badge-latest.min.css"><script async type="application/javascript" src="https://cdn.scite.ai/badge/scite-badge-latest.min.js"></script>
+

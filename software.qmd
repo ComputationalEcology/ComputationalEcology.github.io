@@ -6,6 +6,8 @@ title: "Software"
 
 - [network.tools](https://pakillo.github.io/network.tools/): Tools to work with bipartite networks
 
+- [plantas-cerca-de-mi](https://frodsan.shinyapps.io/plantas-cerca-de-mi/): A shiny app to find native Iberian plants around you
+
 - [CityShadeMapper](https://pakillo.github.io/CityShadeMapper/): Create high resolution maps of shading/insolation in cities
 
 - [DHARMa.helpers](https://pakillo.github.io/DHARMa.helpers/): helper functions to check Bayesian brms models with DHARMa
