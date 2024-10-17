@@ -6,7 +6,7 @@ year: '2024'
 publication: 'Science'
 # preprint: 'https://doi.org/10.1126/science.ado0878'
 doi: 'https://doi.org/10.1126/science.ado0878'
-pdf: 'https://frodriguezsanchez.net/pdf/Sanczuk_etal_2024_accepted_version.pdf'
+pdf: 'https://www.science.org/stoken/author-tokens/ST-2175/full'
 data: 'https://doi.org/10.5061/dryad.4b8gthtmt'
 code: 'https://doi.org/10.5061/dryad.4b8gthtmt'
 toc: false
