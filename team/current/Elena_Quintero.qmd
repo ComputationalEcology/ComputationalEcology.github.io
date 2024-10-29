@@ -9,9 +9,9 @@ about:
   id: person-profile
   template: jolla
   links:
-    # - icon: link
-    #   text: website
-    #   href: https://frodriguezsanchez.net
+    - icon: link
+      text: website
+      href: https://elequintero.github.io
     - icon: mortarboard
       text: scholar
       href: https://scholar.google.com/citations?user=Trdeq3cAAAAJ
