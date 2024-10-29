@@ -33,5 +33,8 @@ format:
     toc: true
     linkcolor: rebeccapurple
 
+execute:
+  freeze: auto
+
 
 
