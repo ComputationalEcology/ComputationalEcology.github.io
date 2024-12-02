@@ -2,7 +2,7 @@
 title: "Software"
 ---
 
-- [BayesianNetworks](https://pakillo.github.io/BayesianNetworks/): Bayesian modelling of bipartite networks
+- [NetBayes](https://pakillo.github.io/NetBayes/): Bayesian modelling of bipartite networks
 
 - [network.tools](https://pakillo.github.io/network.tools/): Tools to work with bipartite networks
 
