@@ -1,14 +1,14 @@
 ---
 title: "Downscaling mutualistic networks from species to individuals reveals consistent interaction niches and roles within plant populations"
 type: "article"
-author: "Quintero, Arroyo, Isla, Rodríguez-Sánchez, Jordano"
-year: "2024"
-publication: "bioRxiv"
+author: "Quintero, Arroyo-Correa, Isla, Rodríguez-Sánchez, Jordano"
+year: "2025"
+publication: "PNAS"
 preprint: "https://doi.org/10.1101/2024.02.02.578595"
 doi: "https://doi.org/10.1101/2024.02.02.578595 "
-pdf: "https://www.biorxiv.org/content/10.1101/2024.02.02.578595v1.full.pdf"
-data: "https://doi.org/10.5281/zenodo.10630819"
-code: "https://doi.org/10.5281/zenodo.10630819"
+pdf: "https://www.biorxiv.org/content/10.1101/2024.02.02.578595v3.full.pdf"
+data: "https://doi.org/10.5281/zenodo.10630818"
+code: "https://doi.org/10.5281/zenodo.10630818"
 toc: false
 categories:
   - plant-animal mutualisms
