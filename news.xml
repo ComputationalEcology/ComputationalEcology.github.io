@@ -9,8 +9,8 @@
 <link>https://ComputationalEcology.github.io/news.html</link>
 <atom:link href="https://ComputationalEcology.github.io/news.xml" rel="self" type="application/rss+xml"/>
 <description>Computational Ecology &amp; Global Change group</description>
-<generator>quarto-1.5.57</generator>
-<lastBuildDate>Thu, 14 Mar 2024 23:00:00 GMT</lastBuildDate>
+<generator>quarto-1.6.39</generator>
+<lastBuildDate>Fri, 15 Mar 2024 00:00:00 GMT</lastBuildDate>
 <item>
   <title>Postdoc offer on Macroevolution of plant dispersal</title>
   <dc:creator>Francisco Rodriguez-Sanchez</dc:creator>
@@ -70,7 +70,7 @@
  ]]></description>
   <category>jobs</category>
   <guid>https://ComputationalEcology.github.io/posts/2024-postdoc-plant-macroevolution/</guid>
-  <pubDate>Thu, 14 Mar 2024 23:00:00 GMT</pubDate>
+  <pubDate>Fri, 15 Mar 2024 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
