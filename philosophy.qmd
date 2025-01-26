@@ -6,7 +6,7 @@ title: "Lab philosophy"
 
 - **Guiding principles**. Our lab motto is "*We need less research, better research, and research done for the right reasons*" ([Altman 1994](https://doi.org/10.1136/bmj.308.6924.283)). We don't want to do research just for the sake of publishing. Our goal is to do research that helps advance our understanding of the world and ideally also contribute to make it a better place. In the process we expect to learn new things, satisfy our curiosity, produce useful results and enjoy the process. We do not compete with anyone but ourselves to do sound research, the best research we can given our circumstances and limitations. We always keep learning and improving. 
 
-- **Reproducibility and open science**. We believe open and reproducible science is better science, in general. We believe in the power of collaboration and team work. To the extent possible, we use preprints, share data and code with all our research papers. We pay a lot of attention and effort to curate and check our data and analysis workflows, and do our best to ensure our results are reproducible.
+- **Reproducibility and open science**. We believe open and reproducible science is better science, in general. We believe in the power of collaboration and team work. To the extent possible, we use preprints, share data and code with all our research papers. We pay a lot of attention and effort to curate and check our data and analysis workflows, and do our best to ensure our results are reproducible, robust and rigorous. We care a lot about uncertainty (hence the name of MAYBE_lab ;-).
 
 
 ## Code of conduct
