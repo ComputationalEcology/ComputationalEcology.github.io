@@ -1,0 +1,35 @@
+---
+title: "Constanza Andía"
+sortby: "4"
+categories: [Master Student]
+image: avatar.jpg
+# started: "Fall 2020"
+toc: false
+about:
+  id: person-profile
+  template: jolla
+  # links:
+    # - icon: link
+    #   text: website
+    #   href: 
+    # - icon: mortarboard
+    #   text: scholar
+    #   href: https://scholar.google.com/citations?user=LQQrHeEAAAAJ
+    # - icon: github
+    #   text: github
+    #   href: https://www.github.com/mariomasero
+    # - icon: twitter
+    #   text: twitter
+    #   href: https://www.twitter.com/frod_san
+    # - icon: mastodon
+    #   text: mastodon
+    #   href: https://ecoevo.social/@frod_san
+
+---
+
+:::{#person-profile}
+:::
+
+Constanza is doing her Master project on the evolution of dispersal modes in the Gesneriaceae family.
+
+
