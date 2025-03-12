@@ -2,7 +2,7 @@
   {
     "listing": "/publications.html",
     "items": [
-      "/publications/Quintero2024b.html",
+      "/publications/Quintero2025.html",
       "/publications/Villalba2024.html",
       "/publications/Quintero2024.html",
       "/publications/Astigarraga2024.html",
@@ -58,6 +58,12 @@
     ]
   },
   {
+    "listing": "/news.html",
+    "items": [
+      "/posts/2024-postdoc-plant-macroevolution/index.html"
+    ]
+  },
+  {
     "listing": "/team.html",
     "items": [
       "/team/current/FRS.html",
@@ -72,12 +78,6 @@
       "/team/past/Mario_Masero.html",
       "/team/past/Ivan_Gallardo.html",
       "/team/past/Marta_Munoz.html"
-    ]
-  },
-  {
-    "listing": "/news.html",
-    "items": [
-      "/posts/2024-postdoc-plant-macroevolution/index.html"
     ]
   }
 ]
