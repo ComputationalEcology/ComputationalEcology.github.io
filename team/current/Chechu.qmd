@@ -1,6 +1,6 @@
 ---
 title: "José Luis Medina-Gavilán"
-sortby: "7"
+sortby: "4"
 categories: [Honorary Assistant]
 image: Chechu.jpg
 # started: "Fall 2020"

@@ -1,0 +1,37 @@
+---
+title: "Yannek Kaber"
+# sortby: "1"
+date: "2025"
+categories: [Visitor]
+image: Yannek_Kaber.jpg
+# started: "Fall 2020"
+toc: false
+about:
+  id: person-profile
+  template: jolla
+  links:
+    - icon: link
+      text: website
+      href: https://uni-freiburg.de/unr-biometry/dr-yannek-kaeber/
+    # - icon: mortarboard
+    #   text: scholar
+    #   href: https://scholar.google.com/citations?user=ZV6_380AAAAJ
+    # - icon: github
+    #   text: github
+    #   href: https://www.github.com/Julenasti
+    # - icon: twitter
+    #   text: twitter
+    #   href: https://www.twitter.com/J_astigarraga
+    # - icon: mastodon
+    #   text: mastodon
+    #   href: https://ecoevo.social/@frod_san
+
+---
+
+:::{#person-profile}
+:::
+
+February - March 2025
+
+
+

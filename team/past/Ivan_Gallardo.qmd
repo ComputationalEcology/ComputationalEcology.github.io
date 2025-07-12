@@ -1,6 +1,7 @@
 ---
 title: "Iván Gallardo"
-sortby: "5"
+date: "2024"
+# sortby: "5"
 categories: [Undergraduate Student]
 image: Ivan_Gallardo.jpg
 # started: "Fall 2020"

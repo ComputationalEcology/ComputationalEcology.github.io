@@ -1,6 +1,7 @@
 ---
 title: "Marta Muñoz"
-sortby: "6"
+# sortby: "6"
+date: "2024"
 categories: [Undergraduate Student]
 image: Marta_Munoz.jpg
 # started: "Fall 2020"

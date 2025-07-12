@@ -1,6 +1,7 @@
 ---
 title: "Virginia Luque-Oliva"
-sortby: "2"
+# sortby: "2"
+date: "2015"
 categories: [Master Student]
 image: Virginia_Luque.jpeg
 # started: "Fall 2020"

@@ -1,6 +1,7 @@
 ---
 title: "Julen Astigarraga"
-sortby: "1"
+# sortby: "1"
+date: "2022"
 categories: [Visitor]
 image: Julen.jpeg
 # started: "Fall 2020"
