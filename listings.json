@@ -1,14 +1,20 @@
 [
   {
+    "listing": "/news.html",
+    "items": [
+      "/posts/2024-postdoc-plant-macroevolution/index.html"
+    ]
+  },
+  {
     "listing": "/team.html",
     "items": [
       "/team/current/FRS.html",
       "/team/current/Elena_Quintero.html",
       "/team/current/Ignacio_Ramos.html",
       "/team/current/Chechu.html",
-      "/team/current/Constanza_Andia.html",
-      "/team/current/Susana_Asis.html",
-      "/team/current/Emilie_Gehin.html",
+      "/team/past/Constanza_Andia.html",
+      "/team/past/Emilie_Gehin.html",
+      "/team/past/Susana_Asis.html",
       "/team/past/Yannek_Kaber.html",
       "/team/past/Ivan_Gallardo.html",
       "/team/past/Mario_Masero.html",
@@ -16,12 +22,6 @@
       "/team/past/Maria_Sanchez.html",
       "/team/past/Julen_Astigarraga.html",
       "/team/past/Virginia_Luque.html"
-    ]
-  },
-  {
-    "listing": "/news.html",
-    "items": [
-      "/posts/2024-postdoc-plant-macroevolution/index.html"
     ]
   },
   {

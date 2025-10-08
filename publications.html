@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.8.25">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -34,14 +34,15 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-a0b2071ee4bc0025bec61bd54c750fd9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-1ae921c3066990e971829c349571c0bf.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -114,7 +115,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -140,6 +141,8 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">MAYBE_lab</span>
     </a>
@@ -245,7 +248,7 @@ window.Quarto = {
 <ul class="pub-list list">
 
   <br>
-  <li data-index="0" data-categories="cGxhbnQtYW5pbWFsJTIwbXV0dWFsaXNtcyUyQ2Vjb2xvZ2ljYWwlMjBuZXR3b3Jrcw==" data-listing-file-modified-sort="1752335359660" data-listing-reading-time-sort="3" data-listing-word-count-sort="427">
+  <li data-index="0" data-categories="cGxhbnQtYW5pbWFsJTIwbXV0dWFsaXNtcyUyQ2Vjb2xvZ2ljYWwlMjBuZXR3b3Jrcw==" data-listing-file-modified-sort="1759921159033" data-listing-reading-time-sort="3" data-listing-word-count-sort="427">
     <span class="listing-title lead">Downscaling mutualistic networks from species to individuals reveals consistent interaction niches and roles within plant populations</span><br>
     <span class="listing-author">Quintero, Arroyo-Correa, Isla, Rodríguez-Sánchez, Jordano</span><br>
     <span class="listing-publication fst-italic ">PNAS</span>
@@ -281,7 +284,7 @@ window.Quarto = {
   </li>
 
   <br>
-  <li data-index="1" data-categories="cGxhbnQtYW5pbWFsJTIwbXV0dWFsaXNtcyUyQ2Vjb2xvZ2ljYWwlMjBuZXR3b3JrcyUyQ2RhdGElMjBzY2llbmNl" data-listing-file-modified-sort="1752335359662" data-listing-reading-time-sort="3" data-listing-word-count-sort="453">
+  <li data-index="1" data-categories="cGxhbnQtYW5pbWFsJTIwbXV0dWFsaXNtcyUyQ2Vjb2xvZ2ljYWwlMjBuZXR3b3JrcyUyQ2RhdGElMjBzY2llbmNl" data-listing-file-modified-sort="1759921159034" data-listing-reading-time-sort="3" data-listing-word-count-sort="453">
     <span class="listing-title lead">FRUGIVORY CAMTRAP: A dataset of plant–animal interactions recorded with camera traps</span><br>
     <span class="listing-author">Villalba P, Arroyo-Correa B, Calvo G, Homet P, Isla J, Mendoza I, Moracho E, Quintero E, Rodriguez-Sanchez F, Jordano P</span><br>
     <span class="listing-publication fst-italic ">Ecology</span>
@@ -309,7 +312,7 @@ window.Quarto = {
   </li>
 
   <br>
-  <li data-index="2" data-categories="cGxhbnQtYW5pbWFsJTIwbXV0dWFsaXNtcw==" data-listing-file-modified-sort="1752335359660" data-listing-reading-time-sort="3" data-listing-word-count-sort="411">
+  <li data-index="2" data-categories="cGxhbnQtYW5pbWFsJTIwbXV0dWFsaXNtcw==" data-listing-file-modified-sort="1759921159033" data-listing-reading-time-sort="3" data-listing-word-count-sort="411">
     <span class="listing-title lead">Lasting effects of avian-frugivore interactions on seed dispersal and seedling establishment</span><br>
     <span class="listing-author">Quintero, Arroyo, Dirzo, Jordano, Rodríguez-Sánchez</span><br>
     <span class="listing-publication fst-italic ">Journal of Ecology</span>
@@ -345,7 +348,7 @@ window.Quarto = {
   </li>
 
   <br>
-  <li data-index="3" data-categories="Zm9yZXN0JTIwZHluYW1pY3MlMkNiaW9nZW9ncmFwaHklMkNjbGltYXRlJTIwY2hhbmdl" data-listing-file-modified-sort="1752335359659" data-listing-reading-time-sort="2" data-listing-word-count-sort="289">
+  <li data-index="3" data-categories="Zm9yZXN0JTIwZHluYW1pY3MlMkNiaW9nZW9ncmFwaHklMkNjbGltYXRlJTIwY2hhbmdl" data-listing-file-modified-sort="1759921159032" data-listing-reading-time-sort="2" data-listing-word-count-sort="289">
     <span class="listing-title lead">Relative decline in density of Northern Hemisphere tree species in warm and arid regions of their climate niches</span><br>
     <span class="listing-author">Astigarraga, Esquivel-Muelbert, Ruiz-Benito, Rodríguez-Sánchez, Zavala, Vilà-Cabrera, Schelhaas, Kunstler, Woodall, Cienciala, Dahlgren, Govaere, König, Lehtonen, Talarczyk, Liu, Pugh</span><br>
     <span class="listing-publication fst-italic ">Proceedings of the National Academy of Sciences</span>
@@ -381,7 +384,7 @@ window.Quarto = {
   </li>
 
   <br>
-  <li data-index="4" data-categories="bWljcm9jbGltYXRlJTJDYmlvZ2VvZ3JhcGh5" data-listing-file-modified-sort="1752335359659" data-listing-reading-time-sort="2" data-listing-word-count-sort="307">
+  <li data-index="4" data-categories="bWljcm9jbGltYXRlJTJDYmlvZ2VvZ3JhcGh5" data-listing-file-modified-sort="1759921159032" data-listing-reading-time-sort="2" data-listing-word-count-sort="307">
     <span class="listing-title lead">Taking sides? Aspect has limited influence on soil environment or litter decomposition in pan-European study of roadside verges</span><br>
     <span class="listing-author">Amstutz, Firth, Spicer, De Frenne, Gómez-Aparicio, Graae, Kuś, Lindmo, Orczewska, Rodríguez-Sánchez, Vangansbeke, Vanneste, Hanley</span><br>
     <span class="listing-publication fst-italic ">Pedobiologia</span>
@@ -405,7 +408,7 @@ window.Quarto = {
   </li>
 
   <br>
-  <li data-index="5" data-categories="YmlvZ2VvZ3JhcGh5JTJDY2xpbWF0ZSUyMGNoYW5nZSUyQ2ZvcmVzdCUyMGR5bmFtaWNz" data-listing-file-modified-sort="1752335359661" data-listing-reading-time-sort="1" data-listing-word-count-sort="178">
+  <li data-index="5" data-categories="YmlvZ2VvZ3JhcGh5JTJDY2xpbWF0ZSUyMGNoYW5nZSUyQ2ZvcmVzdCUyMGR5bmFtaWNz" data-listing-file-modified-sort="1759921159033" data-listing-reading-time-sort="1" data-listing-word-count-sort="178">
     <span class="listing-title lead">Unexpected westward range shifts in European forest plants link to nitrogen deposition</span><br>
     <span class="listing-author">Sanczuk, Verheyen, Lenoir, Zellweger, Lembrechts, Rodríguez-Sánchez, Baeten, Bernhardt-Römermann, De Pauw, Vangansbeke, Perring, Berki, Bjorkman, Brunet, Chudomelová, De Lombaerde, Decocq, Dirnböck, Durak, Greiser, Hédl, Heinken, Jandt, Jaroszewicz, Kopecký, Landuyt, Macek, Máliš, Naaf, Nagel, Petřík, Reczyńska, Schmidt, Standovár, Staude, Świerkosz, Teleki, Vanneste, Vild, Waller, De Frenne</span><br>
     <span class="listing-publication fst-italic ">Science</span>
@@ -437,7 +440,7 @@ window.Quarto = {
   </li>
 
   <br>
-  <li data-index="6" data-categories="cGxhbnQtYW5pbWFsJTIwbXV0dWFsaXNtcyUyQ2ZvcmVzdCUyMGR5bmFtaWNzJTJDYmlvZ2VvZ3JhcGh5" data-listing-file-modified-sort="1752335359660" data-listing-reading-time-sort="2" data-listing-word-count-sort="294">
+  <li data-index="6" data-categories="cGxhbnQtYW5pbWFsJTIwbXV0dWFsaXNtcyUyQ2ZvcmVzdCUyMGR5bmFtaWNzJTJDYmlvZ2VvZ3JhcGh5" data-listing-file-modified-sort="1759921159033" data-listing-reading-time-sort="2" data-listing-word-count-sort="294">
     <span class="listing-title lead">Masting is uncommon in trees that depend on mutualist dispersers in the context of global climate and fertility gradients</span><br>
     <span class="listing-author">Qiu, Aravena, Ascoli, Bergeron, Bogdziewicz, Boivin, Bonal, Caignard, Cailleret, Calama, Calderon, Camarero, Chang-Yang, Chave, Chianucci, Courbaud, Cutini, Das, Delpierre, Delzon, Dietze, Dormont, Espelta, Fahey, Farfan-Rios, Franklin, Gehring, Gilbert, Gratzer, Greenberg, Guignabert, Guo, Hacket-Pain, Hampe, Han, Holik, Hoshizaki, Ibanez, Johnstone, Journé, Kitzberger, Knops, Kunstler, Kurokawa, Lageard, LaMontagne, Lefevre, Leininger, Limousin, Lutz, Macias, Marell, McIntire, Moore, Moran, Motta, Myers, Nagel, Naoe, Noguchi, Oguro, Parmenter, Pearse, Perez-Ramos, Piechnik, Podgorski, Poulsen, Redmond, Reid, Rodman, Rodriguez-Sanchez, Samonil, Sanguinetti, Scher, Seget, Sharma, Shibata, Silman, Steele, Stephenson, Straub, Sutton, Swenson, Swift, Thomas, Uriarte, Vacchiano, Whipple, Whitham, Wion, Wright, Zhu, Zimmerman, Zywiec, Clark</span><br>
     <span class="listing-publication fst-italic ">Nature Plants</span>
@@ -469,7 +472,7 @@ window.Quarto = {
   </li>
 
   <br>
-  <li data-index="7" data-listing-file-modified-sort="1752335359660" data-listing-reading-time-sort="1" data-listing-word-count-sort="35">
+  <li data-index="7" data-listing-file-modified-sort="1759921159032" data-listing-reading-time-sort="1" data-listing-word-count-sort="35">
     <span class="listing-title lead">Premio al mejor revisor de Ecosistemas y reconocimiento a editores invitados del bienio 2021-2022</span><br>
     <span class="listing-author">Puerta Piñero, Blanco, Jiménez-Eguizábal, Pérez-Luque, Molina Morales, Lacerot, Rodriguez-Sánchez, Alonso, Rodríguez-Echeverría, Miquelajauregui, Bartomeus, Cerón-Souza</span><br>
     <span class="listing-publication fst-italic ">Ecosistemas</span>
@@ -493,7 +496,7 @@ window.Quarto = {
   </li>
 
   <br>
-  <li data-index="8" data-categories="cGxhbnQtYW5pbWFsJTIwbXV0dWFsaXNtcyUyQ2Vjb2xvZ2ljYWwlMjBuZXR3b3Jrcw==" data-listing-file-modified-sort="1752335359660" data-listing-reading-time-sort="2" data-listing-word-count-sort="205">
+  <li data-index="8" data-categories="cGxhbnQtYW5pbWFsJTIwbXV0dWFsaXNtcyUyQ2Vjb2xvZ2ljYWwlMjBuZXR3b3Jrcw==" data-listing-file-modified-sort="1759921159033" data-listing-reading-time-sort="2" data-listing-word-count-sort="205">
     <span class="listing-title lead">Reciprocity and interaction effectiveness in generalised mutualisms among free-living species</span><br>
     <span class="listing-author">Quintero, Rodríguez-Sánchez, Jordano</span><br>
     <span class="listing-publication fst-italic ">Ecology Letters</span>
@@ -529,7 +532,7 @@ window.Quarto = {
   </li>
 
   <br>
-  <li data-index="9" data-categories="c29mdHdhcmUlMkNjbGltYXRlJTIwY2hhbmdl" data-listing-file-modified-sort="1752335359659" data-listing-reading-time-sort="2" data-listing-word-count-sort="212">
+  <li data-index="9" data-categories="c29mdHdhcmUlMkNjbGltYXRlJTIwY2hhbmdl" data-listing-file-modified-sort="1759921159032" data-listing-reading-time-sort="2" data-listing-word-count-sort="212">
     <span class="listing-title lead">The easyclimate R package: Easy access to high-resolution daily climate data for Europe</span><br>
     <span class="listing-author">Cruz-Alonso, Pucher, Ratcliffe, Ruiz-Benito, Astigarraga, Neumann, Hasenauer, Rodríguez-Sánchez</span><br>
     <span class="listing-publication fst-italic ">Environmental Modelling &amp; Software</span>
@@ -561,7 +564,7 @@ window.Quarto = {
   </li>
 
   <br>
-  <li data-index="10" data-categories="YmlvZ2VvZ3JhcGh5JTJDY2xpbWF0ZSUyMGNoYW5nZQ==" data-listing-file-modified-sort="1752335359660" data-listing-reading-time-sort="2" data-listing-word-count-sort="346">
+  <li data-index="10" data-categories="YmlvZ2VvZ3JhcGh5JTJDY2xpbWF0ZSUyMGNoYW5nZQ==" data-listing-file-modified-sort="1759921159033" data-listing-reading-time-sort="2" data-listing-word-count-sort="346">
     <span class="listing-title lead">Widespread latitudinal asymmetry in the performance of marginal populations: A meta‐analysis</span><br>
     <span class="listing-author">Pulido, Castagneyrol, Rodríguez‐Sánchez, Cáceres, Pardo, Moracho, Kollmann, Valladares, Ehrlén, Jump, Svenning, Hampe</span><br>
     <span class="listing-publication fst-italic ">Global Ecology and Biogeography</span>
@@ -597,7 +600,7 @@ window.Quarto = {
   </li>
 
   <br>
-  <li data-index="11" data-categories="Zm9yZXN0JTIwZHluYW1pY3M=" data-listing-file-modified-sort="1752335359659" data-listing-reading-time-sort="2" data-listing-word-count-sort="238">
+  <li data-index="11" data-categories="Zm9yZXN0JTIwZHluYW1pY3M=" data-listing-file-modified-sort="1759921159032" data-listing-reading-time-sort="2" data-listing-word-count-sort="238">
     <span class="listing-title lead">Evaluación del estado de conservación de las Dehesas Extremeñas usando LiDAR del PNOA y el Inventario Forestal Nacional (IFN IV)</span><br>
     <span class="listing-author">Lobo, Duque-Lazo, Rodríguez-Sánchez, Tomé, Bernal</span><br>
     <span class="listing-publication fst-italic ">8º Congreso Forestal Español</span>
@@ -617,7 +620,7 @@ window.Quarto = {
   </li>
 
   <br>
-  <li data-index="12" data-categories="Zm9yZXN0JTIwZHluYW1pY3MlMkNiaW9nZW9ncmFwaHk=" data-listing-file-modified-sort="1752335359659" data-listing-reading-time-sort="1" data-listing-word-count-sort="186">
+  <li data-index="12" data-categories="Zm9yZXN0JTIwZHluYW1pY3MlMkNiaW9nZW9ncmFwaHk=" data-listing-file-modified-sort="1759921159032" data-listing-reading-time-sort="1" data-listing-word-count-sort="186">
     <span class="listing-title lead">Globally, tree fecundity exceeds productivity gradients</span><br>
     <span class="listing-author">Journé, Andrus, Aravena, Ascoli, Berretti, Berveiller, Bogdziewicz, Boivin, Bonal, Caignard, Calama, Camarero, Chang‐Yang, Courbaud, Courbet, Curt, Das, Daskalakou, Davi, Delpierre, Delzon, Dietze, Donoso Calderon, Dormont, Maria Espelta, Fahey, Farfan‐Rios, Gehring, Gilbert, Gratzer, Greenberg, Guo, Hacket‐Pain, Hampe, Han, Lambers, Hoshizaki, Ibanez, Johnstone, Kabeya, Kays, Kitzberger, Knops, Kobe, Kunstler, Lageard, LaMontagne, Leininger, Limousin, Lutz, Macias, McIntire, Moore, Moran, Motta, Myers, Nagel, Noguchi, Ourcival, Parmenter, Pearse, Perez‐Ramos, Piechnik, Poulsen, Poulton‐Kamakura, Qiu, Redmond, Reid, Rodman, Rodriguez‐Sanchez, Sanguinetti, Scher, Marle, Seget, Sharma, Silman, Steele, Stephenson, Straub, Swenson, Swift, Thomas, Uriarte, Vacchiano, Veblen, Whipple, Whitham, Wright, Wright, Zhu, Zimmerman, Zlotin, Zywiec, Clark</span><br>
     <span class="listing-publication fst-italic ">Ecology Letters</span>
@@ -649,7 +652,7 @@ window.Quarto = {
   </li>
 
   <br>
-  <li data-index="13" data-categories="Zm9yZXN0JTIwZHluYW1pY3MlMkNiaW9nZW9ncmFwaHk=" data-listing-file-modified-sort="1752335359660" data-listing-reading-time-sort="2" data-listing-word-count-sort="229">
+  <li data-index="13" data-categories="Zm9yZXN0JTIwZHluYW1pY3MlMkNiaW9nZW9ncmFwaHk=" data-listing-file-modified-sort="1759921159033" data-listing-reading-time-sort="2" data-listing-word-count-sort="229">
     <span class="listing-title lead">Limits to reproduction and seed size-number trade-offs that shape forest dominance and future recovery</span><br>
     <span class="listing-author">Qiu, Andrus, Aravena, Ascoli, Bergeron, Berretti, Berveiller, Bogdziewicz, Boivin, Bonal, Bragg, Caignard, Calama, Camarero, Chang-Yang, Cleavitt, Courbaud, Courbet, Curt, Das, Daskalakou, Davi, Delpierre, Delzon, Dietze, Calderon, Dormont, Espelta, Fahey, Farfan-Rios, Gehring, Gilbert, Gratzer, Greenberg, Guo, Hacket-Pain, Hampe, Han, Hille Ris Lambers, Hoshizaki, Ibanez, Johnstone, Journé, Kabeya, Kilner, Kitzberger, Knops, Kobe, Kunstler, Lageard, LaMontagne, Ledwon, Lefevre, Leininger, Limousin, Lutz, Macias, McIntire, Moore, Moran, Motta, Myers, Nagel, Noguchi, Ourcival, Parmenter, Pearse, Perez-Ramos, Piechnik, Poulsen, Poulton-Kamakura, Redmond, Reid, Rodman, Rodriguez-Sanchez, Sanguinetti, Scher, Schlesinger, Schmidt Van Marle, Seget, Sharma, Silman, Steele, Stephenson, Straub, Sun, Sutton, Swenson, Swift, Thomas, Uriarte, Vacchiano, Veblen, Whipple, Whitham, Wion, Wright, Wright, Zhu, Zimmerman, Zlotin, Zywiec, Clark</span><br>
     <span class="listing-publication fst-italic ">Nature Communications</span>
@@ -681,7 +684,7 @@ window.Quarto = {
   </li>
 
   <br>
-  <li data-index="14" data-categories="Y2xpbWF0ZSUyMGNoYW5nZSUyQ2ZvcmVzdCUyMGR5bmFtaWNzJTJDbWljcm9jbGltYXRl" data-listing-file-modified-sort="1752335359660" data-listing-reading-time-sort="2" data-listing-word-count-sort="307">
+  <li data-index="14" data-categories="Y2xpbWF0ZSUyMGNoYW5nZSUyQ2ZvcmVzdCUyMGR5bmFtaWNzJTJDbWljcm9jbGltYXRl" data-listing-file-modified-sort="1759921159032" data-listing-reading-time-sort="2" data-listing-word-count-sort="307">
     <span class="listing-title lead">Maintaining forest cover to enhance temperature buffering under future climate change</span><br>
     <span class="listing-author">De Lombaerde, Vangansbeke, Lenoir, Van Meerbeek, Lembrechts, Rodríguez-Sánchez, Luoto, Scheffers, Haesen, Aalto, Christiansen, De Pauw, Depauw, Govaert, Greiser, Hampe, Hylander, Klinges, Koelemeijer, Meeussen, Ogée, Sanczuk, Vanneste, Zellweger, Baeten, De Frenne</span><br>
     <span class="listing-publication fst-italic ">Science of The Total Environment</span>
@@ -713,7 +716,7 @@ window.Quarto = {
   </li>
 
   <br>
-  <li data-index="15" data-categories="YmlvZ2VvZ3JhcGh5JTJDY2xpbWF0ZSUyMGNoYW5nZSUyQ3NwZWNpZXMlMjBkaXN0cmlidXRpb24lMjBtb2RlbGxpbmc=" data-listing-file-modified-sort="1752335359662" data-listing-reading-time-sort="2" data-listing-word-count-sort="324">
+  <li data-index="15" data-categories="YmlvZ2VvZ3JhcGh5JTJDY2xpbWF0ZSUyMGNoYW5nZSUyQ3NwZWNpZXMlMjBkaXN0cmlidXRpb24lMjBtb2RlbGxpbmc=" data-listing-file-modified-sort="1759921159034" data-listing-reading-time-sort="2" data-listing-word-count-sort="324">
     <span class="listing-title lead">ClimPlant: Realized climatic niches of vascular plants in European forest understoreys</span><br>
     <span class="listing-author">Vangansbeke, Máliš, Hédl, Chudomelová, Vild, Wulf, Jahn, Welk, Rodríguez‐Sánchez, De Frenne</span><br>
     <span class="listing-publication fst-italic ">Global Ecology and Biogeography</span>
@@ -741,7 +744,7 @@ window.Quarto = {
   </li>
 
   <br>
-  <li data-index="16" data-listing-file-modified-sort="1752335359659" data-listing-reading-time-sort="2" data-listing-word-count-sort="215">
+  <li data-index="16" data-listing-file-modified-sort="1759921159032" data-listing-reading-time-sort="2" data-listing-word-count-sort="215">
     <span class="listing-title lead">Primary Coenzyme Q deficiencies: A literature review and online platform of clinical features to uncover genotype-phenotype correlations</span><br>
     <span class="listing-author">Alcázar-Fabra, Rodríguez-Sánchez, Trevisson, Brea-Calvo</span><br>
     <span class="listing-publication fst-italic ">Free Radical Biology and Medicine</span>
@@ -773,7 +776,7 @@ window.Quarto = {
   </li>
 
   <br>
-  <li data-index="17" data-categories="c29mdHdhcmU=" data-listing-file-modified-sort="1752335359661" data-listing-reading-time-sort="2" data-listing-word-count-sort="220">
+  <li data-index="17" data-categories="c29mdHdhcmU=" data-listing-file-modified-sort="1759921159034" data-listing-reading-time-sort="2" data-listing-word-count-sort="220">
     <span class="listing-title lead">Rdataretriever: R Interface to the Data Retriever</span><br>
     <span class="listing-author">Senyondo, McGlinn, Sharma, Harris, Ye, Taylor, Ooms, Rodríguez-Sánchez, Ram, Pandey, Bansal, Pohlman, White</span><br>
     <span class="listing-publication fst-italic ">Journal of Open Source Software</span>
@@ -805,7 +808,7 @@ window.Quarto = {
   </li>
 
   <br>
-  <li data-index="18" data-categories="ZGF0YSUyMHNjaWVuY2UlMkNyZXByb2R1Y2libGUlMjByZXNlYXJjaA==" data-listing-file-modified-sort="1752335359661" data-listing-reading-time-sort="1" data-listing-word-count-sort="152">
+  <li data-index="18" data-categories="ZGF0YSUyMHNjaWVuY2UlMkNyZXByb2R1Y2libGUlMjByZXNlYXJjaA==" data-listing-file-modified-sort="1759921159033" data-listing-reading-time-sort="1" data-listing-word-count-sort="152">
     <span class="listing-title lead">Quince consejos para mejorar nuestro código y flujo de trabajo con R</span><br>
     <span class="listing-author">Rodríguez-Sánchez </span><br>
     <span class="listing-publication fst-italic ">Ecosistemas</span>
@@ -837,7 +840,7 @@ window.Quarto = {
   </li>
 
   <br>
-  <li data-index="19" data-categories="Y2xpbWF0ZSUyMGNoYW5nZSUyQ2ZvcmVzdCUyMGR5bmFtaWNzJTJDbWljcm9jbGltYXRl" data-listing-file-modified-sort="1752335359659" data-listing-reading-time-sort="1" data-listing-word-count-sort="165">
+  <li data-index="19" data-categories="Y2xpbWF0ZSUyMGNoYW5nZSUyQ2ZvcmVzdCUyMGR5bmFtaWNzJTJDbWljcm9jbGltYXRl" data-listing-file-modified-sort="1759921159032" data-listing-reading-time-sort="1" data-listing-word-count-sort="165">
     <span class="listing-title lead">Global buffering of temperatures under forest canopies</span><br>
     <span class="listing-author">De Frenne, Zellweger, Rodríguez-Sánchez, Scheffers, Hylander, Luoto, Vellend, Verheyen, Lenoir</span><br>
     <span class="listing-publication fst-italic ">Nature Ecology &amp; Evolution</span>
@@ -873,7 +876,7 @@ window.Quarto = {
   </li>
 
   <br>
-  <li data-index="20" data-categories="c3BlY2llcyUyMGRpc3RyaWJ1dGlvbiUyMG1vZGVsbGluZyUyQ2NsaW1hdGUlMjBjaGFuZ2UlMkNyZXZpZXc=" data-listing-file-modified-sort="1752335359661" data-listing-reading-time-sort="1" data-listing-word-count-sort="176">
+  <li data-index="20" data-categories="c3BlY2llcyUyMGRpc3RyaWJ1dGlvbiUyMG1vZGVsbGluZyUyQ2NsaW1hdGUlMjBjaGFuZ2UlMkNyZXZpZXc=" data-listing-file-modified-sort="1759921159034" data-listing-reading-time-sort="1" data-listing-word-count-sort="176">
     <span class="listing-title lead">Niche Estimation Above and Below the Species Level</span><br>
     <span class="listing-author">Smith, Godsoe, Rodríguez-Sánchez, Wang, Warren</span><br>
     <span class="listing-publication fst-italic ">Trends in Ecology &amp; Evolution</span>
@@ -901,7 +904,7 @@ window.Quarto = {
   </li>
 
   <br>
-  <li data-index="21" data-categories="UGFycXVlJTIwTmF0dXJhbCUyMExvcyUyMEFsY29ybm9jYWxlcyUyQ2ZvcmVzdCUyMGR5bmFtaWNzJTJDY2xpbWF0ZSUyMGNoYW5nZQ==" data-listing-file-modified-sort="1752335359659" data-listing-reading-time-sort="2" data-listing-word-count-sort="327">
+  <li data-index="21" data-categories="UGFycXVlJTIwTmF0dXJhbCUyMExvcyUyMEFsY29ybm9jYWxlcyUyQ2ZvcmVzdCUyMGR5bmFtaWNzJTJDY2xpbWF0ZSUyMGNoYW5nZQ==" data-listing-file-modified-sort="1759921159032" data-listing-reading-time-sort="2" data-listing-word-count-sort="327">
     <span class="listing-title lead">Análisis de la producción de corcho en 6 municipios del Parque Natural Los Alcornocales (Cádiz-Málaga) durante los últimos 30 años (1985-2014)</span><br>
     <span class="listing-author">Jurado, Luque-Oliva, Rodríguez-Sánchez</span><br>
     <span class="listing-publication fst-italic ">Almoraima</span>
@@ -929,7 +932,7 @@ window.Quarto = {
   </li>
 
   <br>
-  <li data-index="22" data-categories="cmV2aWV3JTJDY2xpbWF0ZSUyMGNoYW5nZSUyQ2Jpb2dlb2dyYXBoeSUyQ3BhbGFlb2Vjb2xvZ3k=" data-listing-file-modified-sort="1752335359660" data-listing-reading-time-sort="2" data-listing-word-count-sort="202">
+  <li data-index="22" data-categories="cmV2aWV3JTJDY2xpbWF0ZSUyMGNoYW5nZSUyQ2Jpb2dlb2dyYXBoeSUyQ3BhbGFlb2Vjb2xvZ3k=" data-listing-file-modified-sort="1759921159032" data-listing-reading-time-sort="2" data-listing-word-count-sort="202">
     <span class="listing-title lead">Cracking the Code of Biodiversity Responses to Past Climate Change</span><br>
     <span class="listing-author">Nogués-Bravo, Rodríguez-Sánchez, Orsini, de Boer, Jansson, Morlon, Fordham, Jackson</span><br>
     <span class="listing-publication fst-italic ">Trends in Ecology &amp; Evolution</span>
@@ -961,7 +964,7 @@ window.Quarto = {
   </li>
 
   <br>
-  <li data-index="23" data-categories="UGFycXVlJTIwTmF0dXJhbCUyMExvcyUyMEFsY29ybm9jYWxlcyUyQ2ZvcmVzdCUyMGR5bmFtaWNz" data-listing-file-modified-sort="1752335359661" data-listing-reading-time-sort="3" data-listing-word-count-sort="445">
+  <li data-index="23" data-categories="UGFycXVlJTIwTmF0dXJhbCUyMExvcyUyMEFsY29ybm9jYWxlcyUyQ2ZvcmVzdCUyMGR5bmFtaWNz" data-listing-file-modified-sort="1759921159033" data-listing-reading-time-sort="3" data-listing-word-count-sort="445">
     <span class="listing-title lead">Impactos de la herbivoría por ungulados en las comunidades de plantas leñosas del Parque Natural Los Alcornocales</span><br>
     <span class="listing-author"> Rodríguez-Sánchez, Luque-Oliva, Jurado</span><br>
     <span class="listing-publication fst-italic ">Almoraima</span>
@@ -997,7 +1000,7 @@ window.Quarto = {
   </li>
 
   <br>
-  <li data-index="24" data-categories="c3BlY2llcyUyMGRpc3RyaWJ1dGlvbiUyMG1vZGVsbGluZyUyQ2Jpb2dlb2dyYXBoeSUyQ3BhbGFlb2Vjb2xvZ3klMkNjbGltYXRlJTIwY2hhbmdlJTJDcGh5bG9nZW9ncmFwaHk=" data-listing-file-modified-sort="1752335359659" data-listing-reading-time-sort="2" data-listing-word-count-sort="281">
+  <li data-index="24" data-categories="c3BlY2llcyUyMGRpc3RyaWJ1dGlvbiUyMG1vZGVsbGluZyUyQ2Jpb2dlb2dyYXBoeSUyQ3BhbGFlb2Vjb2xvZ3klMkNjbGltYXRlJTIwY2hhbmdlJTJDcGh5bG9nZW9ncmFwaHk=" data-listing-file-modified-sort="1759921159032" data-listing-reading-time-sort="2" data-listing-word-count-sort="281">
     <span class="listing-title lead">Pliocene–Pleistocene ecological niche evolution shapes the phylogeography of a Mediterranean plant group</span><br>
     <span class="listing-author">Benítez‐Benítez, Escudero, Rodríguez‐Sánchez, Martín‐Bravo, Jiménez‐Mejías</span><br>
     <span class="listing-publication fst-italic ">Molecular Ecology</span>
@@ -1021,7 +1024,7 @@ window.Quarto = {
   </li>
 
   <br>
-  <li data-index="25" data-categories="ZGF0YSUyMHNjaWVuY2UlMkNyZXByb2R1Y2libGUlMjByZXNlYXJjaA==" data-listing-file-modified-sort="1752335359661" data-listing-reading-time-sort="1" data-listing-word-count-sort="48">
+  <li data-index="25" data-categories="ZGF0YSUyMHNjaWVuY2UlMkNyZXByb2R1Y2libGUlMjByZXNlYXJjaA==" data-listing-file-modified-sort="1759921159033" data-listing-reading-time-sort="1" data-listing-word-count-sort="48">
     <span class="listing-title lead">Academia's failure to retain data scientists</span><br>
     <span class="listing-author">Rodríguez-Sánchez, Marwick, Lazowska, VanderPlas</span><br>
     <span class="listing-publication fst-italic ">Science</span>
@@ -1049,7 +1052,7 @@ window.Quarto = {
   </li>
 
   <br>
-  <li data-index="26" data-categories="c3BlY2llcyUyMGRpc3RyaWJ1dGlvbiUyMG1vZGVsbGluZyUyQ2Jpb2dlb2dyYXBoeQ==" data-listing-file-modified-sort="1752335359662" data-listing-reading-time-sort="2" data-listing-word-count-sort="298">
+  <li data-index="26" data-categories="c3BlY2llcyUyMGRpc3RyaWJ1dGlvbiUyMG1vZGVsbGluZyUyQ2Jpb2dlb2dyYXBoeQ==" data-listing-file-modified-sort="1759921159034" data-listing-reading-time-sort="2" data-listing-word-count-sort="298">
     <span class="listing-title lead">Niche shifts after long‐distance dispersal events in bipolar sedges (Carex, Cyperaceae)</span><br>
     <span class="listing-author">Villaverde, González‐Moreno, Rodríguez‐Sánchez, Escudero</span><br>
     <span class="listing-publication fst-italic ">American Journal of Botany</span>
@@ -1081,7 +1084,7 @@ window.Quarto = {
   </li>
 
   <br>
-  <li data-index="27" data-categories="ZGF0YSUyMHNjaWVuY2UlMkN0ZWFjaGluZw==" data-listing-file-modified-sort="1752335359661" data-listing-reading-time-sort="1" data-listing-word-count-sort="53">
+  <li data-index="27" data-categories="ZGF0YSUyMHNjaWVuY2UlMkN0ZWFjaGluZw==" data-listing-file-modified-sort="1759921159033" data-listing-reading-time-sort="1" data-listing-word-count-sort="53">
     <span class="listing-title lead">Optimizando el uso de R para el análisis de datos en ecología</span><br>
     <span class="listing-author">Rodríguez-Sánchez, Bartomeus</span><br>
     <span class="listing-publication fst-italic ">Ecosistemas</span>
@@ -1105,7 +1108,7 @@ window.Quarto = {
   </li>
 
   <br>
-  <li data-index="28" data-categories="YmlvZ2VvZ3JhcGh5JTJDcmV2aWV3" data-listing-file-modified-sort="1752335359659" data-listing-reading-time-sort="3" data-listing-word-count-sort="428">
+  <li data-index="28" data-categories="YmlvZ2VvZ3JhcGh5JTJDcmV2aWV3" data-listing-file-modified-sort="1759921159032" data-listing-reading-time-sort="3" data-listing-word-count-sort="428">
     <span class="listing-title lead">A second horizon scan of biogeography: Golden Ages, Midas touches, and the Red Queen</span><br>
     <span class="listing-author">Dawson, Axmacher, Beierkuhnlein, Blois, Bradley, Cord, Dengler, He, Heaney, Jansson, Mahecha, Myers, Nogués-Bravo, Papadopoulou, Reu, Rodríguez-Sánchez, Steinbauer, Stigall, Tuanmu, Gavin</span><br>
     <span class="listing-publication fst-italic ">Frontiers of Biogeography</span>
@@ -1129,7 +1132,7 @@ window.Quarto = {
   </li>
 
   <br>
-  <li data-index="29" data-categories="ZGF0YSUyMHNjaWVuY2UlMkNyZXByb2R1Y2libGUlMjByZXNlYXJjaA==" data-listing-file-modified-sort="1752335359661" data-listing-reading-time-sort="2" data-listing-word-count-sort="267">
+  <li data-index="29" data-categories="ZGF0YSUyMHNjaWVuY2UlMkNyZXByb2R1Y2libGUlMjByZXNlYXJjaA==" data-listing-file-modified-sort="1759921159033" data-listing-reading-time-sort="2" data-listing-word-count-sort="267">
     <span class="listing-title lead">Ciencia reproducible: ¿qué, por qué, cómo?</span><br>
     <span class="listing-author">Rodríguez-Sanchez, Pérez-Luque, Bartomeus, Varela</span><br>
     <span class="listing-publication fst-italic ">Ecosistemas</span>
@@ -1161,7 +1164,7 @@ window.Quarto = {
   </li>
 
   <br>
-  <li data-index="30" data-categories="ZGF0YSUyMHNjaWVuY2U=" data-listing-file-modified-sort="1752335359661" data-listing-reading-time-sort="1" data-listing-word-count-sort="55">
+  <li data-index="30" data-categories="ZGF0YSUyMHNjaWVuY2U=" data-listing-file-modified-sort="1759921159033" data-listing-reading-time-sort="1" data-listing-word-count-sort="55">
     <span class="listing-title lead">Ecoinformática: nuevo grupo de trabajo de la Asociación Española de Ecología Terrestre</span><br>
     <span class="listing-author">Rodríguez Sánchez, Pérez-Luque, Bartomeus, Varela</span><br>
     <span class="listing-publication fst-italic ">Ecosistemas</span>
@@ -1185,7 +1188,7 @@ window.Quarto = {
   </li>
 
   <br>
-  <li data-index="31" data-categories="Zm9yZXN0JTIwZHluYW1pY3MlMkNtaWNyb2NsaW1hdGU=" data-listing-file-modified-sort="1752335359659" data-listing-reading-time-sort="2" data-listing-word-count-sort="242">
+  <li data-index="31" data-categories="Zm9yZXN0JTIwZHluYW1pY3MlMkNtaWNyb2NsaW1hdGU=" data-listing-file-modified-sort="1759921159032" data-listing-reading-time-sort="2" data-listing-word-count-sort="242">
     <span class="listing-title lead">Light accelerates plant responses to warming</span><br>
     <span class="listing-author">De Frenne, Rodríguez-Sánchez, De Schrijver, Coomes, Hermy, Vangansbeke, Verheyen</span><br>
     <span class="listing-publication fst-italic ">Nature Plants</span>
@@ -1213,7 +1216,7 @@ window.Quarto = {
   </li>
 
   <br>
-  <li data-index="32" data-categories="cmV2aWV3JTJDcmVmdWdpYSUyQ21pY3JvY2xpbWF0ZSUyQ2Jpb2dlb2dyYXBoeSUyQ3NwZWNpZXMlMjBkaXN0cmlidXRpb24lMjBtb2RlbGxpbmclMkNwaHlsb2dlb2dyYXBoeSUyQ3BhbGFlb2Vjb2xvZ3klMkNtaWNyb2NsaW1hdGU=" data-listing-file-modified-sort="1752335359659" data-listing-reading-time-sort="2" data-listing-word-count-sort="255">
+  <li data-index="32" data-categories="cmV2aWV3JTJDcmVmdWdpYSUyQ21pY3JvY2xpbWF0ZSUyQ2Jpb2dlb2dyYXBoeSUyQ3NwZWNpZXMlMjBkaXN0cmlidXRpb24lMjBtb2RlbGxpbmclMkNwaHlsb2dlb2dyYXBoeSUyQ3BhbGFlb2Vjb2xvZ3klMkNtaWNyb2NsaW1hdGU=" data-listing-file-modified-sort="1759921159032" data-listing-reading-time-sort="2" data-listing-word-count-sort="255">
     <span class="listing-title lead">Climate refugia: joint inference from fossil records, species distribution models and phylogeography</span><br>
     <span class="listing-author">Gavin, Fitzpatrick, Gugger, Heath, Rodríguez‐Sánchez, Dobrowski, Hampe, Hu, Ashcroft, Bartlein, Blois, Carstens, Davis, de Lafontaine, Edwards, Fernandez, Henne, Herring, Holden, Kong, Liu, Magri, Matzke, McGlone, Saltré, Stigall, Tsai, Williams</span><br>
     <span class="listing-publication fst-italic ">New Phytologist</span>
@@ -1237,7 +1240,7 @@ window.Quarto = {
   </li>
 
   <br>
-  <li data-index="33" data-categories="Zm9yZXN0JTIwZHluYW1pY3MlMkNjbGltYXRlJTIwY2hhbmdl" data-listing-file-modified-sort="1752335359662" data-listing-reading-time-sort="2" data-listing-word-count-sort="341">
+  <li data-index="33" data-categories="Zm9yZXN0JTIwZHluYW1pY3MlMkNjbGltYXRlJTIwY2hhbmdl" data-listing-file-modified-sort="1759921159034" data-listing-reading-time-sort="2" data-listing-word-count-sort="341">
     <span class="listing-title lead">Long‐term hurricane damage effects on tropical forest tree growth and mortality</span><br>
     <span class="listing-author">Tanner, Rodriguez-Sanchez, Healey, Holdaway, Bellingham</span><br>
     <span class="listing-publication fst-italic ">Ecology</span>
@@ -1261,7 +1264,7 @@ window.Quarto = {
   </li>
 
   <br>
-  <li data-index="34" data-categories="Zm9yZXN0JTIwZHluYW1pY3MlMkNjbGltYXRlJTIwY2hhbmdl" data-listing-file-modified-sort="1752335359659" data-listing-reading-time-sort="1" data-listing-word-count-sort="69">
+  <li data-index="34" data-categories="Zm9yZXN0JTIwZHluYW1pY3MlMkNjbGltYXRlJTIwY2hhbmdl" data-listing-file-modified-sort="1759921159032" data-listing-reading-time-sort="1" data-listing-word-count-sort="69">
     <span class="listing-title lead">Thermophilization estimation is robust to the scale of species distribution data</span><br>
     <span class="listing-author">De Frenne, Rodríguez-Sánchez, Bernhardt-Römermann, Brown, Eriksson, Hermy, Mitchell, Petřík, Van Calster, Vellend, Verheyen</span><br>
     <span class="listing-publication fst-italic ">Proceedings of the National Academy of Sciences</span>
@@ -1285,7 +1288,7 @@ window.Quarto = {
   </li>
 
   <br>
-  <li data-index="35" data-categories="YmlvZ2VvZ3JhcGh5JTJDY2xpbWF0ZSUyMGNoYW5nZQ==" data-listing-file-modified-sort="1752335359659" data-listing-reading-time-sort="2" data-listing-word-count-sort="354">
+  <li data-index="35" data-categories="YmlvZ2VvZ3JhcGh5JTJDY2xpbWF0ZSUyMGNoYW5nZQ==" data-listing-file-modified-sort="1759921159032" data-listing-reading-time-sort="2" data-listing-word-count-sort="354">
     <span class="listing-title lead">Latitudinal gradients as natural laboratories to infer species' responses to temperature</span><br>
     <span class="listing-author">De Frenne, Graae, Rodríguez‐Sánchez, Kolb, Chabrerie, Decocq, De Kort, De Schrijver, Diekmann, Eriksson, Gruwez, Hermy, Lenoir, Plue, Coomes, Verheyen</span><br>
     <span class="listing-publication fst-italic ">Journal of Ecology</span>
@@ -1309,7 +1312,7 @@ window.Quarto = {
   </li>
 
   <br>
-  <li data-index="36" data-categories="Y2xpbWF0ZSUyMGNoYW5nZSUyQ3BhbGFlb2Vjb2xvZ3klMkNyZWZ1Z2lhJTJDcmV2aWV3" data-listing-file-modified-sort="1752335359661" data-listing-reading-time-sort="2" data-listing-word-count-sort="309">
+  <li data-index="36" data-categories="Y2xpbWF0ZSUyMGNoYW5nZSUyQ3BhbGFlb2Vjb2xvZ3klMkNyZWZ1Z2lhJTJDcmV2aWV3" data-listing-file-modified-sort="1759921159034" data-listing-reading-time-sort="2" data-listing-word-count-sort="309">
     <span class="listing-title lead">Looking forward through the past: identification of 50 priority research questions in palaeoecology</span><br>
     <span class="listing-author">Seddon, Mackay, Baker, Birks, Breman, Buck, Ellis, Froyd, Gill, Gillson, Johnson, Jones, Juggins, Macias‐Fauria, Mills, Morris, Nogués‐Bravo, Punyasena, Roland, Tanentzap, Willis, Aberhan, van Asperen, Austin, Battarbee, Bhagwat, Belanger, Bennett, Birks, Bronk Ramsey, Brooks, de Bruyn, Butler, Chambers, Clarke, Davies, Dearing, Ezard, Feurdean, Flower, Gell, Hausmann, Hogan, Hopkins, Jeffers, Korhola, Marchant, Kiefer, Lamentowicz, Larocque‐Tobler, López‐Merino, Liow, McGowan, Miller, Montoya, Morton, Nogué, Onoufriou, Boush, Rodriguez‐Sanchez, Rose, Sayer, Shaw, Payne, Simpson, Sohar, Whitehouse, Williams, Witkowski</span><br>
     <span class="listing-publication fst-italic ">Journal of Ecology</span>
@@ -1333,7 +1336,7 @@ window.Quarto = {
   </li>
 
   <br>
-  <li data-index="37" data-categories="Y2xpbWF0ZSUyMGNoYW5nZSUyQ2ZvcmVzdCUyMGR5bmFtaWNz" data-listing-file-modified-sort="1752335359659" data-listing-reading-time-sort="2" data-listing-word-count-sort="262">
+  <li data-index="37" data-categories="Y2xpbWF0ZSUyMGNoYW5nZSUyQ2ZvcmVzdCUyMGR5bmFtaWNz" data-listing-file-modified-sort="1759921159032" data-listing-reading-time-sort="2" data-listing-word-count-sort="262">
     <span class="listing-title lead">Microclimate moderates plant responses to macroclimate warming</span><br>
     <span class="listing-author">De Frenne, Rodríguez-Sánchez, Coomes, Baeten, Verstraeten, Vellend, Bernhardt-Römermann, Brown, Brunet, Cornelis, Decocq, Dierschke, Eriksson, Gilliam, Hédl, Heinken, Hermy, Hommel, Jenkins, Kelly, Kirby, Mitchell, Naaf, Newman, Peterken, Petřík, Schultz, Sonnier, Van Calster, Waller, Walther, White, Woods, Wulf, Graae, Verheyen</span><br>
     <span class="listing-publication fst-italic ">Proceedings of the National Academy of Sciences</span>
@@ -1357,7 +1360,7 @@ window.Quarto = {
   </li>
 
   <br>
-  <li data-index="38" data-listing-file-modified-sort="1752335359659" data-listing-reading-time-sort="2" data-listing-word-count-sort="278">
+  <li data-index="38" data-listing-file-modified-sort="1759921159032" data-listing-reading-time-sort="2" data-listing-word-count-sort="278">
     <span class="listing-title lead">Age‐related sexual plumage dimorphism and badge framing in the European Robin Erithacus rubecula</span><br>
     <span class="listing-author">JOVANI, AVILÉS, RODRÍGUEZ‐SÁNCHEZ</span><br>
     <span class="listing-publication fst-italic ">Ibis</span>
@@ -1381,7 +1384,7 @@ window.Quarto = {
   </li>
 
   <br>
-  <li data-index="39" data-categories="cmVmdWdpYSUyQ21pY3JvY2xpbWF0ZSUyQ2Jpb2dlb2dyYXBoeSUyQ3NwZWNpZXMlMjBkaXN0cmlidXRpb24lMjBtb2RlbGxpbmclMkNwaHlsb2dlb2dyYXBoeSUyQ3BhbGFlb2Vjb2xvZ3klMkNtaWNyb2NsaW1hdGU=" data-listing-file-modified-sort="1752335359659" data-listing-reading-time-sort="1" data-listing-word-count-sort="56">
+  <li data-index="39" data-categories="cmVmdWdpYSUyQ21pY3JvY2xpbWF0ZSUyQ2Jpb2dlb2dyYXBoeSUyQ3NwZWNpZXMlMjBkaXN0cmlidXRpb24lMjBtb2RlbGxpbmclMkNwaHlsb2dlb2dyYXBoeSUyQ3BhbGFlb2Vjb2xvZ3klMkNtaWNyb2NsaW1hdGU=" data-listing-file-modified-sort="1759921159032" data-listing-reading-time-sort="1" data-listing-word-count-sort="56">
     <span class="listing-title lead">Climate refugia: from the Last Glacial Maximum to the twenty‐first century</span><br>
     <span class="listing-author">Hampe, Rodríguez‐Sánchez, Dobrowski, Hu, Gavin</span><br>
     <span class="listing-publication fst-italic ">New Phytologist</span>
@@ -1405,7 +1408,7 @@ window.Quarto = {
   </li>
 
   <br>
-  <li data-index="40" data-categories="cmVmdWdpYSUyQ21pY3JvY2xpbWF0ZSUyQ2Jpb2dlb2dyYXBoeSUyQ3NwZWNpZXMlMjBkaXN0cmlidXRpb24lMjBtb2RlbGxpbmclMkNwaHlsb2dlb2dyYXBoeSUyQ3BhbGFlb2Vjb2xvZ3klMkNtaWNyb2NsaW1hdGU=" data-listing-file-modified-sort="1752335359659" data-listing-reading-time-sort="1" data-listing-word-count-sort="54">
+  <li data-index="40" data-categories="cmVmdWdpYSUyQ21pY3JvY2xpbWF0ZSUyQ2Jpb2dlb2dyYXBoeSUyQ3NwZWNpZXMlMjBkaXN0cmlidXRpb24lMjBtb2RlbGxpbmclMkNwaHlsb2dlb2dyYXBoeSUyQ3BhbGFlb2Vjb2xvZ3klMkNtaWNyb2NsaW1hdGU=" data-listing-file-modified-sort="1759921159032" data-listing-reading-time-sort="1" data-listing-word-count-sort="54">
     <span class="listing-title lead">Climate refugia: joint inferences from fossils, genetics and models</span><br>
     <span class="listing-author">Gavin, Dobrowski, Hampe, Hu, Rodríguez‐Sánchez</span><br>
     <span class="listing-publication fst-italic ">PAGES News</span>
@@ -1425,7 +1428,7 @@ window.Quarto = {
   </li>
 
   <br>
-  <li data-index="41" data-categories="Y2xpbWF0ZSUyMGNoYW5nZQ==" data-listing-file-modified-sort="1752335359661" data-listing-reading-time-sort="1" data-listing-word-count-sort="50">
+  <li data-index="41" data-categories="Y2xpbWF0ZSUyMGNoYW5nZQ==" data-listing-file-modified-sort="1759921159033" data-listing-reading-time-sort="1" data-listing-word-count-sort="50">
     <span class="listing-title lead">Uncertainty in thermal tolerances and climatic debt</span><br>
     <span class="listing-author">Rodríguez-Sánchez, De Frenne, Hampe</span><br>
     <span class="listing-publication fst-italic ">Nature Climate Change</span>
@@ -1449,7 +1452,7 @@ window.Quarto = {
   </li>
 
   <br>
-  <li data-index="42" data-categories="Ym9vayUyMGNoYXB0ZXIlMkNyZXZpZXclMkNyZWZ1Z2lhJTJDYmlvZ2VvZ3JhcGh5JTJDc3BlY2llcyUyMGRpc3RyaWJ1dGlvbiUyMG1vZGVsbGluZyUyQ3BoeWxvZ2VvZ3JhcGh5JTJDcGFsYWVvZWNvbG9neSUyQ2xhdXJlbCUyMGZvcmVzdHM=" data-listing-file-modified-sort="1752335359661" data-listing-reading-time-sort="2" data-listing-word-count-sort="216">
+  <li data-index="42" data-categories="Ym9vayUyMGNoYXB0ZXIlMkNyZXZpZXclMkNyZWZ1Z2lhJTJDYmlvZ2VvZ3JhcGh5JTJDc3BlY2llcyUyMGRpc3RyaWJ1dGlvbiUyMG1vZGVsbGluZyUyQ3BoeWxvZ2VvZ3JhcGh5JTJDcGFsYWVvZWNvbG9neSUyQ2xhdXJlbCUyMGZvcmVzdHM=" data-listing-file-modified-sort="1759921159033" data-listing-reading-time-sort="2" data-listing-word-count-sort="216">
     <span class="listing-title lead">Cenozoic climate changes and the demise of Tethyan laurel forests: lessons for the future from an integrative reconstruction of the past</span><br>
     <span class="listing-author">Rodríguez-Sánchez, Arroyo</span><br>
     <span class="listing-publication fst-italic ">Climate Change, Ecology and Systematics</span>
@@ -1473,7 +1476,7 @@ window.Quarto = {
   </li>
 
   <br>
-  <li data-index="43" data-categories="cmV2aWV3JTJDcmVmdWdpYSUyQ2Jpb2dlb2dyYXBoeSUyQ3NwZWNpZXMlMjBkaXN0cmlidXRpb24lMjBtb2RlbGxpbmclMkNwaHlsb2dlb2dyYXBoeSUyQ3BhbGFlb2Vjb2xvZ3klMkNsYXVyZWwlMjBmb3Jlc3Rz" data-listing-file-modified-sort="1752335359661" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
+  <li data-index="43" data-categories="cmV2aWV3JTJDcmVmdWdpYSUyQ2Jpb2dlb2dyYXBoeSUyQ3NwZWNpZXMlMjBkaXN0cmlidXRpb24lMjBtb2RlbGxpbmclMkNwaHlsb2dlb2dyYXBoeSUyQ3BhbGFlb2Vjb2xvZ3klMkNsYXVyZWwlMjBmb3Jlc3Rz" data-listing-file-modified-sort="1759921159033" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
     <span class="listing-title lead">Un análisis integrado de la respuesta de las especies al cambio climático: biogeografía y ecología de árboles relictos en el Mediterráneo</span><br>
     <span class="listing-author">Rodríguez-Sánchez </span><br>
     <span class="listing-publication fst-italic ">Ecosistemas</span>
@@ -1497,7 +1500,7 @@ window.Quarto = {
   </li>
 
   <br>
-  <li data-index="44" data-categories="cGh5bG9nZW9ncmFwaHklMkNsYXVyZWwlMjBmb3Jlc3Rz" data-listing-file-modified-sort="1752335359659" data-listing-reading-time-sort="1" data-listing-word-count-sort="181">
+  <li data-index="44" data-categories="cGh5bG9nZW9ncmFwaHklMkNsYXVyZWwlMjBmb3Jlc3Rz" data-listing-file-modified-sort="1759921159032" data-listing-reading-time-sort="1" data-listing-word-count-sort="181">
     <span class="listing-title lead">Isolation and characterization of 20 microsatellite loci for laurel species (Laurus, Lauraceae)</span><br>
     <span class="listing-author">Arroyo, Rigueiro, Rodríguez, Hampe, Valido, Rodríguez‐Sánchez, Jordano</span><br>
     <span class="listing-publication fst-italic ">American Journal of Botany</span>
@@ -1521,7 +1524,7 @@ window.Quarto = {
   </li>
 
   <br>
-  <li data-index="45" data-categories="cmV2aWV3JTJDYmlvZ2VvZ3JhcGh5JTJDcGFsYWVvZWNvbG9neSUyQ3BoeWxvZ2VvZ3JhcGh5JTJDc3BlY2llcyUyMGRpc3RyaWJ1dGlvbiUyMG1vZGVsbGluZw==" data-listing-file-modified-sort="1752335359661" data-listing-reading-time-sort="2" data-listing-word-count-sort="340">
+  <li data-index="45" data-categories="cmV2aWV3JTJDYmlvZ2VvZ3JhcGh5JTJDcGFsYWVvZWNvbG9neSUyQ3BoeWxvZ2VvZ3JhcGh5JTJDc3BlY2llcyUyMGRpc3RyaWJ1dGlvbiUyMG1vZGVsbGluZw==" data-listing-file-modified-sort="1759921159033" data-listing-reading-time-sort="2" data-listing-word-count-sort="340">
     <span class="listing-title lead">Past tree range dynamics in the Iberian Peninsula inferred through phylogeography and palaeodistribution modelling: A review</span><br>
     <span class="listing-author">Rodríguez-Sánchez, Hampe, Jordano, Arroyo</span><br>
     <span class="listing-publication fst-italic ">Review of Palaeobotany and Palynology</span>
@@ -1545,7 +1548,7 @@ window.Quarto = {
   </li>
 
   <br>
-  <li data-index="46" data-categories="YmlvZ2VvZ3JhcGh5JTJDbGF1cmVsJTIwZm9yZXN0cyUyQ3BoeWxvZ2VvZ3JhcGh5" data-listing-file-modified-sort="1752335359660" data-listing-reading-time-sort="2" data-listing-word-count-sort="360">
+  <li data-index="46" data-categories="YmlvZ2VvZ3JhcGh5JTJDbGF1cmVsJTIwZm9yZXN0cyUyQ3BoeWxvZ2VvZ3JhcGh5" data-listing-file-modified-sort="1759921159033" data-listing-reading-time-sort="2" data-listing-word-count-sort="360">
     <span class="listing-title lead">Late Neogene history of the laurel tree (*Laurus* L., Lauraceae) based on phylogeographical analyses of Mediterranean and Macaronesian populations</span><br>
     <span class="listing-author">Rodríguez‐Sánchez, Guzmán, Valido, Vargas, Arroyo</span><br>
     <span class="listing-publication fst-italic ">Journal of Biogeography</span>
@@ -1569,7 +1572,7 @@ window.Quarto = {
   </li>
 
   <br>
-  <li data-index="47" data-categories="Ym9vayUyMGNoYXB0ZXIlMkNsYXVyZWwlMjBmb3Jlc3RzJTJDcmVmdWdpYSUyQ1BhcnF1ZSUyME5hdHVyYWwlMjBMb3MlMjBBbGNvcm5vY2FsZXM=" data-listing-file-modified-sort="1752335359659" data-listing-reading-time-sort="1" data-listing-word-count-sort="31">
+  <li data-index="47" data-categories="Ym9vayUyMGNoYXB0ZXIlMkNsYXVyZWwlMjBmb3Jlc3RzJTJDcmVmdWdpYSUyQ1BhcnF1ZSUyME5hdHVyYWwlMjBMb3MlMjBBbGNvcm5vY2FsZXM=" data-listing-file-modified-sort="1759921159032" data-listing-reading-time-sort="1" data-listing-word-count-sort="31">
     <span class="listing-title lead">Los canutos de las Sierras de Algeciras y el Aljibe, retazos del pasado en un ambiente mediterráneo</span><br>
     <span class="listing-author">Arroyo, Hampe, Rodríguez-Sánchez</span><br>
     <span class="listing-publication fst-italic ">Proyecto Andalucía. Serie Ecología</span>
@@ -1589,7 +1592,7 @@ window.Quarto = {
   </li>
 
   <br>
-  <li data-index="48" data-categories="Ym9vayUyMGNoYXB0ZXIlMkNsYXVyZWwlMjBmb3Jlc3Rz" data-listing-file-modified-sort="1752335359660" data-listing-reading-time-sort="1" data-listing-word-count-sort="42">
+  <li data-index="48" data-categories="Ym9vayUyMGNoYXB0ZXIlMkNsYXVyZWwlMjBmb3Jlc3Rz" data-listing-file-modified-sort="1759921159033" data-listing-reading-time-sort="1" data-listing-word-count-sort="42">
     <span class="listing-title lead">Matorrales ombrófilos arborescentes con Laurus nobilis</span><br>
     <span class="listing-author">Rodríguez-Sánchez, Arroyo</span><br>
     <span class="listing-publication fst-italic ">Bases ecológicas preliminares para la conservación de los tipos de hábitat de interés comunitario en España</span>
@@ -1609,7 +1612,7 @@ window.Quarto = {
   </li>
 
   <br>
-  <li data-index="49" data-categories="bGF1cmVsJTIwZm9yZXN0cyUyQ3JlZnVnaWElMkNiaW9nZW9ncmFwaHklMkNjbGltYXRlJTIwY2hhbmdlJTJDc3BlY2llcyUyMGRpc3RyaWJ1dGlvbiUyMG1vZGVsbGluZyUyQ3BhbGFlb2Vjb2xvZ3k=" data-listing-file-modified-sort="1752335359660" data-listing-reading-time-sort="2" data-listing-word-count-sort="387">
+  <li data-index="49" data-categories="bGF1cmVsJTIwZm9yZXN0cyUyQ3JlZnVnaWElMkNiaW9nZW9ncmFwaHklMkNjbGltYXRlJTIwY2hhbmdlJTJDc3BlY2llcyUyMGRpc3RyaWJ1dGlvbiUyMG1vZGVsbGluZyUyQ3BhbGFlb2Vjb2xvZ3k=" data-listing-file-modified-sort="1759921159033" data-listing-reading-time-sort="2" data-listing-word-count-sort="387">
     <span class="listing-title lead">Reconstructing the demise of Tethyan plants: climate‐driven range dynamics of *Laurus* since the Pliocene</span><br>
     <span class="listing-author">Rodríguez‐Sánchez, Arroyo</span><br>
     <span class="listing-publication fst-italic ">Global Ecology and Biogeography</span>
@@ -1633,7 +1636,7 @@ window.Quarto = {
   </li>
 
   <br>
-  <li data-index="50" data-categories="cmV2aWV3JTJDYmlvZ2VvZ3JhcGh5JTJDbGF1cmVsJTIwZm9yZXN0cyUyQ2NsaW1hdGUlMjBjaGFuZ2UlMkNyZWZ1Z2lhJTJDUGFycXVlJTIwTmF0dXJhbCUyMExvcyUyMEFsY29ybm9jYWxlcw==" data-listing-file-modified-sort="1752335359660" data-listing-reading-time-sort="3" data-listing-word-count-sort="416">
+  <li data-index="50" data-categories="cmV2aWV3JTJDYmlvZ2VvZ3JhcGh5JTJDbGF1cmVsJTIwZm9yZXN0cyUyQ2NsaW1hdGUlMjBjaGFuZ2UlMkNyZWZ1Z2lhJTJDUGFycXVlJTIwTmF0dXJhbCUyMExvcyUyMEFsY29ybm9jYWxlcw==" data-listing-file-modified-sort="1759921159033" data-listing-reading-time-sort="3" data-listing-word-count-sort="416">
     <span class="listing-title lead">The Strait of Gibraltar as a melting pot for plant biodiversity</span><br>
     <span class="listing-author">Rodriguez-Sanchez, Pérez-Barrales, Ojeda, Vargas, Arroyo</span><br>
     <span class="listing-publication fst-italic ">Quaternary Science Reviews</span>
@@ -1657,7 +1660,7 @@ window.Quarto = {
   </li>
 
   <br>
-  <li data-index="51" data-categories="UGFycXVlJTIwTmF0dXJhbCUyMExvcyUyMEFsY29ybm9jYWxlcyUyQ2ZvcmVzdCUyMGR5bmFtaWNz" data-listing-file-modified-sort="1752335359660" data-listing-reading-time-sort="1" data-listing-word-count-sort="131">
+  <li data-index="51" data-categories="UGFycXVlJTIwTmF0dXJhbCUyMExvcyUyMEFsY29ybm9jYWxlcyUyQ2ZvcmVzdCUyMGR5bmFtaWNz" data-listing-file-modified-sort="1759921159033" data-listing-reading-time-sort="1" data-listing-word-count-sort="131">
     <span class="listing-title lead">La necesidad de la experimentación en ecología y conservación: una aproximación para la restauración forestal en el Parque Natural Los Alcornocales</span><br>
     <span class="listing-author"> Rodríguez-Sánchez, Arroyo</span><br>
     <span class="listing-publication fst-italic ">Almoraima</span>
@@ -1677,7 +1680,7 @@ window.Quarto = {
   </li>
 
   <br>
-  <li data-index="52" data-categories="UGFycXVlJTIwTmF0dXJhbCUyMExvcyUyMEFsY29ybm9jYWxlcyUyQ2ZvcmVzdCUyMGR5bmFtaWNz" data-listing-file-modified-sort="1752335359660" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+  <li data-index="52" data-categories="UGFycXVlJTIwTmF0dXJhbCUyMExvcyUyMEFsY29ybm9jYWxlcyUyQ2ZvcmVzdCUyMGR5bmFtaWNz" data-listing-file-modified-sort="1759921159033" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
     <span class="listing-title lead">Restauración de comunidades vegetales en el Parque Natural los Alcornocales</span><br>
     <span class="listing-author"> Rodríguez-Sánchez</span><br>
     <span class="listing-publication fst-italic ">Boletín del Parque Natural Los Alcornocales</span>
@@ -1755,13 +1758,14 @@ window.Quarto = {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
